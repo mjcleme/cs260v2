@@ -20,7 +20,7 @@ If you find errors in the content then we encourage you to fork the content repo
 
 CS 142 or 111
 
-This course covers Web Programming at an introductory level. You must complete CS 142 or CS 111 as a prerequisite. By the end of this course you will know how to create and host a full stack web application.
+This course covers Web Programming at an introductory level. You must complete CS 142 or CS 111 as a prerequisite.
 
 ##  Course Learning Outcomes
 
