@@ -10,7 +10,7 @@ Welcome to Introduction to Web Programming. In this course, you will learn to de
 
 ## Outcomes
 
- By the end of this course you will be able to:
+By the end of this course you will be able to:
 
 **Full-Stack Web Application Development**: 
 Design and implement interactive, full-stack web applications using modern web technologies, applying computational thinking and user-centered design to solve meaningful problems that serve others.
