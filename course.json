@@ -51,8 +51,10 @@
           "path": "instruction/essentials/awsAccount/awsAccount.md",
           "id": "3c862f0a-66ef-4478-8fd3-a3a4293f1197",
           "state": "published",
-          "interactions": [],
-          "commit": "c4bbc6378a27767b366acbe36f56ca2d15a7f031"
+          "interactions": [
+            "6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a"
+          ],
+          "commit": "7c89bb1bf3cbee247b1bc202c3b209a54839fb84"
         },
         {
           "title": "Late policy",
