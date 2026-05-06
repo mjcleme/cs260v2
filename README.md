@@ -4,7 +4,11 @@
 
 ![cover](instruction/webprogrammingcover.jpg)
 
-Welcome to Web Programming 260. By the end of this course you will be able to:
+ 📅 [Schedule](schedule/schedule.md) | 📱 [Simon](instruction/essentials/simon/simon.md) | 🚀 [Startup](instruction/essentials/startup/startup.md)
+
+Welcome to Introduction to Web Programming. In this course, you will learn to design, build, and deploy full-stack web applications that serve real users and solve meaningful problems. Along the way, you’ll engage in the practices of modern software developers—reasoning about system architecture, using AI as a collaborative tool, and taking responsibility for the security, performance, and impact of the systems you create. More than just learning technologies, this course is about developing the habits of thoughtful, capable engineers who can adapt, continue learning, and use their skills to contribute positively to others.
+
+ By the end of this course you will be able to:
 
 **Full-Stack Web Application Development**: 
 Design and implement interactive, full-stack web applications using modern web technologies, applying computational thinking and user-centered design to solve meaningful problems that serve others.
@@ -21,11 +25,6 @@ Apply secure coding practices and evaluate the ethical implications of web techn
 **Deployment and Application Management**: 
 Deploy and manage web applications, demonstrating responsibility for reliability, performance, and the experience of real users in production environments.
 
-# Quick links
-
-- 📅 [Schedule](schedule/schedule.md)
-- 📱 [Simon](instruction/essentials/simon/simon.md)
-- 🚀 [Startup](instruction/essentials/startup/startup.md)
 
 # Technologies
 
