@@ -77,7 +77,11 @@
           "title": "☑ Demo day submission",
           "path": "instruction/webFrameworks/demoDay/demoDay.md",
           "id": "d154a1e4-1c7a-426d-ac79-ab43a739bd02",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "ad1c7f8d-ce04-40de-9412-f092b40bcffa"
+          ],
+          "commit": "1d3e007affa08e65c560af585e7c111cf047cc74"
         },
         {
           "title": "Let's play Simon",
