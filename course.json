@@ -92,13 +92,15 @@
           "state": "published"
         },
         {
-          "title": "☑ The Console",
+          "title": "The Console",
+          "type": "instruction",
           "path": "instruction/essentials/console/console.md",
           "id": "2824abc8-ef18-443d-8cb2-744bcc4102ba",
           "state": "published",
           "interactions": [
             "17b331a2-c57e-4959-8b12-f9ea064e208b"
           ],
+          "description": "",
           "commit": "617fc53a930115b622544c4fb02804e48197d0c4"
         },
         {
