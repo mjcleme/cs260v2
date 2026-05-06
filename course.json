@@ -59,7 +59,9 @@
           "title": "Startup application",
           "path": "instruction/essentials/startup/startup.md",
           "id": "5d60f39a-7825-4f87-99e2-66760c91b945",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "09356a41d87abfea4637bec6cefa1b0ca94d13f3"
         },
         {
           "title": "☑ Demo day submission",
