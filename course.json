@@ -35,13 +35,15 @@
       "title": "Development essentials",
       "topics": [
         {
-          "title": "☑ Course Introduction",
+          "title": "Course Introduction",
+          "type": "instruction",
           "path": "instruction/essentials/introduction/introduction.md",
           "id": "43d47065-2706-45b4-a06c-a9aa279a6358",
           "state": "published",
           "interactions": [
             "6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a"
           ],
+          "description": "",
           "commit": "8dc0332056f35e7afe47586f411e3b1452af5d46"
         },
         {
