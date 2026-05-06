@@ -4,18 +4,26 @@
 
 ![cover](instruction/webprogrammingcover.jpg)
 
-Welcome to Web Programming 260. By the end of this instruction you will:
+Welcome to Web Programming 260. By the end of this course you will be able to:
 
-- Understand how the world wide web works at a high level
-- Master the basics of frontend web application development
-- Master the basics of web application services
-- Be familiar with fundamental web application technologies
-- Have created your own full stack web application
+**Full-Stack Web Application Development**: 
+Design and implement interactive, full-stack web applications using modern web technologies, applying computational thinking and user-centered design to solve meaningful problems that serve others.
 
-The course hosts all the repositories for the instruction and assignments. This includes interacting with [CodePen](https://codepen.io) assignments, building a demonstration application, and creating and hosting your own startup web application.
+**Web Architecture**: 
+Design and reason about web architectures, including client-server communication, APIs, authentication, real-time interaction, and data persistence, with an awareness of the responsibility to build systems that meet present needs and continue to serve well as those needs change over time.
+
+**AI-Augmented Development**: 
+Use AI tools as a collaborative partner to support design, implementation, debugging, and learning, while critically evaluating their outputs for correctness and long-term maintainability.
+
+**Security and Societal Impact**: 
+Apply secure coding practices and evaluate the ethical implications of web technologies, including privacy, accessibility, and eternal impact of the systems they build.
+
+**Deployment and Application Management**: 
+Deploy and manage web applications, demonstrating responsibility for reliability, performance, and the experience of real users in production environments.
+
+# Quick links
 
 - 📅 [Schedule](schedule/schedule.md)
-- 📘 [Instruction](instruction/modules.md)
 - 📱 [Simon](instruction/essentials/simon/simon.md)
 - 🚀 [Startup](instruction/essentials/startup/startup.md)
 
@@ -25,6 +33,7 @@ The course covers a full stack of web programming technologies and topics.
 
 ![Technologies](instruction/technologies.png)
 
+- Web design
 - Command console
 - HTML
 - CSS
@@ -32,15 +41,14 @@ The course covers a full stack of web programming technologies and topics.
 - Responsive design
 - Domain Names and DNS
 - HTTP, HTTPS, and web certificates
-- Web Servers demonstrated with AWS
+- Realtime peer to peer interaction with WebSocket
+- Web Servers using AWS
 - Web Services
 - Web Frameworks focusing on React
-- Data Services demonstrated with MongoDB
-- Mobile devices with Progressive Web Applications
-- Realtime peer to peer interaction with WebSocket
+- Data Services using MongoDB
+- Mobile devices with installable applications
 - Security
-- UI Testing
-- Web design
+- UX design and accessibility
 
 # Acknowledgements
 
@@ -48,7 +56,6 @@ The instruction makes extensive use of [MDN Web Docs](https://developer.mozilla.
 
 [React](https://reactjs.org) is used to demonstrate the power of web frameworks. Without the significant contributions of the React community we would not be able to stand on the shoulders of giants.
 
-Much appreciation goes to [CodePen](https://codepen.io) for hosting many of the exercises and instruction examples.
 
 [Amazon Web Services](https://aws.amazon.com) made it possible to experiment with DNS, create web servers, and host the project content.
 
