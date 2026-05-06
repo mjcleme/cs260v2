@@ -41,12 +41,6 @@
           "state": "published"
         },
         {
-          "title": "Why am I here?",
-          "path": "instruction/essentials/whyAmIHere/whyAmIHere.md",
-          "id": "6b966ebe-8264-4586-a954-751017d43f24",
-          "state": "published"
-        },
-        {
           "title": "☑ AWS account",
           "path": "instruction/essentials/awsAccount/awsAccount.md",
           "id": "3c862f0a-66ef-4478-8fd3-a3a4293f1197",
