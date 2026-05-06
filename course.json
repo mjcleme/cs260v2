@@ -1,5 +1,5 @@
 {
-  "title": "Web Programming",
+  "title": "cs260v2",
   "links": {},
   "modules": [
     {
@@ -197,12 +197,6 @@
     {
       "title": "HTML",
       "topics": [
-        {
-          "title": "☑ CodePen",
-          "path": "instruction/essentials/codePen/codepen.md",
-          "id": "06320d94-5918-4389-97a4-1c91c42d7025",
-          "state": "published"
-        },
         {
           "title": "HTML introduction",
           "path": "instruction/html/introduction/introduction.md",
