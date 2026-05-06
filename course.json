@@ -70,8 +70,10 @@
           "path": "instruction/essentials/startup/startup.md",
           "id": "5d60f39a-7825-4f87-99e2-66760c91b945",
           "state": "published",
-          "interactions": [],
-          "commit": "09356a41d87abfea4637bec6cefa1b0ca94d13f3"
+          "interactions": [
+            "e0524127-4cf0-4fc8-aa8d-bfcaee7ca4e2"
+          ],
+          "commit": "4d938597a460e6d583cbe09b462b6f371828548e"
         },
         {
           "title": "Demo day submission",
