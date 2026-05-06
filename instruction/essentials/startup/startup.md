@@ -127,3 +127,20 @@ Here are some common mistakes that will slow down the development of your startu
 1. **Focusing too much on the UI**. In many ways it is the functionality that matters. Make sure that the application does something interesting and utilizes all the required technologies first. You can always make it look nicer once you have made it work.
 1. **Implementing too many features**. Focus on delivering a core feature really well. Once you have completely built out that functionality, then you can add additional features. A common mistake is to start building lots of features at the start, and then not complete any of them. For example, if you are writing a stock trading application, then make sure you can display stocks and save your favorites, before you start designing the ability to see your friend's picks, chat about the market, display historical charts, or use AI to predict the future.
 1. **Forgetting that programming is an art**. Building a web application is a creative expression of who you are, what you know, and the vision you have. Don't get frustrated because you cannot immediately realize your potential. That will take time and effort. Just remember that as you develop your skills, it will become increasingly satisfying to see what amazing things you can build and what a positive impact you can make for so many people. God has given you specific talents, and as you develop them, you are going to do great things for good with them.
+
+
+## Brainstorming
+
+You can use the discuss feature to brainstorm application ideas. Once you think you have something, use the following interaction see if it checks all the right boxes. Feel free to reach out to a TA if you have any questions about your choice.
+```masteryls
+{"id":"e0524127-4cf0-4fc8-aa8d-bfcaee7ca4e2", "title":"Brainstorming", "type":"essay" }
+Provide a short description of a possible startup application. The application should:
+
+1. Use the fundamental web languages of HTML, CSS, and JavaScript to create a responsive web application that works well on a variety of screen sizes.
+2. Use the React webframework to provide an application that reacts to user interactions.
+3. Provide a backend service with endpoints for authentication and application specific functionality.
+4. Persist data in a Mongo database.
+5. Use Websocket to push data from your service to the browser. This can be data that the service initiates such as notification, or data that is relayed from another user.
+6. Have sufficient complexity for a demonstration of mastery of full stack development at the university introductory web programming level.
+```
+
