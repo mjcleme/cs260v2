@@ -112,6 +112,23 @@ In 2009 Ryan Dahl created Node.js as the first successful application for deploy
 
 Other important milestones in the history of JavaScript include the 2013 standardization of the common object notation JSON, a typed variant named TypeScript in 2012, and the introduction of numerous transpilers for converting other languages into compatible ECMAScript.
 
+## Experimentation
+
+Use AI to build yourself a little web application that uses all three of the primary web technologies: HTML, CSS, and JavaScript.
+
+
+```masteryls
+{"id":"1383742c-41c4-458c-9af8-76c6be90b28d", "title":"Playing around", "type":"ai-web-page", "height":500 }
+Interactively create an HTML page from your prompt. Use the **AI assistance** tool to have AI generate something for you, or modify the **Source code** directly. Press `Submit` when you are done.
+
+~~~html
+  <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3aa,#004949);color:#ecfeff;font-family:ui-monospace,monospace;">
+    <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
+  </body>
+~~~
+```
+
+
 ## What's next?
 
 Looking forward, there are many exciting opportunities, as well as problems to solve. This includes addressing topics like application complexity, device diversity, internationalization, security, privacy, data ownership, environmental impact, global authorization identity, performance, and accessibility.
