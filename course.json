@@ -22,8 +22,10 @@
           "path": "README.md",
           "id": "84e8268d-0a0e-4c94-a9b1-34e31c78bb12",
           "state": "published",
-          "interactions": [],
-          "commit": "e37c205b0fac581ce135a5d9560c4dcce112a3de"
+          "interactions": [
+            "15a9d371-252d-4679-820d-19a7e8767cd1"
+          ],
+          "commit": "132bbed9803b66c7c667ace65e93083d538f52f4"
         },
         {
           "title": "Syllabus",
