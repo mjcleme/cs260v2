@@ -126,7 +126,12 @@
           "title": "☑ GitHub",
           "path": "instruction/essentials/gitHub/gitHub.md",
           "id": "d77e713c-1ffa-4982-a26b-cc8d5817f05a",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "4134acb2-3190-49b2-a22f-c31c1d9b51c2",
+            "4134acb2-3190-49b2-a22f-c31c1d9b51c2"
+          ],
+          "commit": "9e3fa90ce44ae875219d4ed5c8e876b052e892c4"
         },
         {
           "title": "🚀 Startup Specification",
