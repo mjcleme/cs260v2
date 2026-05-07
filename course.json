@@ -214,11 +214,13 @@
           "state": "published"
         },
         {
-          "title": "☑ Amazon Web Services - EC2",
+          "title": "Amazon Web Services - EC2",
+          "type": "instruction",
           "path": "instruction/webServers/amazonWebServicesEc2/amazonWebServicesEc2.md",
           "id": "36d1da56-eddc-44c4-bf5c-d093ef8b6d0f",
           "state": "published",
           "interactions": [],
+          "description": "",
           "commit": "a9b8a159c63aee5b4c02950b9708a7ea6e4601f5"
         },
         {
