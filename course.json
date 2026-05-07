@@ -214,14 +214,14 @@
           "state": "published"
         },
         {
-          "title": "Amazon Web Services - EC2",
-          "type": "instruction",
+          "title": "☑ Amazon Web Services - EC2",
           "path": "instruction/webServers/amazonWebServicesEc2/amazonWebServicesEc2.md",
           "id": "36d1da56-eddc-44c4-bf5c-d093ef8b6d0f",
           "state": "published",
-          "interactions": [],
-          "description": "",
-          "commit": "a9b8a159c63aee5b4c02950b9708a7ea6e4601f5"
+          "interactions": [
+            "2ef4a23e-17f9-4d97-bf73-a981e1b3312e"
+          ],
+          "commit": "ef6757ebae9c1b41d5a2e53e34f7832c1d957eb2"
         },
         {
           "title": "Domain names",
