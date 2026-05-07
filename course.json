@@ -160,7 +160,11 @@
           "title": "☑ Discord",
           "path": "instruction/essentials/discord/discord.md",
           "id": "d2dc86f2-7876-4833-9453-8c08be34b867",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "c15f1685-7ab3-4a61-90cb-f959fb03b62a"
+          ],
+          "commit": "6cb4755988cb4cecf666ddea014c4e4a544bb007"
         },
         {
           "title": "Editors",
