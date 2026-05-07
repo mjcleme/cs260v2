@@ -113,7 +113,11 @@
           "title": "Git",
           "path": "instruction/essentials/git/git.md",
           "id": "de621ad4-595f-4347-b852-b9b88981813f",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "39686cd9-b760-4b3a-a26d-5bd89b55f2fa"
+          ],
+          "commit": "c5d8debb0d1e9300828e23a73556693a211e7632"
         },
         {
           "title": "☑ GitHub",
