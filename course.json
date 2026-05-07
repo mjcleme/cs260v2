@@ -1,6 +1,18 @@
 {
   "title": "cs260v2",
   "links": {},
+  "schedule": {
+    "id": "7db53081-d129-4698-8e24-8d449cfc9f3f",
+    "files": [
+      {
+        "id": "7491e895-8aab-400d-9b9b-1dcdfdf78b65",
+        "title": "Schedule",
+        "path": "schedule/schedule.md",
+        "default": true,
+        "state": "published"
+      }
+    ]
+  },
   "modules": [
     {
       "title": "Course info",
