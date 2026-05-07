@@ -28,6 +28,17 @@ Apply secure coding practices and evaluate the ethical implications of web techn
 Deploy and manage web applications, demonstrating responsibility for reliability, performance, and the experience of real users in production environments.
 
 
+```masteryls
+{"id":"15a9d371-252d-4679-820d-19a7e8767cd1",   "title":"Outcomes", "type":"survey" }
+My ability to design and implement **Full-Stack Web Application Development** is at the level of a:
+
+- [ ] Beginner (Novice)
+- [ ] Intermediate (Developing Practitioner)
+- [ ] Proficient (Independent Developer)
+- [ ] Advanced (Senior Developer)
+- [ ] Expert (Architect / Thought Leader) 
+```
+
 # Technologies
 
 The course covers a full stack of web programming technologies and topics.
