@@ -150,7 +150,11 @@
           "title": "Asking questions",
           "path": "instruction/essentials/askingQuestions/askingQuestions.md",
           "id": "0150c66e-d356-4d5b-87f2-3edec7bc8763",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "9f35a1b4-8968-4829-b951-bd7a1ad2ee08"
+          ],
+          "commit": "6b52a70c2e2e50d71abe4161224c1cfc23045973"
         },
         {
           "title": "☑ Discord",
