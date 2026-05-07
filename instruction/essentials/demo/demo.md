@@ -70,7 +70,7 @@ The rotating border is animated with the following CSS that dictates which color
 
 ```masteryls
 {"id":"eecac632-b04b-49a9-a0b6-3c3961cb3e58", "title":"Magic card demonstration", "type":"ai-web-page", "allowAiPrompt":false, "height":500 }
-Manipulate the demonstration and press `Submit` once you are done.
+Have fun playing around with the demonstration source code and then press `Submit` once you are done.
 
 ~~~html
  <style>
