@@ -41,12 +41,12 @@ You can view your available grace days on the `Grace Days` assignment in Canvas.
 
 ```masteryls
 {"id":"a819fd43-c894-4945-b851-3b513d659573", "title":"Grace days", "type":"multiple-choice" }
-You have 4 grace days available.
+You have 3 grace days when you turn in an assignment on Tuesday that was due the previous Friday. According to the policy, what is the result?
 
-- [ ] This is **not** the right answer
-- [x] This is _the_ right answer
-- [ ] This one has a [link](https://cow.com)
-- [ ] This one has an image ![Stock Photo](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80)
+- [ ] You receive a zero and you still have 3 grace days
+- [ ] You receive a zero and you have 0 grace days 
+- [x] Your assignment is graded and you have 0 grace days
+- [ ] Your assignment is graded and you have 1 grace day
 ```
 
 
