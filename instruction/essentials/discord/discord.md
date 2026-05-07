@@ -54,6 +54,6 @@ Figure out who your assigned TA is by reviewing the [TA schedule](https://docs.g
 I have:
 
 - [x] Successfully joined the Discord server, looked over previous help requests, and know how to ask questions.
-- [ ] I am still unclear about how to use Discord.
+- [ ] Not been able to get on Discord.
 ```
 
