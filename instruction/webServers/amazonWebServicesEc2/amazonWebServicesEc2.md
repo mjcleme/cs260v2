@@ -146,10 +146,8 @@ The `t3.nano` instance size has just enough memory and CPU to meet the requireme
 ## ☑ Assignment
 
 1. Create an EC2 instance using the class AMI (`ami-094c4a0be0b642a24`).
-1. Assign an elastic IP address (highly suggested).
+1. Assign an elastic IP address (optional).
 1. Test that you can see the default class web page from a browser using the server's public IP address.
-
-_If your section of this course requires that you submit assignments for grading_: Submit a URL using your web server's public IP address to the Canvas assignment.
 
 Don't forget to update your GitHub startup repository notes.md with all of the things you learned and want to remember. This might include the IP address of your server and the command to remote shell into your server. Do not include the contents of your PEM file, passwords, or keys in your notes.
 
