@@ -157,13 +157,15 @@
           "commit": "6b52a70c2e2e50d71abe4161224c1cfc23045973"
         },
         {
-          "title": "☑ Discord",
+          "title": "Discord",
+          "type": "instruction",
           "path": "instruction/essentials/discord/discord.md",
           "id": "d2dc86f2-7876-4833-9453-8c08be34b867",
           "state": "published",
           "interactions": [
             "c15f1685-7ab3-4a61-90cb-f959fb03b62a"
           ],
+          "description": "",
           "commit": "6cb4755988cb4cecf666ddea014c4e4a544bb007"
         },
         {
