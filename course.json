@@ -140,9 +140,11 @@
           "path": "instruction/essentials/startupSpec/startupSpec.md",
           "id": "7cbe0e92-3536-45ad-b38c-d28f1be714b5",
           "state": "published",
-          "interactions": [],
+          "interactions": [
+            "4134acb2-3190-49b2-a22f-c31c1d9b51c2"
+          ],
           "description": "",
-          "commit": "a4b5f649a48dd4b91c9f3302177f9d0d0b4c5eac"
+          "commit": "d0d407297c8210e320fcc9e5387239a78e5f8d93"
         },
         {
           "title": "Asking questions",
