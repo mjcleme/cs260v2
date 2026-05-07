@@ -180,7 +180,11 @@
           "title": "History of the web",
           "path": "instruction/essentials/history/history.md",
           "id": "89cc51de-a431-4c8e-be10-da9a1ca6bd89",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "1383742c-41c4-458c-9af8-76c6be90b28d"
+          ],
+          "commit": "8575121c35333168cd333d7e9e13156bc1a6ca76"
         },
         {
           "title": "Demonstration",
