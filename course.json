@@ -135,10 +135,13 @@
         },
         {
           "title": "🚀 Startup Specification",
+          "type": "project",
+          "points": 50,
           "path": "instruction/essentials/startupSpec/startupSpec.md",
           "id": "7cbe0e92-3536-45ad-b38c-d28f1be714b5",
           "state": "published",
           "interactions": [],
+          "description": "",
           "commit": "a4b5f649a48dd4b91c9f3302177f9d0d0b4c5eac"
         },
         {
