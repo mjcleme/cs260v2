@@ -150,6 +150,13 @@ The following diagram shows how your commits move from your working directory, t
 
 A commit is a full snapshot of what was staged from your directory at the time of the commit. That means all of the files contained in the commit were reverted when you executed the checkout command. Since we only had one file in our commit, it looks like we are only flipping that file around, but basically you can think of it as a time machine for the entire directory.
 
+
+```masteryls
+{"id":"39686cd9-b760-4b3a-a26d-5bd89b55f2fa", "title":"SHA commit ID", "type":"essay" }
+Why do you think Linus Torvalds used a SHA hash as a commit ID? What does the mean, and what benefits does that have?
+```
+
+
 ## Diff
 
 Most of the time you don't want to reverse back to an earlier commit. Instead you just want to compare the differences between commits. We can do that with the `diff` command. You can specify two SHAs that you would like to compare, or you can use the `HEAD` variable, which always points to the commit you're currently looking at. To refer to earlier commits you just add `~` and the numerical distance from `HEAD` that you want to reference. In this case we will compare `HEAD` and `HEAD~1`.
