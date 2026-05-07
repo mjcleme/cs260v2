@@ -67,7 +67,10 @@
           "path": "instruction/essentials/latePolicy/latePolicy.md",
           "id": "297e8bbb-24b0-44f0-8b1d-cec497a23a29",
           "state": "published",
-          "commit": "28d0703922cfbb76b8f759e9f6158c4a16c36e1c"
+          "interactions": [
+            "a819fd43-c894-4945-b851-3b513d659573"
+          ],
+          "commit": "1ff8abeb036e65c1c273c97c036a773440d6ef8c"
         },
         {
           "title": "Startup application",
