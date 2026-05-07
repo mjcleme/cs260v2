@@ -123,7 +123,8 @@
           "commit": "c5d8debb0d1e9300828e23a73556693a211e7632"
         },
         {
-          "title": "☑ GitHub",
+          "title": "GitHub",
+          "type": "instruction",
           "path": "instruction/essentials/gitHub/gitHub.md",
           "id": "d77e713c-1ffa-4982-a26b-cc8d5817f05a",
           "state": "published",
@@ -131,6 +132,7 @@
             "4134acb2-3190-49b2-a22f-c31c1d9b51c2",
             "4134acb2-3190-49b2-a22f-c31c1d9b51c2"
           ],
+          "description": "",
           "commit": "d359737758bb8852a8a6a4956dd3abaf91bf2230"
         },
         {
