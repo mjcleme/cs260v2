@@ -89,7 +89,7 @@ Make sure you push your changes to the file so that it can be reviewed.
 
 
 ```masteryls
-{"id":"4134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Startup repo URL", "type":"url-submission" }
+{"id":"4134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Startup repo URL", "type":"url-submission", "validateUrl":true }
 Supply your **Startup application URL** once you have completed **all** of the prerequisites and are ready to submit your startup for grading. Resubmissions are usually not accepted and so make sure this is your best effort.
 
 _Example: https://startup.mydomainname.click_
