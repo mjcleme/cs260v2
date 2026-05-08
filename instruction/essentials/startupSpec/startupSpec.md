@@ -83,14 +83,14 @@ Make sure you push your changes to the file so that it can be reviewed.
   - **CSS** - Styling and animating.
   - **React** - Componentization, routing, and user reactivity using the React framework and JavaScript.
   - **Web service** - Endpoints provided by your backend service that support authentication and application specific functionality. Also include a link to the 3rd party API you plan on using.
-  - **Database**: Store authentication and application data.
-  - **WebSocket**: Realtime information pushed from your backend to your frontend.
+  - **Database** - Store authentication and application data.
+  - **WebSocket** - Realtime information pushed from your backend to your frontend.
 - 30% - One or more rough sketches of your application. Images must be embedded in your `README.md`.
 
 
 ```masteryls
 {"id":"4134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Startup repo URL", "type":"url-submission", "validateUrl":true }
-Supply your **Startup application URL** once you have completed **all** of the prerequisites and are ready to submit your startup for grading. Resubmissions are usually not accepted and so make sure this is your best effort.
+Supply your **Startup application GitHub repo URL** once you have completed **all** of the prerequisites and are ready to submit your startup for grading. Resubmissions are usually not accepted and so make sure this is your best effort.
 
-_Example: https://startup.mydomainname.click_
+_Example: https://github.com/myaccount/startup_
 ```
