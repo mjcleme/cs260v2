@@ -153,7 +153,7 @@ Don't forget to update your GitHub startup repository notes.md with all of the t
 
 
 ```masteryls
-{"id":"66953e86-234d-4c50-b2a2-d37afec943f0", "title":"HTTPS", "type":"url-submission", "gradingCriteria":"Contains the text web programming 260" }
+{"id":"66953e86-234d-4c50-b2a2-d37afec943f0", "title":"HTTPS", "type":"url-submission", "gradingCriteria":"Contains the text `web programming 260`" }
 Submit the secure protocol version of your hostname.
 
 _Example: https://mydomain.click, and https://startup.mydomain.click_
