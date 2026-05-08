@@ -209,7 +209,11 @@
           "title": "Technology stack",
           "path": "instruction/essentials/techStack/techStack.md",
           "id": "3ba0daf2-c9cb-4b57-aff7-c4d1715d497f",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "22f24721-5dc0-4595-bf54-7761b265fc6e"
+          ],
+          "commit": "f75fca267f128fe9e38ca5e92eb98bf049a7fe84"
         },
         {
           "title": "The internet",
