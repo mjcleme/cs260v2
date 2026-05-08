@@ -245,7 +245,11 @@
           "title": "☑ Amazon Web Services - Route 53",
           "path": "instruction/webServers/amazonWebServicesRoute53/amazonWebServicesRoute53.md",
           "id": "9813019c-cbcb-4cc5-8992-958d05e60e8a",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "2c001816-b07f-4ac0-b2b0-34c7b74d7c32"
+          ],
+          "commit": "7ed5205172613b24af7d7000033b333f0e673525"
         },
         {
           "title": "Caddy",
