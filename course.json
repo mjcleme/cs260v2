@@ -259,7 +259,11 @@
           "title": "Caddy",
           "path": "instruction/webServers/caddy/caddy.md",
           "id": "809544f1-3f67-458c-ad8a-b2d3c700707b",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "80a1daab-820f-4804-b2b2-4e85c42e57ec"
+          ],
+          "commit": "eeec26ac1451b73dcd832b08bc5beea14eb7fafb"
         },
         {
           "title": "HTTPS, TLS, and certificates",
