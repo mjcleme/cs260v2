@@ -87,6 +87,11 @@ Make sure you push your changes to the file so that it can be reviewed.
   - **WebSocket** - Realtime information pushed from your backend to your frontend.
 - 30% - One or more rough sketches of your application. Images must be embedded in your `README.md`.
 
+```masteryls
+{"id":"5134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"URL submission", "type":"url-submission", "urlPrompt":"Given the url https://raw.githubusercontent.com/byucsstudent/startup compute the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"HTML Deliverable\"\n- In the \"HTML Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Simple **url submission** question
+```
+
 
 ```masteryls
 {"id":"4134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Startup repo URL", "type":"url-submission", "validateUrl":true }
