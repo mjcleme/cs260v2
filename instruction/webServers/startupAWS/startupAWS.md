@@ -47,7 +47,7 @@ When you are finished, the placeholder for your startup will be available from `
 
 
 ```masteryls
-{"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS", "type":"url-submission", "validateUrl":true, "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
+{"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS", "type":"url-submission", "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
 Submit the URL to your startup server.
 
 _Example: https://mydomainname.click_
