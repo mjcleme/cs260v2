@@ -265,10 +265,13 @@
         },
         {
           "title": "🚀 Startup AWS",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webServers/startupAWS/startupAWS.md",
           "id": "8eff8b18-8645-4fd6-aff4-d4ad25df9860",
           "state": "published",
           "interactions": [],
+          "description": "",
           "commit": "bb902e72fb81dd7306782ee1bd2faf50149c38f1"
         }
       ]
