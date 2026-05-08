@@ -73,7 +73,7 @@ As you can see, there is a lot of levels of name caching. This is done for perfo
 
 
 ```masteryls
-{"id":"40be2110-3597-41ed-afbc-91f0daf97ed0", "title":"Teaching", "type":"teaching" }
+{"id":"40be2110-3597-41ed-afbc-91f0daf97ed0", "title":"Explain DNS to a friend", "type":"teaching" }
 Help me understand what **DNS** is.
 ```
 
