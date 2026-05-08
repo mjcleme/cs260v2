@@ -31,8 +31,8 @@ When you are finished, the placeholder for your startup will be available from `
 1. [Lease a domain](../amazonWebServicesRoute53/amazonWebServicesRoute53.md) in Route53. Make sure you respond to the email that they will send you.
 1. Make sure that you can access your server through HTTP through http://startup.yourdomain (where yourdomain is replaced with the domain you leased from Route53)
 1. [Edit your Caddyfile](../https/https.md) so that you can access your server through HTTPS.
-1. You should see the default web page displayed through HTTPS
-1. Upload the URL to your startup application to the Canvas assignment. The URL should have the form https://startup.yourdomain
+1. You should see the default web page displayed through HTTPS 
+1. You should see the default startup pages with a URL like https://startup.yourdomain
 
 ![Web Browser Secure](../https/webServerBrowserSecure.png)
 
@@ -50,7 +50,7 @@ When you are finished, the placeholder for your startup will be available from `
 {"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS", "type":"url-submission", "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
 Submit the URL to your startup server.
 
-_Example: https://mydomainname.click
+_Example: https://mydomainname.click_
 ```
 
 
