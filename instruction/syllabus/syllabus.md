@@ -124,6 +124,13 @@ In order to demonstrate original authorship, you must:
 **Rule of thumb**: You are co-creating, not delegating.
 
 
+```masteryls
+{"id":"cae08349-d561-4c4b-9a84-208fab172b36", "title":"Acknowledgement", "type":"multiple-select" }
+
+
+- [x] I have read this syllabus
+```
+
 
 ##   Grade Scheme
 
