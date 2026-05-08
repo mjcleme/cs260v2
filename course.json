@@ -231,7 +231,11 @@
           "title": "Domain names",
           "path": "instruction/webServers/domainNames/domainNames.md",
           "id": "b01f4f7e-f4d5-40d6-8550-80bbbbd4e87e",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "40be2110-3597-41ed-afbc-91f0daf97ed0"
+          ],
+          "commit": "4bdd6e3828255191885ea5444098423f1ef4eeb3"
         },
         {
           "title": "☑ Amazon Web Services - Route 53",
