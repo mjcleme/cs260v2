@@ -24,6 +24,19 @@ For this course, we use Caddy for the following reasons.
 
 Caddy is preinstalled and configured on your server and so you do not need to do anything specifically with it other than configure your root domain name.
 
+
+```masteryls
+{"id":"80a1daab-820f-4804-b2b2-4e85c42e57ec", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":true, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":500 }
+Interactively create an HTML page from your prompt.
+
+~~~html
+  <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3aa,#004949);color:#ecfeff;font-family:ui-monospace,monospace;">
+    <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
+  </body>
+~~~
+```
+
+
 ## Important Caddy files
 
 As part of the installation of Caddy we created two links in the Ubuntu user's home directory that point to the key Caddy configuration files. The links were created in the home directory so that you do not have to hunt around your server looking for these files.
