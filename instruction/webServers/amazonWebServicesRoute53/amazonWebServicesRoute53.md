@@ -99,7 +99,7 @@ Don't forget to update your GitHub startup repository notes.md with all of the t
 {"id":"2c001816-b07f-4ac0-b2b0-34c7b74d7c32", "title":"Domain name", "type":"url-submission" }
 After you have leased your domain name and set up your DNS records, provide the URL for your domain name here. This should resolve for both your root and `startup` subdomin.
 
-_Example: http://statup.mydomainname.click_
+_Example: http://startup.mydomainname.click_
 ```
 
 
