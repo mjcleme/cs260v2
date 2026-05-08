@@ -262,13 +262,15 @@
           "state": "published"
         },
         {
-          "title": "☑ HTTPS, TLS, and certificates",
+          "title": "HTTPS, TLS, and certificates",
+          "type": "instruction",
           "path": "instruction/webServers/https/https.md",
           "id": "f195faf7-3f38-42dc-9a05-4480a426beb7",
           "state": "published",
           "interactions": [
             "66953e86-234d-4c50-b2a2-d37afec943f0"
           ],
+          "description": "",
           "commit": "2e27ccd3b95363c4230f5d96541c758b478684b3"
         },
         {
