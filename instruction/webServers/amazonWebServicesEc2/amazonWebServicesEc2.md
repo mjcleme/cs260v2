@@ -151,9 +151,8 @@ The `t3.nano` instance size has just enough memory and CPU to meet the requireme
 
 Don't forget to update your GitHub startup repository notes.md with all of the things you learned and want to remember. This might include the IP address of your server and the command to remote shell into your server. Do not include the contents of your PEM file, passwords, or keys in your notes.
 
-
 ```masteryls
-{"id":"2ef4a23e-17f9-4d97-bf73-a981e1b3312e", "title":"My Web Server", "type":"url-submission" }
+{"id":"2ef4a23e-17f9-4d97-bf73-a981e1b3312e", "title":"My Web Server", "validateUrl":true, "type":"url-submission" }
 After you have created your web server, provide the URL to the server using the IP address. Note that you will be using the unsecured HTTP protocol until you lease a DNS name.
 
 _Example: http://8.8.8.8_
