@@ -44,11 +44,6 @@ Scale: Beginner|Intermediate|Proficient|Advanced|Expert
 |devop|**Deployment and Application Management**|
 ```
 
-```masteryls
-{"id":"15a9d371-252d-4679-820d-19a7e8767cd1",   "title":"Outcomes", "type":"survey" }
-My ability to design and implement **Full-Stack Web Application Development** is at the level of a:
-
-
 # Technologies
 
 The course covers a full stack of web programming technologies and topics.
