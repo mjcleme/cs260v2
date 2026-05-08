@@ -45,6 +45,15 @@ When you are finished, the placeholder for your startup will be available from `
 - **Prerequisite**: Notes in your startup Git repository README.md file documenting what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the [voter app](https://github.com/webprogramming260/startup-example) as an example.
 - 100% Your web page can be displayed using HTTPS and your domain name.
 
+
+```masteryls
+{"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS", "type":"url-submission", "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
+Submit the URL to your startup server.
+
+_Example: https://mydomainname.click
+```
+
+
 ## Go celebrate
 
 You did it! You now have a web server that can be seen by anyone in the world.
