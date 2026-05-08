@@ -30,7 +30,7 @@ Deploy and manage web applications, demonstrating responsibility for reliability
 
 ```masteryls
 {"id":"ef2f9d20-99b5-4adc-ab98-3a6536234103", "title":"Course Outcomes", "type":"likert", "showResults":"editor", "required":"true"}
-How familiar are you with the course outcomes?
+How familiar are you currently with the course outcomes?
 
 Scale: Beginner|Intermediate|Proficient|Advanced|Expert
 
