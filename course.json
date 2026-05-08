@@ -32,8 +32,10 @@
           "path": "instruction/syllabus/syllabus.md",
           "id": "2a2c0a38-93b4-4e6c-987f-630bf4fc9a2c",
           "state": "published",
-          "interactions": [],
-          "commit": "8229e427a108196e8fc1cb9297cd1b66c29cf960"
+          "interactions": [
+            "cae08349-d561-4c4b-9a84-208fab172b36"
+          ],
+          "commit": "14d85c882032f5e03273348cce66a6b9bf0bfc6a"
         }
       ]
     },
