@@ -89,19 +89,8 @@ Make sure you push your changes to the file so that it can be reviewed.
 
 ```masteryls
 {"id":"6134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Specification deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"Specification Deliverable\"\n- In the \"Specification Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
-Make sure you update your README.md file with clear indications of what you did for each of the rubric items. Then that is done, Submit the URL to your start up repository. You will receive feedback indicating if the submission is ready for review and final grading.
-```
-
-
-```masteryls
-{"id":"5134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"HTML deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"HTML Deliverable\"\n- In the \"HTML Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
-Simple **url submission** question
-```
-
-
-```masteryls
-{"id":"4134acb2-3190-49b2-a22f-c31c1d9b51c2", "title":"Startup repo URL", "type":"url-submission", "validateUrl":true }
-Supply your **Startup application GitHub repo URL** once you have completed **all** of the prerequisites and are ready to submit your startup for grading. Resubmissions are usually not accepted and so make sure this is your best effort.
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
 
 _Example: https://github.com/myaccount/startup_
 ```
+
