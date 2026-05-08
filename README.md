@@ -29,15 +29,25 @@ Deploy and manage web applications, demonstrating responsibility for reliability
 
 
 ```masteryls
+{"id":"ef2f9d20-99b5-4adc-ab98-3a6536234103", "title":"Course Outcomes", "type":"likert", "showResults":"editor", "required":"true"}
+How familiar are you with the course outcomes?
+
+Scale: Beginner|Intermediate|Proficient|Advanced|Expert
+
+
+| id | statement |
+|----|-----------|
+|dev|**Full-Stack Web Application Development**|
+|arch|**Web Architecture**|
+|ai|**AI-Augmented Development**|
+|sec|**Security and Societal Impact**|
+|devop|**Deployment and Application Management**|
+```
+
+```masteryls
 {"id":"15a9d371-252d-4679-820d-19a7e8767cd1",   "title":"Outcomes", "type":"survey" }
 My ability to design and implement **Full-Stack Web Application Development** is at the level of a:
 
-- [ ] Beginner (Novice)
-- [ ] Intermediate (Developing Practitioner)
-- [ ] Proficient (Independent Developer)
-- [ ] Advanced (Senior Developer)
-- [ ] Expert (Architect / Thought Leader) 
-```
 
 # Technologies
 
