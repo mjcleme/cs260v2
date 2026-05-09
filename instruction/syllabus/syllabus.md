@@ -4,15 +4,15 @@
 
 Introduction to building and deploying full stack web applications using core technologies, frameworks, protocols, and development tools.
 
-## Course Content
+## Learning Environment
 
-All of the content for this course is found here, in this GitHub repository. We use GitHub to host the content so that we can rapidly enhance and correct the content. Using GitHub also makes it so that you can get more familiar with this essential professional development tool.
+We use [MasteryLS](https://masteryls.com) as the primary learning system for this course. MasteryLS provides efficient content navigation, search, and consistent structure. MasteryLS also enables extensive AI support for personalized learning and automated feedback. 
 
-You can always reach the root of the content repository with this link:
+ [Canvas](https://byu.instructure.com) is automatically synced with MasterLS so that it can serve purely as a gradebook.
 
-[https://github.com/webprogramming260](https://github.com/webprogramming260)
+## Course Content Repository
 
-We suggest that you bookmark the link for easy access to the content.
+All of the content for this course is maintained in a [GitHub repository](https://github.com/webprogramming260). We use GitHub to manage the content so that we can rapidly enhance and correct it. Using GitHub also makes it so that you can get more familiar with this essential professional development tool.
 
 If you find errors in the content then we encourage you to fork the content repository and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). That way everyone benefits from your work, and you are listed as a contributor on a significant open source project.
 
