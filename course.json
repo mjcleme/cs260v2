@@ -309,7 +309,11 @@
           "title": "☑ Structure",
           "path": "instruction/html/structure/structure.md",
           "id": "4339fab0-841c-48e2-993c-7b9310cd5f26",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "a6fc521e-33ca-4116-bc6b-9a6507f58642"
+          ],
+          "commit": "db05cbca7bfbd52b4fd75b490fe8eb59db3d0906"
         },
         {
           "title": "☑ Input",
