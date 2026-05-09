@@ -85,11 +85,6 @@ do the following:
 6. Add a hyperlink to the `footer` element to your GitHub repository.
 
 ~~~html
-<style>
-  * {font-family: Arial;border: medium dashed #e3d5c2;padding: 0.25em;margin: 0.25em;}
-  html, p {border: none;}
-  span {border: medium dashed #b3a592;margin: 0.25em;}
-</style>
 <body>
   <p>Body</p>
   <header>
@@ -134,6 +129,12 @@ do the following:
     <div>Footer - <span>Span</span></div>
   </footer>
 </body>
+
+<style>
+  * {font-family: Arial;border: medium dashed #e3d5c2;padding: 0.25em;margin: 0.25em;}
+  html, p {border: none;}
+  span {border: medium dashed #b3a592;margin: 0.25em;}
+</style>
 ~~~
 ```
 
