@@ -299,7 +299,11 @@
           "title": "HTML introduction",
           "path": "instruction/html/introduction/introduction.md",
           "id": "d99df9c2-1cd1-4da2-9e25-3cc8c5d3e902",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "77bcd45a-b7ef-4bc4-bdb2-4ad2adfda22e"
+          ],
+          "commit": "01d808b62f1322df80f3b99707fd5ecc9783055f"
         },
         {
           "title": "☑ Structure",
