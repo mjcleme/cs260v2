@@ -164,6 +164,27 @@ By default a web server will display the HTML file named `index.html` when a web
 
 ## Rendering HTML
 
-You can save any HTML file to your computer's disk and then open the file using your browser. You can also open the HTML file in VS Code and use the Live Server extension to display the HTML. Another way to easily play with HTML is to use a sandbox like [CodePen](https://codepen.io). However, when you use CodePen it is not necessary to supply the HTML DocType header or the root `html` element since CodePen already assumes you are providing HTML. Here is our example HTML document rendered in CodePen.
+You can save any HTML file to your computer's disk and then open the file using your browser. You can also open the HTML file in VS Code and use the Live Server extension to display the HTML. 
 
-![CodePen HTML introduction](htmlIntroductionCodePen.png)
+Another way to easily play with HTML is to use a sandbox like the interaction shown below that contains the example HTML document we discussed earlier. Experiment with the HTML and see what you can create.
+
+
+```masteryls
+{"id":"77bcd45a-b7ef-4bc4-bdb2-4ad2adfda22e", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Everything is valid HTML", "height":300 }
+~~~html
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <main>
+      <h1>Hello world</h1>
+      <p class="introduction">
+        HTML welcomes you to the amazing world of
+        <span class="topic">web programming</span>.
+      </p>
+      <p class="question">What will this mean to you?</p>
+      <p class="assignment">Learn more <a href="instruction.html">here</a>.</p>
+    </main>
+  </body>
+</html>
+~~~
+```
