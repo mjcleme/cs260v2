@@ -152,6 +152,180 @@ You should also have validation built into your JavaScript that checks input dat
 
 ## ☑ Assignment
 
+
+```masteryls
+{"id":"0875ed29-b9fb-4b47-a3bf-05cd622d574b", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":1000 }
+Interactively create an HTML page from your prompt.
+
+~~~html
+<body>
+  <h1>Example Form</h1>
+  <form id="messageForm">
+    <ul>
+      <li>
+        <!-- Includes validation-->
+        <label for="text">Text: </label>
+        <input type="text" id="text" name="vText" placeholder="text here" required pattern="[Aa].*" />
+      </li>
+      <li>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="vPassword" />
+      </li>
+      <li>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="vEmail" />
+      </li>
+      <li>
+        <label for="textarea">TextArea: </label>
+        <textarea id="textarea" name="vTextarea"></textarea>
+      </li>
+      <li>
+        <label for="select">Select: </label>
+        <select id="select" name="vSelect">
+          <option>option1</option>
+          <option selected>option2</option>
+          <option>option3</option>
+        </select>
+      </li>
+      <li>
+        <label for="optgroup">OptGroup: </label>
+        <select id="optgroup" name="vOptGroup">
+          <optgroup label="group1">
+            <option>option1</option>
+            <option selected>option2</option>
+          </optgroup>
+          <optgroup label="group2">
+            <option>option3</option>
+            <option>option4</option>
+          </optgroup>
+        </select>
+      </li>
+      <li>
+        <fieldset>
+          <legend>checkbox</legend>
+          <label for="checkbox1">checkbox1</label>
+          <input type="checkbox" id="checkbox1" name="vCheckbox" value="checkbox1" checked />
+          <label for="checkbox2">checkbox2</label>
+          <input type="checkbox" id="checkbox2" name="vCheckbox" value="checkbox2" />
+          <label for="checkbox3">checkbox3</label>
+          <input type="checkbox" id="checkbox3" name="vCheckbox" value="checkbox3" />
+        </fieldset>
+      </li>
+      <li>
+        <fieldset>
+          <legend>radio</legend>
+          <label for="radio1">radio1</label>
+          <input type="radio" id="radio1" name="vRadio" value="radio1" checked />
+          <label for="radio2">radio2</label>
+          <input type="radio" id="radio2" name="vRadio" value="radio2" />
+          <label for="radio3">radio3</label>
+          <input type="radio" id="radio3" name="vRadio" value="radio3" />
+        </fieldset>
+      </li>
+      <li>
+        <!-- Submit form with POST method and enctype="multipart/form-data" to send file contents. -->
+        <label for="file">File: </label>
+        <input type="file" id="file" name="vFile" accept="image/*" multiple />
+      </li>
+      <li>
+        <label for="search">Search: </label>
+        <input type="search" id="search" name="vSearch" />
+      </li>
+      <li>
+        <label for="tel">Tel: </label>
+        <input type="tel" id="tel" name="vTel" placeholder="###-####" pattern="\d{3}-\d{4}" />
+      </li>
+      <li>
+        <label for="url">URL: </label>
+        <input type="url" id="url" name="vUrl" />
+      </li>
+      <li>
+        <label for="number">Number: </label>
+        <input type="number" name="vNumber" id="number" min="1" max="10" step="1" />
+      </li>
+      <li>
+        <label for="range">Range: </label>
+        <input type="range" name="vRange" id="range" min="0" max="100" step="1" value="0" />
+        <output id="rangeOutput" for="range">0</output>
+        <!-- Range requires some JavaScript in order to make it work. Ignore this for now. -->
+        <script>
+          const range = document.querySelector('#range');
+          const rangeOutput = document.querySelector('#rangeOutput');
+          range.addEventListener('input', function() {
+            rangeOutput.textContent = range.value;
+          });
+        </script>
+      </li>
+      <li>
+        <label for="progress">Progress: </label>
+        <progress id="progress" max="100" value="75"></progress>
+      </li>
+      <li>
+        <label for="meter">Meter: </label>
+        <meter id="meter" min="0" max="100" value="50" low="33" high="66" optimum="50"></meter>
+      </li>
+      <li>
+        <label for="datetime">DateTime: </label>
+        <input type="datetime-local" name="vDatetime" id="datetime" />
+      </li>
+      <li>
+        <label for="time">Time: </label>
+        <input type="time" name="vTime" id="time" />
+      </li>
+      <li>
+        <label for="month">Month: </label>
+        <input type="month" name="vMonth" id="month" />
+      </li>
+      <li>
+        <label for="week">Week: </label>
+        <input type="week" name="vWeek" id="week" />
+      </li>
+      <li>
+        <label for="color">Color: </label>
+        <input type="color" name="vColor" id="color" />
+      </li>
+      <!-- This doesn't show up to the user, but allows the form to send associated data. -->
+      <input type="hidden" id="secretData" name="vSecretData" value="1989 - the web was born" />
+    </ul>
+
+    <button type="submit">Submit</button>
+  </form>
+<div id="message">... </div>
+</body>
+
+<style>
+  * {font-family: Arial;}
+  body { padding: 0 1em;}
+  li {  list-style-type: none;  padding: 0.25em 0;}
+  form { border: thin solid #efefef; padding: 1em;}
+  textarea { display:block; margin: .5em 0;}
+  #message { margin-top:1em;padding:1em;background:black;color:white;font-family:monospace; border:thin black solid; white-space: pre-wrap; word-break: break-all;}
+</style>
+<script>
+  const form = document.getElementById('messageForm');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // stop page reload
+
+    const formData = new FormData(form);
+    const params = new URLSearchParams();
+
+    for (const [key, value] of formData) {
+      if (value instanceof File) {
+        params.append(key, value.name);
+      } else {
+        params.append(key, value);
+      }
+    }
+
+    const output = document.getElementById('message');
+    output.innerText = params.toString();
+  });
+</script>
+~~~
+```
+
+
+
 This [CodePen](https://codepen.io/leesjensen/pen/dyVdNej) demonstrates all of the major input elements. Fork the pen and do the following:
 
 1. Replace the text input's placeholder with "your name here".
