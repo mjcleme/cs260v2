@@ -322,8 +322,10 @@
           "path": "instruction/html/input/input.md",
           "id": "392e4c96-5bf6-48db-8496-82346b40e7e8",
           "state": "published",
-          "interactions": [],
-          "commit": "7b840b8c5c364b551c7e384017017ebf5670c590"
+          "interactions": [
+            "0875ed29-b9fb-4b47-a3bf-05cd622d574b"
+          ],
+          "commit": "fc1fa90a6140e523dee557e180ea83359355dc7f"
         },
         {
           "title": "☑ Media",
