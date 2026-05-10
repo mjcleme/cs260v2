@@ -41,6 +41,14 @@ To include an audio file in your content you use the `audio` element and specify
 
 ![Html Audio](htmlAudioImg.jpg)
 
+
+```masteryls
+{"id":"bec015a0-f052-489a-b45d-3d0e1960deb2", "title":"Web page", "type":"web-page", "height":250}
+<audio controls src="https://raw.githubusercontent.com/byucsstudent/cs260v2/main/instruction/html/media/testAudio.mp3"></audio>
+```
+
+
+
 ### Video
 
 To include a video in your content you use the `video` element and specify the `src` attribute with the URL to the source video. Like the audio element you can include the `controls` or `autoplay` attributes.
