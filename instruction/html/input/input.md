@@ -35,13 +35,8 @@ Some text
 
 Pressing the submit button sends the following data to the web server. The browser generates the data by combining the textarea's `name` attribute with the current value of the textarea.
 
-```
-ta-id=Some+text
-```
-
-
 ```masteryls
-{"id":"c069b636-4426-4d32-b19f-1ef2379b5a72", "title":"Web page", "type":"web-page", "height":50}
+{"id":"c069b636-4426-4d32-b19f-1ef2379b5a72", "title":"Web page", "type":"web-page", "height":180}
 <form id="messageForm">
   <label for="ta">TextArea: </label>
   <textarea id="ta" name="ta-id">Some text</textarea>
@@ -50,6 +45,7 @@ ta-id=Some+text
 </form>
 
 <style>
+textarea { display:block; margin: 1em 0;}
 #message { display:none;margin-top:1em;padding:1em;background:black;color:white;font-family:monospace; border:thin black solid; }
 </style>
 <script>
