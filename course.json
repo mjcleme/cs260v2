@@ -306,13 +306,15 @@
           "commit": "01d808b62f1322df80f3b99707fd5ecc9783055f"
         },
         {
-          "title": "☑ Structure",
+          "title": "Structure",
+          "type": "instruction",
           "path": "instruction/html/structure/structure.md",
           "id": "4339fab0-841c-48e2-993c-7b9310cd5f26",
           "state": "published",
           "interactions": [
             "a6fc521e-33ca-4116-bc6b-9a6507f58642"
           ],
+          "description": "",
           "commit": "9f75aa7e017e74e983fe17165c47ce18ba53f21e"
         },
         {
