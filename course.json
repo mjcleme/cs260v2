@@ -334,8 +334,10 @@
           "path": "instruction/html/media/media.md",
           "id": "b4981931-3b9b-4498-8ad8-44b37be1ef5c",
           "state": "published",
-          "interactions": [],
-          "commit": "637fd6a96a541634d51b66dec804efea47fbe887"
+          "interactions": [
+            "5cdb3b2d-c448-4dfb-a6f3-3bf87946e906"
+          ],
+          "commit": "a48542c966966fbce26fed959a0feb0357a76ffc"
         },
         {
           "title": "HTML exploration",
