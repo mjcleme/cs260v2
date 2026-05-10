@@ -7,7 +7,7 @@ Learning HTML is more than memorizing a list of tags; it is about building a rob
 
 
 ```masteryls
-{"id":"cd76a31c-c450-4d5a-a777-c8e86643971f", "title":"Structural elements", "type":"web-page" }
+{"id":"cd76a31c-c450-4d5a-a777-c8e86643971f", "title":"Structural elements", "type":"web-page" "height":1200 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +29,7 @@ Learning HTML is more than memorizing a list of tags; it is about building a rob
 
         body {
             font-family: system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
+            line-height: 1.2;
             color: var(--text-main);
             margin: 0;
             display: flex;
