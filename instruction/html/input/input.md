@@ -18,14 +18,12 @@ From the very early days of HTML it contained elements for accepting the input o
 | `meter`    | Display value with a known range | `<meter min="0" max="100" value="50"></meter>` |
 
 
-# The HTML `<form>` Element
-
-The `<form>` element is a container used to collect user input and send that data to a specified destination, typically a web server. It acts as the foundational structure for interactive components like login screens, search bars, and contact forms.
-
 
 ## Form element
 
-The main purpose of the `form` element is to submit the values of the inputs it contains. Before JavaScript was introduced the `form` container element was essential because it was the only way for the browser to send the input data to a web server as part of a request to process the input and generate a new web page displaying the result of the input. With modern HTML, the form element is still important because it gives meaning to user input, works well with accessibility tools like screen readers, and relies on built-in browser features that handle input and submission reliably.
+The `<form>` element is a container used to collect user input and send that data to a specified destination, typically a web server. It acts as the foundational structure for interactive components like login screens, search bars, and contact forms.
+
+ Before JavaScript was introduced the `form` container element was essential because it was the only way for the browser to send the input data to a web server as part of a request to process the input and generate a new web page displaying the result of the input. With modern HTML, the form element is still important because it gives meaning to user input, works well with accessibility tools like screen readers, and relies on built-in browser features that handle input and submission reliably.
 
 ### Key Attributes
 
