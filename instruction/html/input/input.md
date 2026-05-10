@@ -104,7 +104,7 @@ textarea { display:block; margin: .5em 0;}
 
 ## Input element
 
-The input element represents many different input types. You set the type of input with the `type` attribute. There are several different types to choose from. This includes different flavors of textual, numeric, date, and color inputs.
+Inside of your form elements you can include input element that represent many different input types. You set the type of input with the `type` attribute. There are several different types to choose from. This includes different flavors of textual, numeric, date, and color inputs.
 
 | Type           | Meaning                           |
 | -------------- | --------------------------------- |
