@@ -149,7 +149,7 @@ You should also have validation built into your JavaScript that checks input dat
 ## ☑ Assignment
 
 ```masteryls
-{"id":"0875ed29-b9fb-4b47-a3bf-05cd622d574b", "title":"Form assignment", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Replace the text input's placeholder with "your name here". Add an additional optgroup. Add an additional checkbox. Add an additional radio button. Change the color input to default to red.", "height":1000 }
+{"id":"0875ed29-b9fb-4b47-a3bf-05cd622d574b", "title":"Form assignment", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Replace the text input's placeholder with 'your name here'. Add an additional optgroup. Add an additional checkbox. Add an additional radio button. Change the color input to default to red.", "height":1000 }
 Experiment with the form inputs.
 
 1. Replace the text input's placeholder with "your name here".
