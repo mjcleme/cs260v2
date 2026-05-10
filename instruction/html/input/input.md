@@ -39,6 +39,19 @@ Pressing the submit button sends the following data to the web server. The brows
 ta-id=Some+text
 ```
 
+
+```masteryls
+{"id":"c069b636-4426-4d32-b19f-1ef2379b5a72", "title":"Web page", "type":"web-page", "height":250}
+<form action="submission.html" method="post">
+  <label for="ta">TextArea: </label>
+  <textarea id="ta" name="ta-id">
+Some text
+  </textarea>
+  <button type="submit">Submit</button>
+</form>
+```
+
+
 ## Input element
 
 The input element represents many different input types. You set the type of input with the `type` attribute. There are several different types to choose from. This includes different flavors of textual, numeric, date, and color inputs.
