@@ -140,10 +140,6 @@ Most input elements share some common attributes. These include the following.
 | value     | The initial value of the input                                                      |
 | required  | Signifies that a value is required in order to be valid                             |
 
-The following shows what the inputs look like when rendered. Don't worry about how clunky they look right out of the box. We will fix that when we start styling things with CSS.
-
-![HTML Input](htmlInput.jpg)
-
 ## Validating input
 
 Several of the input elements have validation built into them. This means that they will not accept a value that is not for example, a number, a URL, outside of a range, or an email address. You can also specify the `required` attribute on an input element to mark it as requiring a value before it can be submitted. The `pattern` attribute exists on `text`, `search`, `url`, `tel`, `email`, and `password` inputs. When present, the pattern attribute provides a regular expression that must match for the input to be considered as valid.
@@ -165,7 +161,7 @@ Interactively create an HTML page from your prompt.
       <li>
         <!-- Includes validation-->
         <label for="text">Text: </label>
-        <input type="text" id="text" name="vText" placeholder="text here" required pattern="[Aa].*" />
+        <input type="text" id="text" name="vText" placeholder="text that starts with A" required pattern="[Aa].*" />
       </li>
       <li>
         <label for="password">Password: </label>
