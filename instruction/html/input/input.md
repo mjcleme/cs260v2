@@ -41,14 +41,28 @@ ta-id=Some+text
 
 
 ```masteryls
-{"id":"c069b636-4426-4d32-b19f-1ef2379b5a72", "title":"Web page", "type":"web-page", "height":250}
-<form action="submission.html" method="post">
+{"id":"c069b636-4426-4d32-b19f-1ef2379b5a72", "title":"Web page", "type":"web-page", "height":50}
+<form id="messageForm">
   <label for="ta">TextArea: </label>
-  <textarea id="ta" name="ta-id">
-Some text
-  </textarea>
+  <textarea id="ta" name="ta-id">Some text</textarea>
   <button type="submit">Submit</button>
+  <div id="message"></div>
 </form>
+
+<style>
+#message { display:none;margin-top:1em;padding:1em;background:black;color:white;font-family:monospace; border:thin black solid; }
+</style>
+<script>
+  const form = document.getElementById('messageForm');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // stop page reload
+
+    const text = document.getElementById('ta').value.replace(' ', '+');
+    const output = document.getElementById('message');
+    output.innerText = `ta-id=${text}`;
+    output.style.display = 'block';
+  });
+</script>
 ```
 
 
