@@ -153,10 +153,10 @@ You should also have validation built into your JavaScript that checks input dat
 Experiment with the form inputs.
 
 1. Replace the text input's placeholder with "your name here".
-1. Add an additional optgroup.
-1. Add an additional checkbox.
-1. Add an additional radio button.
-1. Change the color input to default to red.
+2. Add an additional optgroup.
+3. Add an additional checkbox.
+4. Add an additional radio button.
+5. Change the color input to default to red.
 
 ~~~html
 <body>
