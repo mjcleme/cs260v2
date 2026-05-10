@@ -148,10 +148,15 @@ You should also have validation built into your JavaScript that checks input dat
 
 ## ☑ Assignment
 
-
 ```masteryls
-{"id":"0875ed29-b9fb-4b47-a3bf-05cd622d574b", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":1000 }
-Interactively create an HTML page from your prompt.
+{"id":"0875ed29-b9fb-4b47-a3bf-05cd622d574b", "title":"Form assignment", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Replace the text input's placeholder with "your name here". Add an additional optgroup. Add an additional checkbox. Add an additional radio button. Change the color input to default to red.", "height":1000 }
+Experiment with the form inputs.
+
+1. Replace the text input's placeholder with "your name here".
+1. Add an additional optgroup.
+1. Add an additional checkbox.
+1. Add an additional radio button.
+1. Change the color input to default to red.
 
 ~~~html
 <body>
@@ -319,15 +324,3 @@ Interactively create an HTML page from your prompt.
 </script>
 ~~~
 ```
-
-
-
-This [CodePen](https://codepen.io/leesjensen/pen/dyVdNej) demonstrates all of the major input elements. Fork the pen and do the following:
-
-1. Replace the text input's placeholder with "your name here".
-1. Add an additional optgroup.
-1. Add an additional checkbox.
-1. Add an additional radio button.
-1. Change the color input to default to red.
-
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
