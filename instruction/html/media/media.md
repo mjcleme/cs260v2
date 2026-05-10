@@ -40,7 +40,7 @@ To include an audio file in your content you use the `audio` element and specify
 ```
 
 ```masteryls
-{"id":"bec015a0-f052-489a-b45d-3d0e1960deb2", "title":"Web page", "type":"web-page", "height":250}
+{"id":"bec015a0-f052-489a-b45d-3d0e1960deb2", "title":"Web page", "type":"web-page", "height":50}
 <audio controls src="htmlAudio.mp3"></audio>
 ```
 
