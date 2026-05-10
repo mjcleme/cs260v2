@@ -321,7 +321,9 @@
           "title": "☑ Input",
           "path": "instruction/html/input/input.md",
           "id": "392e4c96-5bf6-48db-8496-82346b40e7e8",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "69f9196d7afaba7b234dc0b4c5dbcea541fbc98a"
         },
         {
           "title": "☑ Media",
