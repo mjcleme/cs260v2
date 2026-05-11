@@ -116,3 +116,10 @@ scp -r -i "$key" * ubuntu@$hostname:services/$service/public
 
 - Update your `startup` repository notes.md with what you learned.
 - Make sure your project is visible from your production environment (e.g. https://simon.yourdomain.click).
+
+
+```masteryls
+{"id":"83677e81-fe42-4657-be14-d4537d10f7d9", "title":"Essay", "type":"essay", "syncGrade":true, "autoGrade":false }
+How did your deployment go? Can you explain what the `deployFiles.sh` script is doing?
+```
+
