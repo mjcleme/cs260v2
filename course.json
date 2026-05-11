@@ -14,7 +14,7 @@
         "path": "schedule/schedule.md",
         "default": true,
         "state": "published",
-        "commit": "35546375cc1d2a7ecca587dc7fced8f0243b81d4"
+        "commit": "cbbb6b1e56f07daea7512f69111313a6f2ca2e76"
       }
     ]
   },
@@ -205,7 +205,7 @@
           "interactions": [
             "1383742c-41c4-458c-9af8-76c6be90b28d"
           ],
-          "commit": "8575121c35333168cd333d7e9e13156bc1a6ca76"
+          "commit": "e02566c0775018507149100b93278ab36ec2f11a"
         },
         {
           "title": "Demonstration",
