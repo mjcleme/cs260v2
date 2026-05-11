@@ -136,6 +136,18 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
 
 By default, the width and height of an element is defined by the width and height of the content box. You can change the `box-sizing` CSS property from the default value of `content-box` to `border-box` in order to redefine the width and height to also include the padding and the border. This often makes it easier to style elements when their visual size matches their actual size.
 
+
+```masteryls
+{"id":"438b7332-5266-4185-b951-c2c399c7c72a", "title":"Components of the CSS Box Model", "type":"multiple-choice"}
+In the CSS box model, every HTML element is treated as a rectangular box. Which of the following correctly identifies the four components of this box, ordered from the innermost layer to the outermost layer?
+
+- [ ] Content, Border, Padding, Margin
+- [x] Content, Padding, Border, Margin
+- [ ] Content, Padding, Margin, Outline
+- [ ] Text, Spacing, Border, Margin
+```
+
+
 ## CSS Versions
 
 As with HTML, CSS has evolved significantly over the years. The following version table gives you an idea of when certain features were added and therefore how stable the support for them are.
