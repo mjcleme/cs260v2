@@ -1072,6 +1072,14 @@
           "path": "instruction/webFrameworks/wrapUp/wrapUp.md",
           "id": "9f5ce2b1-4812-4b5b-94e2-eef6257e01c1",
           "state": "published"
+        },
+        {
+          "title": "Demo day submission",
+          "type": "project",
+          "points": 0,
+          "path": "instruction/demo-day-submission/demo-day-submission.md",
+          "id": "27ab9b08-4dd9-4906-8fe9-507aa8d68db3",
+          "description": ""
         }
       ]
     }
