@@ -1,5 +1,5 @@
 
-# Learning HTML Through Exploration
+# Review and explore
 
 Learning HTML is more than memorizing a list of tags; it is about building a robust mental model of how the web is structured. HTML serves as the **backbone** of every website, providing the essential skeleton upon which CSS (styling) and JavaScript (behavior) are built. Without this structural foundation, the other technologies have nothing to hook onto. By exploring HTML through discovery—rather than rote memorization—you foster a sense of curiosity that allows you to see the web as a series of nested containers and relationships.
 
