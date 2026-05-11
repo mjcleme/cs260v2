@@ -18,13 +18,14 @@ For example, consider the following rule.
 ```css
 p {
   font-family: sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: 200;
   color: navy;
   text-shadow: 3px 3px 1px #cccccc;
 }
 ```
 
-The selector `p` selects all paragraph elements in the HTML document. The four specified declarations then: 1) change the font to use a sans-serif font, 2) increase the font size to be twice as big as the default font, 3) change the text color to be navy, and 4) create a gray shadow for the text. The result looks like this.
+The selector `p` selects all paragraph elements in the HTML document. The four specified declarations then: 1) change the font to use a sans-serif font, 2) increase the font size to be three times bigger and thinner than the default font, 3) change the text color to be navy, and 4) create a gray shadow for the text. The result looks like this.
 
 
 ```masteryls
