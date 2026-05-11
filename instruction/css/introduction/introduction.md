@@ -28,29 +28,25 @@ The selector `p` selects all paragraph elements in the HTML document. The four s
 
 
 ```masteryls
-{"id":"900199ab-aebe-4b11-968f-768deff00b11", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"Proper use of CSS selectors and declarations. Background color is blue", "height":200 }
-Manipulate the following CSS to change the background color to blue.
+{"id":"900199ab-aebe-4b11-968f-768deff00b11", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"Proper use of CSS selectors and declarations. Background color is blue and text color is white", "height":200 }
+Manipulate the following CSS to change the background color to blue and the text color to white.
 
 ~~~html
   <style>
-    body {
-      margin:0;
-      display:grid;
-      place-items:center;
-      min-height:100vh;
-      background:#003949;
-      color:white;
-      font-family:ui-monospace,monospace;
+    h1 {
+      font-family: sans-serif;
+      font-size: 3em;
+      font-weight: 200;
+      color: navy;
+      text-shadow: 3px 3px 1px #cccccc;
     }
   </style>
-  <body>
+  <body style="display:grid;place-items:center">
     <h1>Hello, curious learner.</h1>
   </body>
 ~~~
 ```
 
-
-![CSS simple rule](cssSimpleRule.jpg)
 
 ## Associating CSS with HTML
 
