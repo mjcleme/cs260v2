@@ -268,7 +268,7 @@ Using the **AI assistance** dialog, supply the following prompts:
 
 2. **Styled Prompt**: Create an HTML page that uses CSS to clarify the structure of the document.
 
-Alter the generated HTML and experiment. Use the **Discuss** feature to explain the meaning of the different elements.
+Note that both the unstyled and styled versions use the same HTML structural elements. The CSS just makes things look good, but the HTML structure is the foundation of the page. Alter the generated HTML and experiment. Use the **Discuss** feature to explain the meaning of the different elements.
 
 ~~~html
   <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3ee,#0f172a);color:#ecfeff;font-family:ui-monospace,monospace;">
