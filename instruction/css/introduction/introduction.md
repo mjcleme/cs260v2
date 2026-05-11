@@ -26,6 +26,30 @@ p {
 
 The selector `p` selects all paragraph elements in the HTML document. The four specified declarations then: 1) change the font to use a sans-serif font, 2) increase the font size to be twice as big as the default font, 3) change the text color to be navy, and 4) create a gray shadow for the text. The result looks like this.
 
+
+```masteryls
+{"id":"900199ab-aebe-4b11-968f-768deff00b11", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"Proper use of CSS selectors and declarations. Background color is blue", "height":200 }
+Manipulate the following CSS to change the background color to blue.
+
+~~~html
+  <style>
+    body {
+      margin:0;
+      display:grid;
+      place-items:center;
+      min-height:100vh;
+      background:#003949;
+      color:white;
+      font-family:ui-monospace,monospace;
+    }
+  </style>
+  <body>
+    <h1>Hello, curious learner.</h1>
+  </body>
+~~~
+```
+
+
 ![CSS simple rule](cssSimpleRule.jpg)
 
 ## Associating CSS with HTML
