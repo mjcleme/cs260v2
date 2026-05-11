@@ -261,7 +261,7 @@ To explore this structure effectively, you should focus on the relationship betw
 ## Interactive experimentation
 
 ```masteryls
-{"id":"b9b2c3d4-e5f6-7890-1234-567890123460", "title":"Page structure", "gradingCriteria":"Properly structured HTML with CSS to clarify document structure.", "type":"ai-web-page", "height":200}
+{"id":"b9b2c3d4-e5f6-7890-1234-567890123465", "title":"Page structure", "gradingCriteria":"Properly structured HTML with CSS to clarify document structure.", "type":"ai-web-page", "height":200}
 Using the **AI assistance** dialog, supply the following prompts:
 
 1. **Initial Prompt**: Create an HTML page that does not have any styling but demonstrates the common structural elements.
