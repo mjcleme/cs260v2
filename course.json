@@ -1057,18 +1057,6 @@
           "state": "published"
         },
         {
-          "title": "Simon PWA",
-          "path": "instruction/simon/simonPwa/simonPwa.md",
-          "id": "2dafc42e-ce62-4804-9453-47f5ddd680d6",
-          "state": "published"
-        },
-        {
-          "title": "☑ Wrap up",
-          "path": "instruction/webFrameworks/wrapUp/wrapUp.md",
-          "id": "9f5ce2b1-4812-4b5b-94e2-eef6257e01c1",
-          "state": "published"
-        },
-        {
           "title": "Demo day submission",
           "type": "project",
           "points": 0,
@@ -1080,6 +1068,18 @@
           ],
           "description": "",
           "commit": "807916b46b99cef342d2c68425ae539d8a0f0a80"
+        },
+        {
+          "title": "Simon PWA",
+          "path": "instruction/simon/simonPwa/simonPwa.md",
+          "id": "2dafc42e-ce62-4804-9453-47f5ddd680d6",
+          "state": "published"
+        },
+        {
+          "title": "☑ Wrap up",
+          "path": "instruction/webFrameworks/wrapUp/wrapUp.md",
+          "id": "9f5ce2b1-4812-4b5b-94e2-eef6257e01c1",
+          "state": "published"
         }
       ]
     }
