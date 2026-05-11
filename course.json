@@ -1,6 +1,10 @@
 {
   "title": "cs260v2",
   "links": {},
+  "externalRefs": {
+    "canvasCourseId": "33932",
+    "canvasScheduleFileId": "7491e895-8aab-400d-9b9b-1dcdfdf78b65"
+  },
   "schedule": {
     "id": "7db53081-d129-4698-8e24-8d449cfc9f3f",
     "files": [
@@ -16,6 +20,7 @@
         "title": "Summer 2026",
         "path": "schedule/summer-2026.md",
         "default": false,
+        "state": "published",
         "commit": "f0e6f6bd372de966cbc47bbc42d52b285584527c"
       }
     ]
@@ -48,6 +53,9 @@
     },
     {
       "title": "Development essentials",
+      "externalRefs": {
+        "canvasModuleId": 386905
+      },
       "topics": [
         {
           "title": "Course Introduction",
@@ -165,7 +173,10 @@
             "0c5ca9c7-adae-45c4-b601-ba0dd968fae7"
           ],
           "description": "",
-          "commit": "e1d10388cfd5fc5950c35960db6211705bea0732"
+          "commit": "e1d10388cfd5fc5950c35960db6211705bea0732",
+          "externalRefs": {
+            "canvasAssignmentId": 1353107
+          }
         },
         {
           "title": "Asking questions",
@@ -219,6 +230,9 @@
     },
     {
       "title": "Web server setup",
+      "externalRefs": {
+        "canvasModuleId": 386906
+      },
       "topics": [
         {
           "title": "Technology stack",
@@ -303,12 +317,18 @@
             "6edadab4-91ee-46f0-952e-469f42dc841e"
           ],
           "description": "",
-          "commit": "06b3661dc294eede60009dd43a665b6e7c1b6ef5"
+          "commit": "06b3661dc294eede60009dd43a665b6e7c1b6ef5",
+          "externalRefs": {
+            "canvasAssignmentId": 1353108
+          }
         }
       ]
     },
     {
       "title": "HTML",
+      "externalRefs": {
+        "canvasModuleId": 386907
+      },
       "topics": [
         {
           "title": "HTML introduction",
@@ -395,7 +415,10 @@
             "f92b8dce-237d-427c-b781-b25482026e5f"
           ],
           "description": "",
-          "commit": "0df300cee1c30a517de33e3c45144ad5a05f3ddc"
+          "commit": "0df300cee1c30a517de33e3c45144ad5a05f3ddc",
+          "externalRefs": {
+            "canvasAssignmentId": 1353109
+          }
         }
       ]
     },
