@@ -1,6 +1,6 @@
 # A brief history of web programming
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTH-bV3HnNGM375RepGzTnIfT_XOMspYktpP_TjbkHqooV5x_vGqJrZ-eoUXb4YfHnxXv0EGwhMaD-b/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTH-bV3HnNGM375RepGzTnIfT_XOMspYktpP_TjbkHqooV5x_vGqJrZ-eoUXb4YfHnxXv0EGwhMaD-b/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Having a basic knowledge of the history of web programming helps you to understand why we have the assortment of technologies that you will be working with. There have been three distinct phases that make up this history.
 
