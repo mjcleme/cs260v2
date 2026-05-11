@@ -417,8 +417,10 @@
           "path": "instruction/css/introduction/introduction.md",
           "id": "95954169-d374-4d01-9a62-a35a79e2b1dd",
           "state": "published",
-          "interactions": [],
-          "commit": "69d9cdc73c01515ef425752d36537d70ca1bb8ef"
+          "interactions": [
+            "900199ab-aebe-4b11-968f-768deff00b11"
+          ],
+          "commit": "c52ec4307d840140918e78f2c6b3ae03741b2838"
         },
         {
           "title": "Selectors",
