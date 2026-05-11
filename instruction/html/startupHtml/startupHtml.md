@@ -98,6 +98,14 @@ Doing this will make this deliverable of your startup available from `https://st
   - 10% Database data placeholder showing content stored in the database
   - 10% WebSocket data placeholder showing where realtime communication will go
 
+
+```masteryls
+{"id":"af21ec9a-b6ab-49f6-97cb-eb891a048dee", "title":"Startup HTML", "type":"url-submission", "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
+Submit the URL to your startup server.
+
+_Example: https://mydomainname.click_
+```
+
 ## Go celebrate
 
 You did it! This is a significant milestone. Time to grab some friends, show them what you did, and celebrate with soft serve 🍦.
