@@ -131,7 +131,7 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
 
 
 ```masteryls
-{"id":"a9ebc5d9-f459-4d83-ac6a-6d3e4e284204", "title":"Web page", "type":"web-page", "height":500}
+{"id":"a9ebc5d9-f459-4d83-ac6a-6d3e4e284204", "title":"CSS box model", "type":"web-page", "height":600}
 <!doctype html>
 <html lang="en">
   <head>
@@ -183,15 +183,15 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       }
 
       .panel {
-        padding: 16px;
+        padding: 12px;
         align-self: start;
         position: sticky;
         top: 14px;
       }
 
       h1 {
-        margin: 0 0 8px;
-        font-size: 1.4rem;
+        margin: 0 0 6px;
+        font-size: 1.2rem;
       }
 
       h2 {
@@ -200,18 +200,39 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       }
 
       p {
-        margin: 0 0 10px;
-        line-height: 1.45;
+        margin: 0 0 8px;
+        line-height: 1.35;
       }
 
       .control {
-        margin: 12px 0;
+        margin: 8px 0;
+      }
+
+      .control-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+        margin: 8px 0;
+      }
+
+      .control-row.three {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .control-row .control {
+        margin: 0;
+      }
+
+      .control.compact label {
+        font-size: 0.8rem;
+        line-height: 1.2;
       }
 
       label {
         display: block;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
         font-weight: 700;
+        font-size: 0.9rem;
       }
 
       input[type='range'],
@@ -222,7 +243,7 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       .preset-row {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
+        gap: 6px;
       }
 
       .preset-btn {
@@ -230,8 +251,8 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
         background: #f4fbf8;
         color: #15574c;
         border-radius: 999px;
-        padding: 6px 10px;
-        font-size: 0.82rem;
+        padding: 4px 8px;
+        font-size: 0.75rem;
         font-weight: 700;
         cursor: pointer;
       }
@@ -249,8 +270,9 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       select {
         border: 1px solid #bed4c9;
         border-radius: 8px;
-        padding: 8px;
+        padding: 6px;
         background: #ffffff;
+        font-size: 0.9rem;
       }
 
       .value {
@@ -258,35 +280,14 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       }
 
       .formula {
-        margin: 8px 0;
+        margin: 6px 0;
         font-family: 'Courier New', monospace;
         background: #eff7f3;
         border: 1px solid #d9ebe3;
         border-radius: 8px;
-        padding: 8px;
+        padding: 6px;
         color: #2b4e40;
-      }
-
-      .status {
-        display: grid;
-        gap: 8px;
-        margin-top: 12px;
-      }
-
-      .chip {
-        background: var(--accent-soft);
-        border: 1px solid #bfe7da;
-        border-radius: 10px;
-        padding: 8px 10px;
-      }
-
-      .chip b {
-        color: var(--accent);
-      }
-
-      .hint {
-        color: var(--muted);
-        font-size: 0.92rem;
+        font-size: 0.8rem;
       }
 
       .lab {
@@ -297,7 +298,7 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
         border-radius: 10px;
         border: 2px dashed #b9cfd0;
         background: #f7fbf9;
-        min-height: 640px;
+        min-height: 500px;
         padding: 12px;
       }
 
@@ -317,7 +318,7 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
         place-items: center;
         border-radius: 10px;
         border: 1px solid #d1e2da;
-        min-height: 500px;
+        min-height: 360px;
         background-image: linear-gradient(90deg, rgba(70, 130, 112, 0.07) 1px, transparent 1px), linear-gradient(0deg, rgba(70, 130, 112, 0.07) 1px, transparent 1px);
         background-size: 24px 24px;
         overflow: auto;
@@ -431,11 +432,16 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
         }
 
         .canvas-wrap {
-          min-height: 560px;
+          min-height: 420px;
         }
 
         .axis {
           width: 158px;
+        }
+
+        .control-row,
+        .control-row.three {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -454,29 +460,33 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
           </select>
         </div>
 
-        <div class="control">
-          <label for="contentWidth">Width property: <span class="value" id="contentWidthValue">260 px</span></label>
-          <input id="contentWidth" type="range" min="80" max="420" value="260" step="1" />
+        <div class="control-row">
+          <div class="control compact">
+            <label for="contentWidth">Width: <span class="value" id="contentWidthValue">260 px</span></label>
+            <input id="contentWidth" type="range" min="80" max="420" value="260" step="1" />
+          </div>
+
+          <div class="control compact">
+            <label for="contentHeight">Height: <span class="value" id="contentHeightValue">120 px</span></label>
+            <input id="contentHeight" type="range" min="50" max="280" value="120" step="1" />
+          </div>
         </div>
 
-        <div class="control">
-          <label for="contentHeight">Height property: <span class="value" id="contentHeightValue">160 px</span></label>
-          <input id="contentHeight" type="range" min="50" max="280" value="160" step="1" />
-        </div>
+        <div class="control-row three">
+          <div class="control compact">
+            <label for="paddingSize">Padding: <span class="value" id="paddingSizeValue">24 px</span></label>
+            <input id="paddingSize" type="range" min="0" max="80" value="24" step="1" />
+          </div>
 
-        <div class="control">
-          <label for="paddingSize">Padding: <span class="value" id="paddingSizeValue">24 px</span></label>
-          <input id="paddingSize" type="range" min="0" max="80" value="24" step="1" />
-        </div>
+          <div class="control compact">
+            <label for="borderSize">Border: <span class="value" id="borderSizeValue">10 px</span></label>
+            <input id="borderSize" type="range" min="0" max="40" value="10" step="1" />
+          </div>
 
-        <div class="control">
-          <label for="borderSize">Border: <span class="value" id="borderSizeValue">10 px</span></label>
-          <input id="borderSize" type="range" min="0" max="40" value="10" step="1" />
-        </div>
-
-        <div class="control">
-          <label for="marginSize">Margin: <span class="value" id="marginSizeValue">18 px</span></label>
-          <input id="marginSize" type="range" min="0" max="90" value="18" step="1" />
+          <div class="control compact">
+            <label for="marginSize">Margin: <span class="value" id="marginSizeValue">18 px</span></label>
+            <input id="marginSize" type="range" min="0" max="90" value="18" step="1" />
+          </div>
         </div>
 
         <div class="control">
@@ -490,15 +500,6 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
         </div>
 
         <div class="formula" id="formulaText">total width = width + 2 x (padding + border + margin)</div>
-
-        <div class="status">
-          <div class="chip"><b>Property size:</b> <span id="propertySize">-</span></div>
-          <div class="chip"><b>Content size:</b> <span id="contentSize">-</span></div>
-          <div class="chip"><b>Border-box size:</b> <span id="borderBoxSize">-</span></div>
-          <div class="chip"><b>Total with margins:</b> <span id="outerSize">-</span></div>
-        </div>
-
-        <p class="hint">The blue area visualizes margin (normally transparent) so each layer is easier to see while learning.</p>
       </aside>
 
       <section class="lab">
@@ -546,10 +547,6 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
       const marginSizeValue = document.getElementById('marginSizeValue');
 
       const formulaText = document.getElementById('formulaText');
-      const propertySize = document.getElementById('propertySize');
-      const contentSize = document.getElementById('contentSize');
-      const borderBoxSize = document.getElementById('borderBoxSize');
-      const outerSize = document.getElementById('outerSize');
       const canvasToolbar = document.getElementById('canvasToolbar');
       const axisInfo = document.getElementById('axisInfo');
 
@@ -614,34 +611,13 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
 
         contentBox.textContent = Math.round(contentW) + ' x ' + Math.round(contentH) + ' content';
 
-        propertySize.textContent = widthProp + ' x ' + heightProp + ' px';
-        contentSize.textContent = Math.round(contentW) + ' x ' + Math.round(contentH) + ' px';
-        borderBoxSize.textContent = Math.round(borderW) + ' x ' + Math.round(borderH) + ' px';
-        outerSize.textContent = Math.round(outerW) + ' x ' + Math.round(outerH) + ' px';
         canvasToolbar.textContent = 'Live box model preview - ' + sizing;
 
-        axisInfo.innerHTML =
-          '<div class="axis-row"><span>box-sizing</span><span>' +
-          sizing +
-          '</span></div>' +
-          '<div class="axis-row"><span>Horizontal extras</span><span>' +
-          (2 * (padding + border + margin)) +
-          ' px</span></div>' +
-          '<div class="axis-row"><span>Vertical extras</span><span>' +
-          (2 * (padding + border + margin)) +
-          ' px</span></div>';
+        axisInfo.innerHTML = '<div class="axis-row"><span>box-sizing</span><span>' + sizing + '</span></div>' + '<div class="axis-row"><span>Horizontal extras</span><span>' + 2 * (padding + border + margin) + ' px</span></div>' + '<div class="axis-row"><span>Vertical extras</span><span>' + 2 * (padding + border + margin) + ' px</span></div>';
 
         const buttons = presetRow.querySelectorAll('.preset-btn');
         buttons.forEach((button) => {
-          button.classList.toggle(
-            'active',
-            button.dataset.boxsizing === sizing &&
-              Number(button.dataset.width) === widthProp &&
-              Number(button.dataset.height) === heightProp &&
-              Number(button.dataset.padding) === padding &&
-              Number(button.dataset.border) === border &&
-              Number(button.dataset.margin) === margin
-          );
+          button.classList.toggle('active', button.dataset.boxsizing === sizing && Number(button.dataset.width) === widthProp && Number(button.dataset.height) === heightProp && Number(button.dataset.padding) === padding && Number(button.dataset.border) === border && Number(button.dataset.margin) === margin);
         });
       }
 
