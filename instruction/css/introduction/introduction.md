@@ -2,6 +2,9 @@
 
 ![CSS Logo](cssLogo.png)
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQRrNtrNhocW1BbO-LuXLwxNiV_N1ApAOprbtXgk6jJABVKnMd1OcJFires3aEQMLeBfL2bUx3leabC/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 📖 **Deeper dive reading**: [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 Cascading Style Sheets (CSS) converts the structure and content of HTML into a vibrant, responsive experience. The initial objective of CSS was to simply style the HTML based upon the desires of the user, developer, and browser. In modern web applications CSS styling focuses more on helping the developer create complex renderings of dynamic content that is responsive to the actions of the user and the device the application is rendered on. With CSS a web programmer can animate the page, deploy custom fonts, respond to user actions, and dynamically alter the entire layout of the page based on the size of a device and its orientation.
