@@ -15,7 +15,8 @@
         "id": "94139c24-6ed1-4f2b-8cab-05a16f3096cf",
         "title": "Summer 2026",
         "path": "schedule/summer-2026.md",
-        "default": false
+        "default": false,
+        "commit": "f0e6f6bd372de966cbc47bbc42d52b285584527c"
       }
     ]
   },
