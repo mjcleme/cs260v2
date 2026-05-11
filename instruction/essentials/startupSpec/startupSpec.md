@@ -1,4 +1,4 @@
-# Startup deliverable - specification
+# Startup specification
 
 ![Overview](../../technologies.png)
 
