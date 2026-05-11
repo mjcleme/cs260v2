@@ -385,7 +385,11 @@
           "title": "Simon HTML",
           "path": "instruction/simon/simonHtml/simonHtml.md",
           "id": "58c0002c-5d62-44c7-be44-e773ee8a6cb8",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "83677e81-fe42-4657-be14-d4537d10f7d9"
+          ],
+          "commit": "4d3e568a257f3a1832417302e072996d995ae023"
         },
         {
           "title": "Simon HTML video",
