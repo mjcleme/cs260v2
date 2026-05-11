@@ -136,6 +136,10 @@ section:hover {
 
 You can find out more about pseudo selectors on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 
-## Example source
+## Experiment
 
-The example HTML and CSS for this instruction is available on [CodePen](https://codepen.io/leesjensen/pen/NWzByav). You are encouraged to fork and experiment with it.
+
+```masteryls
+{"id":"57403bd5-8da2-4818-8262-0ef556c5a866", "title":"Selector demo", "type":"web-page", "height":550, "file":"exampleCode/selectorDemo.html"}
+
+```
