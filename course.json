@@ -1079,7 +1079,11 @@
           "points": 0,
           "path": "instruction/demo-day-submission/demo-day-submission.md",
           "id": "27ab9b08-4dd9-4906-8fe9-507aa8d68db3",
-          "description": ""
+          "interactions": [
+            "ad1c7f8d-ce04-40de-9412-f092b40bcffa"
+          ],
+          "description": "",
+          "commit": "b018e6cb07294bbe86848ffd983e2cf5741e648e"
         }
       ]
     }
