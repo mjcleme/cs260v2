@@ -131,7 +131,7 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
 
 
 ```masteryls
-{"id":"a9ebc5d9-f459-4d83-ac6a-6d3e4e284204", "title":"CSS box model", "type":"web-page", "height":600 "file":"cssBoxModel.html"}
+{"id":"a9ebc5d9-f459-4d83-ac6a-6d3e4e284204", "title":"CSS box model", "type":"web-page", "height":600 "file":"exampleCode/cssBoxModel.html"}
 ```
 
 
