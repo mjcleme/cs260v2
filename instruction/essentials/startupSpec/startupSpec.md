@@ -48,7 +48,7 @@ When you are finished, the placeholder for your startup will be available from `
 
 
 ```masteryls
-{"id":"0c5ca9c7-adae-45c4-b601-ba0dd968fae7", "title":"Specification deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"Specification Deliverable\"\n- In the \"Specification Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+{"id":"0c5ca9c7-adae-45c4-b601-ba0dd968fae7", "title":"Startup specification deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":true, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"Specification Deliverable\"\n- In the \"Specification Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
 Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
 
 _Example: https://github.com/myaccount/startup_
