@@ -46,13 +46,13 @@ When you are finished, the placeholder for your startup will be available from `
 - 100% Your web page can be displayed using HTTPS and your domain name.
 
 
+
 ```masteryls
-{"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS", "type":"url-submission", "syncGrade":true, "autoGrade":true,"gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
-Submit the URL to your startup server.
+{"id":"0c5ca9c7-adae-45c4-b601-ba0dd968fae7", "title":"Specification deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"Specification Deliverable\"\n- In the \"Specification Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
 
-_Example: https://mydomainname.click_
+_Example: https://github.com/myaccount/startup_
 ```
-
 
 ## Go celebrate
 
