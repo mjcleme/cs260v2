@@ -1,6 +1,10 @@
 {
   "title": "cs260v2",
   "links": {},
+  "externalRefs": {
+    "canvasCourseId": "33932",
+    "canvasScheduleFileId": "7491e895-8aab-400d-9b9b-1dcdfdf78b65"
+  },
   "schedule": {
     "id": "7db53081-d129-4698-8e24-8d449cfc9f3f",
     "files": [
@@ -41,6 +45,9 @@
     },
     {
       "title": "Development essentials",
+      "externalRefs": {
+        "canvasModuleId": 386897
+      },
       "topics": [
         {
           "title": "Course Introduction",
@@ -155,10 +162,13 @@
           "id": "7cbe0e92-3536-45ad-b38c-d28f1be714b5",
           "state": "published",
           "interactions": [
-            "0c5ca9c7-adae-45c4-b601-ba0dd968fae7"
+            "6134acb2-3190-49b2-a22f-c31c1d9b51c2"
           ],
           "description": "",
-          "commit": "e1d10388cfd5fc5950c35960db6211705bea0732"
+          "commit": "6ab0e0fc255a7f48c9c8070748baf1a0019da31d",
+          "externalRefs": {
+            "canvasAssignmentId": 1353055
+          }
         },
         {
           "title": "Asking questions",
@@ -212,6 +222,9 @@
     },
     {
       "title": "Web server setup",
+      "externalRefs": {
+        "canvasModuleId": 386898
+      },
       "topics": [
         {
           "title": "Technology stack",
@@ -296,7 +309,10 @@
             "6edadab4-91ee-46f0-952e-469f42dc841e"
           ],
           "description": "",
-          "commit": "06b3661dc294eede60009dd43a665b6e7c1b6ef5"
+          "commit": "06b3661dc294eede60009dd43a665b6e7c1b6ef5",
+          "externalRefs": {
+            "canvasAssignmentId": 1353056
+          }
         }
       ]
     },
@@ -379,16 +395,9 @@
         },
         {
           "title": "🚀 Startup HTML",
-          "type": "project",
-          "points": 100,
           "path": "instruction/html/startupHtml/startupHtml.md",
           "id": "bcb184b3-7d76-4313-b701-8f6172725344",
-          "state": "published",
-          "interactions": [
-            "965bf40f-3eb6-475d-9599-189ea5172954"
-          ],
-          "description": "",
-          "commit": "f68035a24ff5c99b6e59dfffc1416709fa5913f4"
+          "state": "published"
         }
       ]
     },
