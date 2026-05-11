@@ -141,6 +141,6 @@ You can find out more about pseudo selectors on [MDN](https://developer.mozilla.
 Experiment with the different selector types including the presets and selectors that you provide.
 
 ```masteryls
-{"id":"57403bd5-8da2-4818-8262-0ef556c5a866", "title":"Selector demo", "type":"web-page", "height":700, "file":"exampleCode/selectorDemo.html"}
+{"id":"57403bd5-8da2-4818-8262-0ef556c5a866", "title":"Selector demo", "type":"web-page", "height":750, "file":"exampleCode/selectorDemo.html"}
 
 ```
