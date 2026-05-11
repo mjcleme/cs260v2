@@ -427,7 +427,9 @@
           "title": "Selectors",
           "path": "instruction/css/selectors/selectors.md",
           "id": "c89f3fee-c8f5-4e12-b17c-018ddb4cc70a",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "180a210fccbd14e13d4a6f8ecf06b10cf00beffc"
         },
         {
           "title": "Declarations",
