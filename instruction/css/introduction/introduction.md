@@ -134,9 +134,6 @@ CSS defines everything as boxes. When you apply styles, you are applying them to
 {"id":"a9ebc5d9-f459-4d83-ac6a-6d3e4e284204", "title":"CSS box model", "type":"web-page", "height":600 "file":"exampleCode/cssBoxModel.html"}
 ```
 
-
-![CSS box model](cssBoxModel.jpg)
-
 By default, the width and height of an element is defined by the width and height of the content box. You can change the `box-sizing` CSS property from the default value of `content-box` to `border-box` in order to redefine the width and height to also include the padding and the border. This often makes it easier to style elements when their visual size matches their actual size.
 
 ## CSS Versions
