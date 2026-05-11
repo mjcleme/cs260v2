@@ -46,7 +46,7 @@
     {
       "title": "Development essentials",
       "externalRefs": {
-        "canvasModuleId": 386893
+        "canvasModuleId": 386895
       },
       "topics": [
         {
@@ -167,7 +167,7 @@
           "description": "",
           "commit": "6ab0e0fc255a7f48c9c8070748baf1a0019da31d",
           "externalRefs": {
-            "canvasAssignmentId": 1353051
+            "canvasAssignmentId": 1353053
           }
         },
         {
@@ -223,7 +223,7 @@
     {
       "title": "Web server setup",
       "externalRefs": {
-        "canvasModuleId": 386894
+        "canvasModuleId": 386896
       },
       "topics": [
         {
@@ -311,7 +311,7 @@
           "description": "",
           "commit": "06b3661dc294eede60009dd43a665b6e7c1b6ef5",
           "externalRefs": {
-            "canvasAssignmentId": 1353052
+            "canvasAssignmentId": 1353054
           }
         }
       ]
