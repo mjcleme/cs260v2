@@ -7,7 +7,7 @@ Learning HTML is more than memorizing a list of tags; it is about building a rob
 
 
 ```masteryls
-{"id":"cd76a31c-c450-4d5a-a777-c8e86643971f", "title":"Structural elements", "type":"web-page" "height":1200 }
+{"id":"cd76a31c-c450-4d5a-a777-c8e86643971f", "title":"Structural elements", "type":"web-page" "height":500 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -261,10 +261,12 @@ To explore this structure effectively, you should focus on the relationship betw
 ## Interactive experimentation
 
 ```masteryls
-{"id":"b9b2c3d4-e5f6-7890-1234-567890123460", "title":"Page structure", "gradingCriteria":"Properly structured HTML with CSS to clarify document structure.", "type":"ai-web-page", "height":420}
-**Initial Prompt**: Create an HTML page that does not have any styling but demonstrates the common structural elements.
+{"id":"b9b2c3d4-e5f6-7890-1234-567890123460", "title":"Page structure", "gradingCriteria":"Properly structured HTML with CSS to clarify document structure.", "type":"ai-web-page", "height":280}
+Using the **AI assistance** dialog, supply the following prompts:
 
-**Styled Prompt**: Create an HTML page that uses CSS to clarify the structure of the document.
+1. **Initial Prompt**: Create an HTML page that does not have any styling but demonstrates the common structural elements.
+
+2. **Styled Prompt**: Create an HTML page that uses CSS to clarify the structure of the document.
 
 Alter the generated HTML and experiment. Use the **Discuss** feature to explain the meaning of the different elements.
 ```
