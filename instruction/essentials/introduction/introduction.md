@@ -2,7 +2,7 @@
 
 <!-- ![Web programming](../../webprogrammingcover.jpg) -->
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTYk3qoFAMJY24kBCrPROl6l6stEAGFSkQKbj3k53JySMiZ240WPGMdIhSf6x35Drm3x6r1CFRhDAYP/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTYk3qoFAMJY24kBCrPROl6l6stEAGFSkQKbj3k53JySMiZ240WPGMdIhSf6x35Drm3x6r1CFRhDAYP/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Web programming skills are among the most valuable ones that you can learn within the field of computer science. With web programming you can construct applications that are accessible on phones, tablets, desktops, kiosks, car dashboards, and even refrigerators. You can provide data and services to the entire planet. Every business and industry needs what web programming provides. Taking the time to acquire these skills, no matter what career you eventually pursue, will open doors to you that otherwise would be inaccessible.
 
