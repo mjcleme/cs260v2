@@ -270,7 +270,7 @@ Using the **AI assistance** dialog, supply the following prompts:
 
 Alter the generated HTML and experiment. Use the **Discuss** feature to explain the meaning of the different elements.
 
-~~~
+~~~html
   <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3ee,#0f172a);color:#ecfeff;font-family:ui-monospace,monospace;">
     <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
   </body>
