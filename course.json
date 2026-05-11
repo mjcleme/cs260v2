@@ -10,10 +10,11 @@
     "files": [
       {
         "id": "7491e895-8aab-400d-9b9b-1dcdfdf78b65",
-        "title": "Schedule",
+        "title": "📅 Winter 2026 Schedule",
         "path": "schedule/schedule.md",
         "default": true,
-        "state": "published"
+        "state": "published",
+        "commit": "4d0e48559daa107fca37563ebb8da0662ab0a638"
       }
     ]
   },
