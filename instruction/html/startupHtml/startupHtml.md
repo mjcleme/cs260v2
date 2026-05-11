@@ -102,7 +102,7 @@ Doing this will make this deliverable of your startup available from `https://st
 ```masteryls
 
 ```masteryls
-{"id":"f92b8dce-237d-427c-b781-b25482026e5f, "title":"Startup HTML deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"HTML Deliverable\"\n- In the \"HTML Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+{"id":"f92b8dce-237d-427c-b781-b25482026e5f", "title":"Startup HTML deliverable", "type":"url-submission", "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named \"HTML Deliverable\"\n- In the \"HTML Deliverable\" section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
 Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
 
 _Example: https://github.com/myaccount/startup_
