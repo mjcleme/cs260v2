@@ -47,7 +47,7 @@
     {
       "title": "Development essentials",
       "externalRefs": {
-        "canvasModuleId": 386905
+        "canvasModuleId": 387308
       },
       "topics": [
         {
@@ -158,7 +158,7 @@
           "description": "",
           "commit": "18fc04b7c01eeb891b929d95e34bb321a29e2c6a",
           "externalRefs": {
-            "canvasAssignmentId": 1353107
+            "canvasAssignmentId": 1354227
           }
         },
         {
@@ -214,7 +214,7 @@
     {
       "title": "Web server setup",
       "externalRefs": {
-        "canvasModuleId": 386906
+        "canvasModuleId": 387309
       },
       "topics": [
         {
@@ -302,7 +302,7 @@
           "description": "",
           "commit": "ae7b17aa15e5792af6da1808de3a5ceb4b357682",
           "externalRefs": {
-            "canvasAssignmentId": 1353108
+            "canvasAssignmentId": 1354228
           }
         }
       ]
@@ -310,7 +310,7 @@
     {
       "title": "HTML",
       "externalRefs": {
-        "canvasModuleId": 386907
+        "canvasModuleId": 387310
       },
       "topics": [
         {
@@ -404,13 +404,16 @@
           "description": "",
           "commit": "0df300cee1c30a517de33e3c45144ad5a05f3ddc",
           "externalRefs": {
-            "canvasAssignmentId": 1353109
+            "canvasAssignmentId": 1354229
           }
         }
       ]
     },
     {
       "title": "CSS",
+      "externalRefs": {
+        "canvasModuleId": 387311
+      },
       "topics": [
         {
           "title": "CSS introduction",
@@ -520,12 +523,18 @@
             "b249b114-0510-4280-bd69-06e557e7bbd4"
           ],
           "description": "",
-          "commit": "52b3ec3d0bdff7202d19028ca7168b247713c3c1"
+          "commit": "52b3ec3d0bdff7202d19028ca7168b247713c3c1",
+          "externalRefs": {
+            "canvasAssignmentId": 1354230
+          }
         }
       ]
     },
     {
       "title": "JavaScript & Web frameworks",
+      "externalRefs": {
+        "canvasModuleId": 387312
+      },
       "topics": [
         {
           "title": "JavaScript introduction",
@@ -620,7 +629,10 @@
             "8a3b15ea-b4cf-4a2c-a151-3e2c8c27ecd5"
           ],
           "description": "",
-          "commit": "023c8e15fd68a22e8a2d8a436a59775636f00b82"
+          "commit": "023c8e15fd68a22e8a2d8a436a59775636f00b82",
+          "externalRefs": {
+            "canvasAssignmentId": 1354231
+          }
         },
         {
           "title": "JavaScript Console",
@@ -713,7 +725,10 @@
             "fe301f80-87fe-4afd-86af-492a6de0167f"
           ],
           "description": "",
-          "commit": "aa6c208199e59566692e6844ef2dc4ab5c7ff4a3"
+          "commit": "aa6c208199e59566692e6844ef2dc4ab5c7ff4a3",
+          "externalRefs": {
+            "canvasAssignmentId": 1354232
+          }
         },
         {
           "title": "☑ Promises",
@@ -779,6 +794,9 @@
     },
     {
       "title": "HTTP service",
+      "externalRefs": {
+        "canvasModuleId": 387313
+      },
       "topics": [
         {
           "title": "Web servers",
@@ -899,12 +917,18 @@
             "ba062a75-fe02-4b7f-9e05-326a8532fcc6"
           ],
           "description": "",
-          "commit": "9096a8702789ae792a5ff931a2e45b50f0ceb71f"
+          "commit": "9096a8702789ae792a5ff931a2e45b50f0ceb71f",
+          "externalRefs": {
+            "canvasAssignmentId": 1354233
+          }
         }
       ]
     },
     {
       "title": "Data and authentication services",
+      "externalRefs": {
+        "canvasModuleId": 387314
+      },
       "topics": [
         {
           "title": "Deployment",
@@ -957,7 +981,10 @@
             "90f3f025-d33e-4972-a341-57e3ebcb8991"
           ],
           "description": "",
-          "commit": "77ea8641357f0c695e983fc332da9f495ceb4686"
+          "commit": "77ea8641357f0c695e983fc332da9f495ceb4686",
+          "externalRefs": {
+            "canvasAssignmentId": 1354234
+          }
         },
         {
           "title": "Backend testing",
@@ -975,6 +1002,9 @@
     },
     {
       "title": "WebSocket",
+      "externalRefs": {
+        "canvasModuleId": 387315
+      },
       "topics": [
         {
           "title": "WebSocket",
@@ -1021,7 +1051,10 @@
             "ecdf0aea-adc2-49b2-a624-f8649aaf165f"
           ],
           "description": "",
-          "commit": "1d5e64326d3274b1a8ae8fae4a8e6dc4baa599d1"
+          "commit": "1d5e64326d3274b1a8ae8fae4a8e6dc4baa599d1",
+          "externalRefs": {
+            "canvasAssignmentId": 1354235
+          }
         }
       ]
     },
@@ -1050,6 +1083,9 @@
     },
     {
       "title": "Assorted topics",
+      "externalRefs": {
+        "canvasModuleId": 387316
+      },
       "topics": [
         {
           "title": "TypeScript",
@@ -1100,7 +1136,10 @@
             "ad1c7f8d-ce04-40de-9412-f092b40bcffa"
           ],
           "description": "",
-          "commit": "0a159c2a9278bf53cb6f91f6a3b7c64730fa3cc3"
+          "commit": "0a159c2a9278bf53cb6f91f6a3b7c64730fa3cc3",
+          "externalRefs": {
+            "canvasAssignmentId": 1354236
+          }
         },
         {
           "title": "Simon PWA",
