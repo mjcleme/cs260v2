@@ -80,4 +80,62 @@ CSS defines multiple ways to describe color, ranging from representations famili
 
 ## Experiment
 
+
+```masteryls
+{"id":"49513c22-eef3-47e6-8e87-3531954e7660", "title":"CSS Experiment", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Image has a css transformation that rotates it 180 degrees. The body background is blue", "height":400 }
+The following demonstrates the use of many of the above declarations. Take some time to experiment with it. Make sure you try modifying different selectors and declarations. Try different unit representations. Rotate the image 180 degrees and make the body have a background color of blue.
+
+~~~html
+<style>
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: #3f3f76;
+  columns: 3;
+  column-rule: solid thin black;
+  background: hsl(180, 0%, 90%);
+  box-shadow: 5px 5px 5px gray;
+  font: 1.1em sans-serif;
+  margin: 10px 0;
+  max-width: 7in;
+  padding: 1em 1em;
+  text-align: justify;
+}
+
+div {
+  background: linear-gradient(to bottom, gray, hsl(225deg 100% 50%));
+  width: 2in;
+  height: 2in;
+  border-radius: 50%;
+  opacity: 30%;
+  position: absolute;
+  top: 1in;
+  left: 25vw;
+  z-index: 1000;
+  transform: rotate(0.15turn);
+}
+
+img {
+  filter: grayscale(50%);
+  cursor: grab;
+  width: 4in;
+}
+</style>
+
+<body>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div>
+  </div>
+  <img src="https://images.pexels.com:443/photos/164170/pexels-photo-164170.jpeg" />
+
+</body>
+~~~
+```
+
+
 This [CodePen](https://codepen.io/leesjensen/pen/rNKrgKQ) demonstrates the use of many of the above declarations. Take some time to experiment with it. Make sure you try modifying different selectors and declarations. Try different unit representations.
