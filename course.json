@@ -1000,7 +1000,11 @@
           "path": "instruction/webServices/startupWebSocket/startupWebSocket.md",
           "id": "83386005-5844-4ba7-a92e-5e3f6b2d31ad",
           "state": "published",
-          "description": ""
+          "interactions": [
+            "ecdf0aea-adc2-49b2-a624-f8649aaf165f"
+          ],
+          "description": "",
+          "commit": "1d5e64326d3274b1a8ae8fae4a8e6dc4baa599d1"
         }
       ]
     },
