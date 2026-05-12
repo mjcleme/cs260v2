@@ -931,9 +931,12 @@
         },
         {
           "title": "🚀 Startup DB",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webServices/startupDb/startupDb.md",
           "id": "ae723843-89a4-4fae-9651-c9ffa9d79eb9",
-          "state": "published"
+          "state": "published",
+          "description": ""
         },
         {
           "title": "Backend testing",
