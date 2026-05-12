@@ -74,6 +74,14 @@ Doing this will make this deliverable of your startup available from `https://st
   - 10% Use of a imported font
   - 10% Use of different types of selectors including element, class, ID, and pseudo selectors
 
+
+```masteryls
+{"id":"b249b114-0510-4280-bd69-06e557e7bbd4", "title":"Startup CSS deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":false, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named 'CSS Deliverable'\n- In the 'CSS Deliverable' section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
+
+_Example: https://github.com/myaccount/startup_
+```
+
 ## Go celebrate
 
 You did it! This is a significant milestone. Time to grab some friends, show them what you did, and celebrate with cookies 🍪.
