@@ -35,4 +35,9 @@ p {
 }
 ```
 
-This [CodePen](https://codepen.io/leesjensen/pen/zYaLgVW) provides an example of importing fonts.
+
+```masteryls
+{"id":"13b69025-c7e6-403a-aae3-a463a1f5f7ec", "title":"Fun with fonts", "type":"ai-web-page", "allowAiPrompt":true, "syncGrade":false, "autoGrade":false, "gradingCriteria":"The roboto font is used", "height":500, "file":"fontDemo.html" }
+Interactively create an HTML page from your prompt.
+```
+
