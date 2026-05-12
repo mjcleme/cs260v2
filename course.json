@@ -511,12 +511,15 @@
         },
         {
           "title": "🚀 Startup CSS",
+          "type": "project",
+          "points": 100,
           "path": "instruction/css/startupCss/startupCss.md",
           "id": "ce71d22f-df42-4835-9d7c-a3afe572dc88",
           "state": "published",
           "interactions": [
             "b249b114-0510-4280-bd69-06e557e7bbd4"
           ],
+          "description": "",
           "commit": "52b3ec3d0bdff7202d19028ca7168b247713c3c1"
         }
       ]
