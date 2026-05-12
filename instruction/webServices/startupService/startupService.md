@@ -168,6 +168,14 @@ This [video](https://youtu.be/lr6rmjUhOc0) may help you understand how to develo
   - 25% - Supports registration, login, logout, and an endpoint that requires an auth token
   - 5% - Uses BCrypt to hash passwords
 
+
+```masteryls
+{"id":"ba062a75-fe02-4b7f-9e05-326a8532fcc6", "title":"Startup Service deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":false, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named 'Service Deliverable'\n- In the 'Service Deliverable' section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
+
+_Example: https://github.com/myaccount/startup_
+```
+
 ## Go celebrate
 
 You did it! This is a significant milestone. Time to grab some friends, show them what you did, and celebrate by watching a movie with popcorn 🍿.
