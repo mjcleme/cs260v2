@@ -80,6 +80,13 @@ CSS defines multiple ways to describe color, ranging from representations famili
 
 ## Experiment
 
+Use the **Declaration Playground** to get familiar with all of the different CSS properties and their possible values. Make sure you try and insert custom values.
+
+```masteryls
+{"id":"2cefac4c-9fc2-44da-8c70-cd206af592c2", "title":"Web page", "type":"web-page", "height":700, "file":"declarationDemo.html"}
+```
+
+Now that you are familiar with the different CSS declarations, manipulate the following experiment to bring everything together.
 
 ```masteryls
 {"id":"49513c22-eef3-47e6-8e87-3531954e7660", "title":"CSS Experiment", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Image has a css transformation that rotates it 180 degrees. The body background is blue", "height":400 }
