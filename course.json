@@ -702,9 +702,12 @@
         },
         {
           "title": "🚀 Startup React P2: Reactivity",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webFrameworks/startupReact/startupReactP2.md",
           "id": "0997511e-7167-46df-8ce8-6d2530513332",
-          "state": "published"
+          "state": "published",
+          "description": ""
         },
         {
           "title": "☑ Promises",
