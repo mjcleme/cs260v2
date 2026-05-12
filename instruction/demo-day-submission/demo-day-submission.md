@@ -1,6 +1,6 @@
 # Demo Day
 
-## ☑ Assignment - Optional
+## ☑ Assignment - `Optional`
 
 On the last day of class we will celebrate your amazing work as part of a demo day party where you have the opportunity to showcase your startup application. If you wish to participate then **submit the URL** of your startup application below.
 
