@@ -66,6 +66,14 @@ Doing this will make this deliverable of your startup available from `https://st
   - 50% - Stores application data in MongoDB
   - 50% - Stores and retrieves credentials in MongoDB
 
+
+```masteryls
+{"id":"90f3f025-d33e-4972-a341-57e3ebcb8991", "title":"Startup DB deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":false, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named 'DB Deliverable'\n- In the 'DB Deliverable' section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
+
+_Example: https://github.com/myaccount/startup_
+```
+
 ## Go celebrate
 
 You did it! This is a significant milestone. Time to grab some friends, show them what you did, and celebrate by making some pancakes 🥞.
