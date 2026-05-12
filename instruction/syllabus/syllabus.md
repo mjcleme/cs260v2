@@ -8,7 +8,7 @@ Introduction to building and deploying full stack web applications using core te
 
 We use [MasteryLS](https://masteryls.com) as the primary learning system for this course. MasteryLS provides efficient content navigation, search, and consistent structure. MasteryLS also enables extensive AI support for personalized learning and automated feedback. 
 
- [Canvas](https://byu.instructure.com) is automatically synced with MasterLS so that it can serve purely as a gradebook.
+ [Canvas](https://byu.instructure.com) is automatically synced with MasteryLS so that it can serve purely as a gradebook.
 
 ## Course Content Repository
 
