@@ -81,6 +81,15 @@ Doing this will make this deliverable of your startup available from `https://st
   - 70% Multiple react components that contain your HTML and CSS. No reactivity is required at this point.
   - 20% React router
 
+
+```masteryls
+{"id":"f0bce310-90f0-418c-9107-9c20f2d37ef3", "title":Startup React P1: Routing deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":false, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named 'Startup React P1: Routing deliverable'\n- In the 'Startup React P1: Routing deliverable' section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
+
+_Example: https://github.com/myaccount/startup_
+```
+
+
 ## Go celebrate
 
 With the port to React your startup should now feel like a modern web application. Time to celebrate. I'm thinking lollipops. 🍭
