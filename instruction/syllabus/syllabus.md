@@ -16,13 +16,13 @@ All of the content for this course is maintained in a [GitHub repository](https:
 
 If you find errors in the content then we encourage you to fork the content repository and [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork). That way everyone benefits from your work, and you are listed as a contributor on a significant open source project.
 
-##  Prerequisites
+## Prerequisites
 
 CS 142 or 111
 
 This course covers Web Programming at an introductory level. You must complete CS 142 or CS 111 as a prerequisite. By the end of this course you will know how to create and host a full stack web application.
 
-##  Course Learning Outcomes
+## Course Learning Outcomes
 
 **Full-Stack Web Application Development**: 
 Design and implement interactive, full-stack web applications using modern web technologies, applying computational thinking and user-centered design to solve meaningful problems that serve others.
@@ -45,7 +45,7 @@ You do not need to purchase any textbooks for this class. All instruction materi
 
 To host your web applications, you are required to rent a web server and purchase a domain name from Amazon Web Services (AWS). The cost for this is estimated to be between $20 and $60 depending on your use of AWS and how often you have your services running.
 
-##  Technology Needs
+## Technology Needs
 
 You will need a reasonably current computer to complete the programming projects for this course. A minimum of 8 gigabytes of RAM is recommended, as well several gigabytes of free disk space.
 
@@ -132,7 +132,7 @@ In order to demonstrate original authorship, you must:
 ```
 
 
-##   Grade Scheme
+## Grade Scheme
 
 The following grading standards will be used in this class:
 
@@ -151,7 +151,7 @@ The following grading standards will be used in this class:
 | D-    | < 63.0 % to 60.0% |
 | F     | < 60.0 % to 0.0%  |
 
-##  BYU Online Policies
+## BYU Online Policies
 
 ### Statement on Belonging 
 
