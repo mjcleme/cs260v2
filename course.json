@@ -516,13 +516,6 @@
           "state": "published",
           "interactions": [],
           "commit": "25b50b1f2e0dbfb993d548144f29ef06d8777cea"
-        },
-        {
-          "title": "Selector demo",
-          "type": "embedded",
-          "path": "https://raw.githubusercontent.com/byucsstudent/cs260v2/refs/heads/main/instruction/css/selectors/exampleCode/selectorDemo.html",
-          "id": "26e31619-80ec-44dd-921b-96616496314e",
-          "description": "https://raw.githubusercontent.com/byucsstudent/cs260v2/refs/heads/main/instruction/css/selectors/exampleCode/selectorDemo.html"
         }
       ]
     },
