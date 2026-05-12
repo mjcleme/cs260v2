@@ -35,9 +35,15 @@ p {
 }
 ```
 
+## Experiment
 
 ```masteryls
-{"id":"13b69025-c7e6-403a-aae3-a463a1f5f7ec", "title":"Fun with fonts", "type":"ai-web-page", "allowAiPrompt":true, "syncGrade":false, "autoGrade":false, "gradingCriteria":"The roboto font is used", "height":500, "file":"fontDemo.html" }
-Interactively create an HTML page from your prompt.
+{"id":"2dc5bf31-0a5c-475b-86f6-224c2d893c6f", "title":"Web page", "type":"web-page", "height":800, "file":"fontDemoComplex.html"}
+```
+
+
+```masteryls
+{"id":"13b69025-c7e6-403a-aae3-a463a1f5f7ec", "title":"Fun with fonts", "type":"ai-web-page", "allowAiPrompt":true, "syncGrade":false, "autoGrade":false, "gradingCriteria":"The roboto font is used", "height":200, "file":"fontDemo.html" }
+Modify the following HTML to include other fonts. Feel free to use the **AI assistance** if you want to build a complex font demo. Make sure your final submission renders something with the Roboto font.
 ```
 
