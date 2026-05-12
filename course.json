@@ -611,10 +611,13 @@
         },
         {
           "title": "🚀 Startup React P1: Routing",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webFrameworks/startupReact/startupReactP1.md",
           "id": "a0744c55-1f96-424b-81fe-570ee3870963",
           "state": "published",
           "interactions": [],
+          "description": "",
           "commit": "291d5f66c67bd2c106d1d3908b76d61978733511"
         },
         {
