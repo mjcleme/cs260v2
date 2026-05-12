@@ -995,9 +995,12 @@
         },
         {
           "title": "🚀 Startup WebSocket",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webServices/startupWebSocket/startupWebSocket.md",
           "id": "83386005-5844-4ba7-a92e-5e3f6b2d31ad",
-          "state": "published"
+          "state": "published",
+          "description": ""
         }
       ]
     },
