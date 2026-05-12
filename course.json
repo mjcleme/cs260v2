@@ -888,10 +888,13 @@
         },
         {
           "title": "🚀 Startup Service",
+          "type": "project",
+          "points": 100,
           "path": "instruction/webServices/startupService/startupService.md",
           "id": "3abe736d-a06a-4ac5-aabe-a0c5d9e4e4a2",
           "state": "published",
           "interactions": [],
+          "description": "",
           "commit": "031c66730fb2430527b91cb3f41172c4bbc45b87"
         }
       ]
