@@ -22,7 +22,7 @@
     {
       "title": "Course info",
       "externalRefs": {
-        "canvasModuleId": 387370
+        "canvasModuleId": 387380
       },
       "topics": [
         {
@@ -35,7 +35,7 @@
           ],
           "commit": "da8aaf4ffd95477977f6fe4274df7a71d26b304b",
           "externalRefs": {
-            "canvasPageId": 1557568
+            "canvasPageId": 1557572
           }
         },
         {
@@ -48,7 +48,7 @@
           ],
           "commit": "116e194fc81d42308e939509d677d949adf14170",
           "externalRefs": {
-            "canvasPageId": 1557569
+            "canvasPageId": 1557573
           }
         }
       ]
@@ -56,7 +56,7 @@
     {
       "title": "Development essentials",
       "externalRefs": {
-        "canvasModuleId": 387371
+        "canvasModuleId": 387381
       },
       "topics": [
         {
@@ -167,7 +167,7 @@
           "description": "",
           "commit": "18fc04b7c01eeb891b929d95e34bb321a29e2c6a",
           "externalRefs": {
-            "canvasAssignmentId": 1354345
+            "canvasAssignmentId": 1354356
           }
         },
         {
@@ -223,7 +223,7 @@
     {
       "title": "Web server setup",
       "externalRefs": {
-        "canvasModuleId": 387372
+        "canvasModuleId": 387382
       },
       "topics": [
         {
@@ -311,7 +311,7 @@
           "description": "",
           "commit": "ae7b17aa15e5792af6da1808de3a5ceb4b357682",
           "externalRefs": {
-            "canvasAssignmentId": 1354346
+            "canvasAssignmentId": 1354357
           }
         }
       ]
@@ -319,7 +319,7 @@
     {
       "title": "HTML",
       "externalRefs": {
-        "canvasModuleId": 387373
+        "canvasModuleId": 387383
       },
       "topics": [
         {
@@ -413,7 +413,7 @@
           "description": "",
           "commit": "0df300cee1c30a517de33e3c45144ad5a05f3ddc",
           "externalRefs": {
-            "canvasAssignmentId": 1354347
+            "canvasAssignmentId": 1354358
           }
         }
       ]
@@ -421,7 +421,7 @@
     {
       "title": "CSS",
       "externalRefs": {
-        "canvasModuleId": 387374
+        "canvasModuleId": 387384
       },
       "topics": [
         {
@@ -534,7 +534,7 @@
           "description": "",
           "commit": "52b3ec3d0bdff7202d19028ca7168b247713c3c1",
           "externalRefs": {
-            "canvasAssignmentId": 1354348
+            "canvasAssignmentId": 1354360
           }
         }
       ]
@@ -542,7 +542,7 @@
     {
       "title": "JavaScript & Web frameworks",
       "externalRefs": {
-        "canvasModuleId": 387375
+        "canvasModuleId": 387385
       },
       "topics": [
         {
@@ -640,7 +640,7 @@
           "description": "",
           "commit": "023c8e15fd68a22e8a2d8a436a59775636f00b82",
           "externalRefs": {
-            "canvasAssignmentId": 1354349
+            "canvasAssignmentId": 1354361
           }
         },
         {
@@ -736,7 +736,7 @@
           "description": "",
           "commit": "aa6c208199e59566692e6844ef2dc4ab5c7ff4a3",
           "externalRefs": {
-            "canvasAssignmentId": 1354350
+            "canvasAssignmentId": 1354362
           }
         },
         {
@@ -804,7 +804,7 @@
     {
       "title": "HTTP service",
       "externalRefs": {
-        "canvasModuleId": 387376
+        "canvasModuleId": 387386
       },
       "topics": [
         {
@@ -928,7 +928,7 @@
           "description": "",
           "commit": "9096a8702789ae792a5ff931a2e45b50f0ceb71f",
           "externalRefs": {
-            "canvasAssignmentId": 1354351
+            "canvasAssignmentId": 1354363
           }
         }
       ]
@@ -936,7 +936,7 @@
     {
       "title": "Data and authentication services",
       "externalRefs": {
-        "canvasModuleId": 387377
+        "canvasModuleId": 387387
       },
       "topics": [
         {
@@ -992,7 +992,7 @@
           "description": "",
           "commit": "77ea8641357f0c695e983fc332da9f495ceb4686",
           "externalRefs": {
-            "canvasAssignmentId": 1354352
+            "canvasAssignmentId": 1354364
           }
         },
         {
@@ -1012,7 +1012,7 @@
     {
       "title": "WebSocket",
       "externalRefs": {
-        "canvasModuleId": 387378
+        "canvasModuleId": 387388
       },
       "topics": [
         {
@@ -1062,7 +1062,7 @@
           "description": "",
           "commit": "1d5e64326d3274b1a8ae8fae4a8e6dc4baa599d1",
           "externalRefs": {
-            "canvasAssignmentId": 1354353
+            "canvasAssignmentId": 1354365
           }
         }
       ]
@@ -1093,7 +1093,7 @@
     {
       "title": "Assorted topics",
       "externalRefs": {
-        "canvasModuleId": 387379
+        "canvasModuleId": 387389
       },
       "topics": [
         {
@@ -1147,7 +1147,7 @@
           "description": "",
           "commit": "0a159c2a9278bf53cb6f91f6a3b7c64730fa3cc3",
           "externalRefs": {
-            "canvasAssignmentId": 1354354
+            "canvasAssignmentId": 1354366
           }
         },
         {
@@ -1160,7 +1160,10 @@
           "title": "☑ Wrap up",
           "path": "instruction/webFrameworks/wrapUp/wrapUp.md",
           "id": "9f5ce2b1-4812-4b5b-94e2-eef6257e01c1",
-          "state": "published"
+          "state": "published",
+          "externalRefs": {
+            "canvasPageId": 1557575
+          }
         }
       ]
     }
