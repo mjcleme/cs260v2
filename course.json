@@ -511,16 +511,13 @@
         },
         {
           "title": "🚀 Startup CSS",
-          "type": "project",
-          "points": 100,
           "path": "instruction/css/startupCss/startupCss.md",
           "id": "ce71d22f-df42-4835-9d7c-a3afe572dc88",
           "state": "published",
           "interactions": [
-            "b249b114-0510-4280-bd69-06e557e7bbd4"
+            "93157eec-f124-4e3d-997b-807c8533a979"
           ],
-          "description": "",
-          "commit": "e3cf7a9704b8f964f3bf562b8451cc579d900dbd"
+          "commit": "a75f431c2aec803839380877a7c20c32938b57c6"
         }
       ]
     },
@@ -611,14 +608,11 @@
         },
         {
           "title": "🚀 Startup React P1: Routing",
-          "type": "project",
-          "points": 100,
           "path": "instruction/webFrameworks/startupReact/startupReactP1.md",
           "id": "a0744c55-1f96-424b-81fe-570ee3870963",
           "state": "published",
           "interactions": [],
-          "description": "",
-          "commit": "291d5f66c67bd2c106d1d3908b76d61978733511"
+          "commit": "63418295ae7d070a37aec7752f43d648ce0df533"
         },
         {
           "title": "JavaScript Console",
@@ -702,16 +696,9 @@
         },
         {
           "title": "🚀 Startup React P2: Reactivity",
-          "type": "project",
-          "points": 100,
           "path": "instruction/webFrameworks/startupReact/startupReactP2.md",
           "id": "0997511e-7167-46df-8ce8-6d2530513332",
-          "state": "published",
-          "interactions": [
-            "fe301f80-87fe-4afd-86af-492a6de0167f"
-          ],
-          "description": "",
-          "commit": "36e2aea284ca36dc3024d49d59a8816c8af61939"
+          "state": "published"
         },
         {
           "title": "☑ Promises",
@@ -888,13 +875,10 @@
         },
         {
           "title": "🚀 Startup Service",
-          "type": "project",
-          "points": 100,
           "path": "instruction/webServices/startupService/startupService.md",
           "id": "3abe736d-a06a-4ac5-aabe-a0c5d9e4e4a2",
           "state": "published",
           "interactions": [],
-          "description": "",
           "commit": "031c66730fb2430527b91cb3f41172c4bbc45b87"
         }
       ]
