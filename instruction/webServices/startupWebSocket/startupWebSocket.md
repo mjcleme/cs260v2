@@ -71,6 +71,14 @@ Doing this will make this deliverable of your startup available from `https://st
   - 20% - WebSocket data displayed in the application interface
   - 20% - The application is fully functional. There are no mocks or placeholder features.
 
+
+```masteryls
+{"id":"ecdf0aea-adc2-49b2-a624-f8649aaf165f", "title":"Startup WebSocket deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":false, "urlPrompt":"Convert the user provided URL to create a URL that is the path to the raw GitHub content for the README.md file.", "gradingCriteria":"- the content contains a section named 'WebSocket Deliverable'\n- In the 'WebSocket Deliverable' section there is a checklist of rubric items.\n- Create a score based on the number of checked items and the description of what was done for each item."}
+Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
+
+_Example: https://github.com/myaccount/startup_
+```
+
 ## Go celebrate
 
 You did it! This is a significant milestone. You have completely implemented your startup! You are now an official Startup Founder. Time to grab some friends and throw a **Going Live** party. Show them what you have accomplished, and celebrate with sushi for everyone 🍣.
