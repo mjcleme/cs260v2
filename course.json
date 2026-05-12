@@ -707,7 +707,11 @@
           "path": "instruction/webFrameworks/startupReact/startupReactP2.md",
           "id": "0997511e-7167-46df-8ce8-6d2530513332",
           "state": "published",
-          "description": ""
+          "interactions": [
+            "fe301f80-87fe-4afd-86af-492a6de0167f"
+          ],
+          "description": "",
+          "commit": "36e2aea284ca36dc3024d49d59a8816c8af61939"
         },
         {
           "title": "☑ Promises",
