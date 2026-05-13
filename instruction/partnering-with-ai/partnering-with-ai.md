@@ -81,9 +81,9 @@ According to our AI policy, you must be able to explain every line of code you s
 Under the 'Partner' level AI policy, which of the following scenarios is considered an acceptable use of AI in this course?
 
 - [ ] Asking the AI to generate the entire project and submitting it immediately because it works.
-- [ ] Using AI to write a function, then deleting the comments it generated so it looks like you wrote it yourself.
+- [ ] Using AI to write a function, then tweaking what it generated so it looks like you wrote it yourself.
 - [x] Using AI to suggest an approach for a database schema, then asking it to explain why it chose certain data types before implementing it.
-- [ ] Telling the instructor that you don't know how a specific part of your code works because "the AI wrote that part."
+- [ ] Telling the instructor that you don't know how a specific part of your code works because "I didn't write that part."
 ```
 
 ## Why Use AI to Build Web Apps?
