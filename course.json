@@ -506,7 +506,11 @@
           "title": "Grid",
           "path": "instruction/css/grid/grid.md",
           "id": "abe420f5-495a-4727-8931-0cea766ea843",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "7bcb0c87-2acf-4c83-8134-20059674a5a2"
+          ],
+          "commit": "5b5c1d2159ea882a6dd9e8421e4a02daf67d5e28"
         },
         {
           "title": "☑ Flex",
