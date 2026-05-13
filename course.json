@@ -896,7 +896,9 @@
           "title": "Web Services Introduction",
           "path": "instruction/webServices/introduction/introduction.md",
           "id": "a7579774-12fd-46f0-acb4-079134627322",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "21f2be42024223e998cc73d71ffa9ef73516e623"
         },
         {
           "title": "URL",
