@@ -10,7 +10,7 @@ Add CSS to the provided HTML to style it so that it looks like the following.
 
 
 ```masteryls
-{"id":"37a86410-ae62-446a-a8d4-69325c4a0157", "title":"CSS practice", "type":"ai-web-page", "allowAiPrompt":true, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Make the background for the body black, header dark gray, and sections gray. Color on the header text. Bottom border to the h1 text. Font is sans-serif font. Right align the footer. Animatation on the section elements.", "height":500 }
+{"id":"37a86410-ae62-446a-a8d4-69325c4a0157", "title":"CSS practice", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Make the background for the body black, header dark gray, and sections gray. Color on the header text. Bottom border to the h1 text. Font is sans-serif font. Right align the footer. Animatation on the section elements.", "height":500 }
 1. Make the background for the body black, header dark gray, and sections gray.
 2. Add color to the header text.
 3. Add a bottom border to the h1 text.
