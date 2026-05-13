@@ -720,7 +720,9 @@
           "title": "JavaScript Console",
           "path": "instruction/javascript/console/console.md",
           "id": "a200c81b-f154-4699-beb7-8f9142ad164a",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "4cad509836710a1209446981d8733a8979de47c8"
         },
         {
           "title": "Functions",
