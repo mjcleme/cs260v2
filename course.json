@@ -467,7 +467,11 @@
           "title": "Animation",
           "path": "instruction/css/animation/animation.md",
           "id": "65265215-42bc-4199-8a3c-0bb3c5f65073",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "37433cdd-9dd1-4009-857a-f36bd4c97ab6"
+          ],
+          "commit": "7b71259eede85b5240a291a5ada9e8f265e99372"
         },
         {
           "title": "Debugging CSS",
