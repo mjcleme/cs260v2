@@ -552,7 +552,9 @@
           "title": "Tailwind",
           "path": "instruction/css/tailwind/tailwind.md",
           "id": "29c105f5-3d98-4743-8947-3bad1efd169b",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "59ae6896ccc955d9900c86d0feecce2ad7f1b3ea"
         },
         {
           "title": "Simon CSS",
