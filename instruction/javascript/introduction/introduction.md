@@ -1,8 +1,6 @@
 # JavaScript introduction
 
-![ES Logo](esLogo.png)
-
-![jsLogo.png](jsLogo.png)
+![javaScriptlogo.png](javaScriptlogo.png)
 
 📖 **Deeper dive reading**:
 
