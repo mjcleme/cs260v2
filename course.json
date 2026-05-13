@@ -124,9 +124,11 @@
           "type": "instruction",
           "path": "instruction/partnering-with-ai/partnering-with-ai.md",
           "id": "96e3a6d4-8b60-4cdb-9f2c-aedaa2cb8a15",
-          "interactions": [],
+          "interactions": [
+            "ai-policy-understanding"
+          ],
           "description": "Explain why you want to use AI to build web apps, how to get a copilot educational license, and how to use copilot to build a web app interactively in vscode",
-          "commit": "ff4e2ba003c29dcbe077efc79fd54002bc8c7020"
+          "commit": "d2c4c7c2667a74ee5a06775e549e27e62433dadb"
         },
         {
           "title": "The Console",
