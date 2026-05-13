@@ -111,7 +111,7 @@ What should I prefer? Tailwind or Bootstrap?
 
 ## Experimenting with Tailwind
 
-There is no course requirement for you to use Tailwind, only that you use some css framework for some portion of your project. However, it has become very popular and therefore might be worth experimenting with. We can use a content delivery network (CDN) to load Tailwind into a simple HTML page. Just note that it for production use you will want to use infrastructure that is described below, but that we will not cover until we introduce React.
+There is no course requirement for you to use Tailwind, only that you use some css framework for some portion of your startup. However, it has become very popular and therefore might be worth experimenting with. We can use a content delivery network (CDN) to load Tailwind into a simple HTML page. Just note that it for production use you will want to use infrastructure that is described below, but that we will not cover until we introduce React.
 
 
 
