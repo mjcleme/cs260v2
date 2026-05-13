@@ -2,6 +2,8 @@
 
 ![ES Logo](esLogo.png)
 
+![jsLogo.png](jsLogo.png)
+
 📖 **Deeper dive reading**:
 
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
