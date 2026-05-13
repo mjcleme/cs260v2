@@ -22,6 +22,7 @@ p {
 
   animation-name: demo;
   animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 ```
 
@@ -34,7 +35,7 @@ Now we are ready to create the keyframes. We don't have to define what happens a
   }
 
   to {
-    font-size: 20vh;
+    font-size: 80vh;
   }
 }
 ```
@@ -48,18 +49,22 @@ That's everything we need to do. However, let's make one more addition. It would
   }
 
   95% {
-    font-size: 21vh;
+    font-size: 71vh;
   }
 
   to {
-    font-size: 20vh;
+    font-size: 80vh;
   }
 }
 ```
 
-![CSS animation](cssAnimation.gif)
 
-You can see this animation working with this [CodePen](https://codepen.io/leesjensen/pen/LYrJEwX).
+```masteryls
+{"id":"37433cdd-9dd1-4009-857a-f36bd4c97ab6", "title":"Animation demo", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Animation grows and then shrinks back to the original size", "file":"textAnimation.html" "height":100 }
+Modify the animation so that it grows out and then shrinks back.
+```
+
+
 
 Animation is not just for pushing buttons or making text float around. Here is an example of [animating a watch](https://codepen.io/leesjensen/pen/MWBjXNq) using only HTML and CSS.
 
