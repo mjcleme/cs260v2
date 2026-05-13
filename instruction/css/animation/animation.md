@@ -91,6 +91,13 @@ p {
 ```
 
 
+```masteryls
+{"id":"c7c8584b-11a9-424e-89cb-c8adfb13e2b6", "title":"Animations", "type":"essay", "syncGrade":false, "autoGrade":false }
+Explain how animations work in CSS.
+```
+
+
+## Complex example
 
 Animation is not just for pushing buttons or making text float around. Here is an example of animating a watch using only HTML and CSS.
 
