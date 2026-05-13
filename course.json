@@ -564,7 +564,11 @@
           "title": "Simon CSS",
           "path": "instruction/simon/simonCss/simonCss.md",
           "id": "12bd61d7-e363-4f7f-9e2b-927386e4ecea",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "ac16c49d-eed4-4852-9843-c994c9542dfd"
+          ],
+          "commit": "b9f0d253659c51d747fbd9cf05895dda80ecba8c"
         },
         {
           "title": "Simon CSS video",
