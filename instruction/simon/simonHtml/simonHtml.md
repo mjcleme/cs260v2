@@ -120,6 +120,6 @@ scp -r -i "$key" * ubuntu@$hostname:services/$service/public
 
 ```masteryls
 {"id":"83677e81-fe42-4657-be14-d4537d10f7d9", "title":"Essay", "type":"essay", "syncGrade":true, "autoGrade":false }
-How did your deployment go? Can you explain what the `deployFiles.sh` script is doing?
+How did your deployment go? Explain what the `deployFiles.sh` script is doing.
 ```
 
