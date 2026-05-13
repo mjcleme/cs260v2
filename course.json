@@ -124,6 +124,7 @@
           "type": "instruction",
           "path": "instruction/partnering-with-ai/partnering-with-ai.md",
           "id": "96e3a6d4-8b60-4cdb-9f2c-aedaa2cb8a15",
+          "state": "published",
           "interactions": [
             "ai-policy-understanding"
           ],
@@ -619,7 +620,7 @@
           "id": "846ac3d3-8703-4a2e-ae53-0144967cbee2",
           "state": "published",
           "interactions": [],
-          "commit": "5bc075e358dc65a2293dc63cd52cc359c7e6ad26"
+          "commit": "dbb22a3d4686480af7becad42670c7c4ba270e68"
         },
         {
           "title": "Adding JavaScript to HTML",
