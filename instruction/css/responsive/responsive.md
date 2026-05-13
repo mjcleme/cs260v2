@@ -73,7 +73,6 @@ If we modify the display property associated with each element with the followin
 
 ![CSS display](cssDisplay.jpg)
 
-You can experiment with different display property values with this [CodePen](https://codepen.io/leesjensen/pen/RwBOPjv).
 
 ## Viewport meta tag
 
@@ -114,7 +113,7 @@ We can use the `@media` selector to tell us which side of the screen (technicall
 }
 ```
 
-We can demonstrate the result of applying the media selector by using the browser's debugger and switching into phone and responsive mode. You can also use this [CodePen](https://codepen.io/leesjensen/pen/rNKZOva) and play with it yourself by simply resizing the browser's window.
+We can demonstrate the result of applying the media selector by using the browser's debugger and switching into phone and responsive mode.
 
 ![CSS Media orientation](cssMediaOrientation.gif)
 
