@@ -217,6 +217,13 @@
             "eecac632-b04b-49a9-a0b6-3c3961cb3e58"
           ],
           "commit": "8010c3dadb2096c6a499ca3b47912a44758493e4"
+        },
+        {
+          "title": "Partnering with AI",
+          "type": "instruction",
+          "path": "instruction/partnering-with-ai/partnering-with-ai.md",
+          "id": "96e3a6d4-8b60-4cdb-9f2c-aedaa2cb8a15",
+          "description": "Explain why you want to use AI to build web apps, how to get a copilot educational license, and how to use copilot to build a web app interactively in vscode"
         }
       ]
     },
