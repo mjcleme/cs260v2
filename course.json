@@ -440,8 +440,10 @@
           "path": "instruction/css/selectors/selectors.md",
           "id": "c89f3fee-c8f5-4e12-b17c-018ddb4cc70a",
           "state": "published",
-          "interactions": [],
-          "commit": "38d5042f2a41b8e9e5ef5d2103585794c1dc8155"
+          "interactions": [
+            "9bc25c74-548c-4430-b7e0-6cc8971a5cc4"
+          ],
+          "commit": "2620e59550318a7530fd08ec07fe4bc4f65bdc91"
         },
         {
           "title": "Declarations",
