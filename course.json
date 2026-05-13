@@ -820,7 +820,9 @@
           "title": "☑ Promises",
           "path": "instruction/javascript/promises/promises.md",
           "id": "c1f64a19-98db-4202-ace7-0a4a08b44def",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "479a54b0db55b6cef607581bfa790390049d7d7e"
         },
         {
           "title": "☑ Async/await",
