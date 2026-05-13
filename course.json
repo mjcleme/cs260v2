@@ -487,13 +487,15 @@
           "commit": "066c94526e09a83209b36fdba96a551e5202690f"
         },
         {
-          "title": "☑ CSS practice",
+          "title": "CSS practice",
+          "type": "instruction",
           "path": "instruction/css/practice/practice.md",
           "id": "59544ce5-cbb6-4bf2-9e15-b9b5cd310bd1",
           "state": "published",
           "interactions": [
             "37a86410-ae62-446a-a8d4-69325c4a0157"
           ],
+          "description": "",
           "commit": "e94690331b084756519e159f92d03898ad0e7e7d"
         },
         {
