@@ -35,7 +35,7 @@ Now we are ready to create the keyframes. We don't have to define what happens a
   }
 
   to {
-    font-size: 80vh;
+    font-size: 30vh;
   }
 }
 ```
@@ -49,19 +49,45 @@ That's everything we need to do. However, let's make one more addition. It would
   }
 
   95% {
-    font-size: 71vh;
+    font-size: 28vh;
   }
 
   to {
-    font-size: 80vh;
+    font-size: 30vh;
   }
 }
 ```
 
 
 ```masteryls
-{"id":"37433cdd-9dd1-4009-857a-f36bd4c97ab6", "title":"Animation demo", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Animation grows and then shrinks back to the original size", "file":"textAnimation.html" "height":100 }
+{"id":"37433cdd-9dd1-4009-857a-f36bd4c97ab6", "title":"Animation demo", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Animation grows and then shrinks back to the original size",  "height":100 }
 Modify the animation so that it grows out and then shrinks back.
+~~~html
+<p>Animate</p>
+<style>
+p {
+  text-align: center;
+  font-size: 20vh;
+
+  animation-name: demo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes demo {
+  from {
+    font-size: 0vh;
+  }
+
+  95% {
+    font-size: 28vh;
+  }
+
+  to {
+    font-size: 30vh;
+  }
+}
+</style>
+~~~
 ```
 
 
