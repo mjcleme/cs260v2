@@ -99,12 +99,6 @@ The `canvas` element was introduced to HTML in order to facilitate 2D drawing an
 </script>
 ```
 
-If you would like to see some examples of complex canvas renderings check out these examples on CodePen.
-
-- [Neon Hexagon](https://codepen.io/leesjensen/pen/QWxBMrE)
-- [Particles](https://codepen.io/leesjensen/pen/vYraJRP)
-- [Ribbons 2](https://codepen.io/leesjensen/pen/wvXxqja)
-
 ## ☑ Assignment
 
 
