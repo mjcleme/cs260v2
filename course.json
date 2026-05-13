@@ -543,8 +543,10 @@
           "path": "instruction/css/frameworks/frameworks.md",
           "id": "172ab5b4-04bc-4c42-9b5f-57c4a8989d54",
           "state": "published",
-          "interactions": [],
-          "commit": "8b87544a50ba23eeaac2c8b04b0ceb5dfa7f60c2"
+          "interactions": [
+            "e790f0e1-a84b-4046-9149-c1cc0bbdb01f"
+          ],
+          "commit": "8d6f007c025d98a46ee1f5dd526f47af18be74f6"
         },
         {
           "title": "Tailwind",
