@@ -617,7 +617,9 @@
           "title": "JavaScript introduction",
           "path": "instruction/javascript/introduction/introduction.md",
           "id": "846ac3d3-8703-4a2e-ae53-0144967cbee2",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "5bc075e358dc65a2293dc63cd52cc359c7e6ad26"
         },
         {
           "title": "Adding JavaScript to HTML",
