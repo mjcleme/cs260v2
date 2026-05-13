@@ -4,13 +4,13 @@ CSS frameworks provide functions and components that commonly appear in web appl
 
 Today, there are lots of different open source CSS frameworks available to choose from. Many of them contain the same types of functionality, but they all bring something a little different to the table.
 
-![css frameworks](cssStateOfCss.jpg)
+![cssFrameworksStateOfJs2025.png](cssFrameworksStateOfJs2025.png)
 
-\- **Source**: [_StateOfCSS CSS framework poll_](https://2021.stateofcss.com/en-US/technologies/css-frameworks)
+\- **Source**: [_StateOfCSS CSS framework poll_](https://2025.stateofcss.com/en-US/other-tools/#css_frameworks)
 
 ## Tailwind
 
-A new rising contender in the CSS framework space is [Tailwind CSS](https://tailwindcss.com/) and its associated component library [Tailwind UI](https://tailwindui.com/). In the 2024 StateOfCSS poll, Tailwind passed Bootstrap as the reigning champion with an  impressive 51% general usage ranking while Bootstrap dropped to 30%.
+A new rising contender in the CSS framework space is [Tailwind CSS](https://tailwindcss.com/) and its associated component library [Tailwind UI](https://tailwindui.com/). In the 2025 StateOfCSS poll, Tailwind passed Bootstrap as the reigning champion with an  impressive 51% general usage ranking while Bootstrap dropped to 30%.
 
 Tailwind takes a different approach than traditional CSS frameworks. Instead of using large, rich, CSS rulesets to compartmentalize styling and functionality, it uses smaller definitions that are applied specifically to individual HTML elements. This moves much of the CSS representation out of the CSS file and directly into the HTML.
 
@@ -27,7 +27,7 @@ You can learn how to use Tailwind in your application with the [Tailwind](../tai
 
 🔑 **Required reading**: [Getting started with Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
-The reigning champion for CSS frameworks is [Bootstrap](https://getbootstrap.com/). Bootstrap has been supported by an active and vibrant community for over a decade and contains many lessons learned from real world applications. The major downside of Bootstrap is its own success. Because it is so popular, Bootstrap defines the de facto look and feel of websites. This is great for user experience continuity, but it makes it difficult for a website to grab the attention of new users.
+The traditional champion for CSS frameworks is [Bootstrap](https://getbootstrap.com/). Bootstrap has been supported by an active and vibrant community for over a decade and contains many lessons learned from real world applications. The major downside of Bootstrap is its own success. Because it is so popular, Bootstrap defines the de facto look and feel of websites. This is great for user experience continuity, but it makes it difficult for a website to grab the attention of new users.
 
 ### Getting bootstrap
 
@@ -77,6 +77,22 @@ Once you have Bootstrap linked in your HTML files you can begin using the compon
 // Default browser styled button
 <button type="button">Plain</button>
 ```
+
+
+```masteryls
+{"id":"187a29b1-1d36-4a26-9d32-dd9bf197390b", "title":"Web page", "type":"web-page", "height":250}
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+Bootstrap styled button
+<button type="button" class="btn btn-primary">Bootstrap</button>
+
+Default browser styled button
+<button type="button">Plain</button>
+</body>
+```
+
 
 ![CSS Bootstrap button](cssBootstrapBtn.png)
 
