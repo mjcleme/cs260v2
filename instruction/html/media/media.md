@@ -99,6 +99,7 @@ The `canvas` element was introduced to HTML in order to facilitate 2D drawing an
 </script>
 ```
 
+
 ## ☑ Assignment
 
 
