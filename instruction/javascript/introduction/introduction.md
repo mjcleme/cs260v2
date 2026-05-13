@@ -1,6 +1,6 @@
 # JavaScript introduction
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJ5vExWA-ohydCb6OpMo6aiRGEJ-ILzl5Z_dvPdW86CDt50iguf4cZ5lx9QfgrT9M2TrlPg6BgIaJ1/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJ5vExWA-ohydCb6OpMo6aiRGEJ-ILzl5Z_dvPdW86CDt50iguf4cZ5lx9QfgrT9M2TrlPg6BgIaJ1/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 
