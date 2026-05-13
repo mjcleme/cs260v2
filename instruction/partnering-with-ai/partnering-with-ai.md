@@ -4,6 +4,8 @@ The landscape of web programming is shifting from a focus on manual syntax memor
 
 In this section, we will explore the strategic advantages of using AI in your development workflow, how to access professional-grade tools for free as a student, and the practical steps to integrate these tools into your daily coding routine within Visual Studio Code.
 
+
+
 ## Why Use AI to Build Web Apps?
 
 Modern web development involves a massive ecosystem of languages (HTML, CSS, JavaScript), frameworks, and cloud services. For a beginner, the sheer volume of syntax and configuration can be overwhelming. AI tools like GitHub Copilot serve as an "always-on" mentor that understands the context of your project.
@@ -78,11 +80,14 @@ At this point, your job as the developer is to verify: Does the `sounds/click.mp
 While AI is powerful, it is not infallible. Students often encounter these common hurdles:
 
 *   **Hallucinations:** AI may suggest libraries that don't exist or use deprecated syntax. 
-    *   *Solution:* Always test the code immediately. If it doesn't work, ask the AI, "Is this using the most recent version of the API?"
+    
+    *Solution:* Always test the code immediately. If it doesn't work, ask the AI, "Is this using the most recent version of the API?"
 *   **Over-reliance:** It is tempting to `Tab` through an entire file without reading the code.
-    *   *Solution:* Make it a rule to explain every line of AI-generated code to yourself. If you don't understand what a line does, ask the AI: "Explain this specific line of code to me."
+    
+    *Solution:* Make it a rule to explain every line of AI-generated code to yourself. If you don't understand what a line does, ask the AI: "Explain this specific line of code to me."
 *   **Context Blindness:** Sometimes the AI forgets the structure of your other files.
-    *   *Solution:* Keep relevant files open in your VS Code tabs. Copilot uses open tabs to understand the context of your project.
+    
+    *Solution:* Keep relevant files open in your VS Code tabs. Copilot uses open tabs to understand the context of your project.
 
 ## Summary
 
