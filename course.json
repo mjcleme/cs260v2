@@ -525,6 +525,13 @@
           "state": "published"
         },
         {
+          "title": "Responsive design demo",
+          "type": "embedded",
+          "path": "https://leesjensen.com/demo/responsive.html",
+          "id": "a37cfe45-c70b-4537-b9f3-15f41599c761",
+          "description": "https://leesjensen.com/demo/responsive.html"
+        },
+        {
           "title": "☑ CSS frameworks",
           "path": "instruction/css/frameworks/frameworks.md",
           "id": "172ab5b4-04bc-4c42-9b5f-57c4a8989d54",
@@ -567,13 +574,6 @@
           "externalRefs": {
             "canvasAssignmentId": 1354377
           }
-        },
-        {
-          "title": "Responsive design demo",
-          "type": "embedded",
-          "path": "https://leesjensen.com/demo/responsive.html",
-          "id": "a37cfe45-c70b-4537-b9f3-15f41599c761",
-          "description": "https://leesjensen.com/demo/responsive.html"
         }
       ]
     },
