@@ -80,21 +80,13 @@ Once you have Bootstrap linked in your HTML files you can begin using the compon
 
 
 ```masteryls
-{"id":"187a29b1-1d36-4a26-9d32-dd9bf197390b", "title":"Web page", "type":"web-page", "height":250}
-<head>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</head>
-<body>
-Bootstrap styled button
+{"id":"187a29b1-1d36-4a26-9d32-dd9bf197390b", "title":"Web page", "type":"web-page", "height":50}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 <button type="button" class="btn btn-primary">Bootstrap</button>
 
-Default browser styled button
 <button type="button">Plain</button>
-</body>
 ```
 
-
-![CSS Bootstrap button](cssBootstrapBtn.png)
 
 This [CodePen](https://codepen.io/leesjensen/pen/JjZavjW) demonstrates the use of all the major Bootstrap components. Notice the rich diversity of functionality it provides and that it is fully responsive to changes in the viewport size. The image below only captures a few of the components.
 
