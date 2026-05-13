@@ -78,7 +78,15 @@ SVG is an extremely powerful and widely supported way to render graphics inline 
 
 ![SVG demo](htmlSvg.jpg)
 
-When combined with JavaScript and CSS you can produce some amazing visualizations. Checkout this [CodePen](https://codepen.io/leesjensen/pen/mdKjMLY) for an example.
+When combined with JavaScript and CSS you can produce some amazing visualizations.
+
+
+```masteryls
+{"id":"531a1f8a-ab7e-4455-9625-8476ed004876", "title":"Web page", "type":"web-page", "height":300, "file":"svgDemo.html"}
+```
+
+
+> _Source: [CodePen](https://codepen.io/leesjensen/pen/mdKjMLY)_
 
 Consult the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/SVG) if you are interested in learning more about SVG.
 
