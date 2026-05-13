@@ -229,19 +229,6 @@
             "eecac632-b04b-49a9-a0b6-3c3961cb3e58"
           ],
           "commit": "8010c3dadb2096c6a499ca3b47912a44758493e4"
-        },
-        {
-          "title": "foo",
-          "type": "instruction",
-          "path": "instruction/foo/foo.md",
-          "id": "ddebd46d-8271-4447-85a8-6040057165cb",
-          "interactions": [
-            "f28bef74-5dae-481f-bb72-607b264a1845",
-            "09d936c2-f9c6-43ee-997c-4c0790da3960",
-            "foobar-origin-01"
-          ],
-          "description": "explain the origin of \nfoobar",
-          "commit": "fa7a89335b0cf64f214f66fb4efbbde3ff41379a"
         }
       ]
     },
