@@ -1,5 +1,9 @@
 # Promises
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRzCskqalrO8JG4A_Co__ps6EuvgXnrOZYkByycVm2X_9YFg9mvP151-JzzfyOl_5CSvKsf3LlfiPIT/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+---
+
 📖 **Deeper dive reading**:
 
 - [MDN Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
