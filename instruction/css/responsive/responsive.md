@@ -98,7 +98,7 @@ aside {
 
 ![CSS float](cssFloat.gif)
 
-When the browser resizes, the text will flow around the floating element. You can use this [CodePen](https://codepen.io/leesjensen/pen/MWBRWPP) to experiment with `float`. Try changing the descriptor value to `none` or `left` and see what happens.
+When the browser resizes, the text will flow around the floating element.
 
 ## Media queries
 
