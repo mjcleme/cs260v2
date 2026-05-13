@@ -14,22 +14,7 @@
 Officially known as ECMAScript, JavaScript is a weakly typed language based upon concepts found in C, Java, and Scheme. It is by far the most used programming language in the world. It runs on every web browser, and it is commonly used as a web server language and for creating serverless functions. In this instruction we will cover the basic parts of the language necessary to create a reasonable website. There are many features of the language that will not be discussed, and you should take time to dig into the corners of the language as time allows. The more effectively you understand JavaScript, the better web programmer you will be.
 
 Typically JavaScript is executed using an interpreter at runtime instead of compiling it into a machine specific binary at build time. This has the advantage of making JavaScript very portable, but also allows for many errors, such as using an undefined variable. These types of errors commonly only get discovered when the program crashes during execution.
-
-## JavaScript Versions
-
-The following table describes the version history of JavaScript. You don't need to worry too much about versions right now, but this is important to be aware of since browser compatibility is always an issue when developing a web application. When considering the use of a JavaScript feature you should consult websites like [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/) to see how well the feature is supported.
-
-| Year | Version | Features                                                                                                                  |
-| ---- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
-| 1997 | ES1     | types, functions                                                                                                          |
-| 1999 | ES3     | regex, exceptions, switch                                                                                                 |
-| 2009 | ES5     | json, array iteration                                                                                                     |
-| 2015 | ES6     | let/const, default params, classes, template literals, destructuring, generators, promises, modules, internationalization |
-| 2016 | ES2016  | array.includes                                                                                                            |
-| 2017 | ES2017  | async/await                                                                                                               |
-| 2018 | ES2018  | rest/spread, promise.finally                                                                                              |
-| 2019 | ES2019  | string.trim                                                                                                               |
-| 2020 | ES2020  | ?? operator                                                                                                               |
+                                                                                                          |
 
 ## Getting started
 
@@ -85,6 +70,21 @@ Before we go any further we need a way for you to write and run JavaScript yours
 
    ![Browser Debugger](browserDebugger.png)
 
-## Examples
 
-You can see examples of all the JavaScript we will talk about by using this [HTML page](https://htmlpreview.github.io/?https://github.com/webprogramming260/webprogramming/blob/main/instruction/javascript/introduction/jsDemo.html).
+
+
+## JavaScript Versions
+
+The following table describes the version history of JavaScript. You don't need to worry too much about versions right now, but this is important to be aware of since browser compatibility is always an issue when developing a web application. When considering the use of a JavaScript feature you should consult websites like [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs) or [CanIUse](https://caniuse.com/) to see how well the feature is supported.
+
+| Year | Version | Features                                                                                                                  |
+| ---- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1997 | ES1     | types, functions                                                                                                          |
+| 1999 | ES3     | regex, exceptions, switch                                                                                                 |
+| 2009 | ES5     | json, array iteration                                                                                                     |
+| 2015 | ES6     | let/const, default params, classes, template literals, destructuring, generators, promises, modules, internationalization |
+| 2016 | ES2016  | array.includes                                                                                                            |
+| 2017 | ES2017  | async/await                                                                                                               |
+| 2018 | ES2018  | rest/spread, promise.finally                                                                                              |
+| 2019 | ES2019  | string.trim                                                                                                               |
+| 2020 | ES2020  | ?? operator     
