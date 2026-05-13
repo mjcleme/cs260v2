@@ -519,13 +519,15 @@
           "commit": "bc3d0b8ba4b8897918a9998744818cee66b0b6c4"
         },
         {
-          "title": "☑ Flex",
+          "title": "Flex",
+          "type": "instruction",
           "path": "instruction/css/flexbox/flexbox.md",
           "id": "32bc9d1d-4f52-4285-9708-10c252e999a4",
           "state": "published",
           "interactions": [
             "6332b90a-e5af-423d-9d1c-27e3ac6ef8aa"
           ],
+          "description": "",
           "commit": "0da6bbad8433b775e479b02964eff313684d8d19"
         },
         {
