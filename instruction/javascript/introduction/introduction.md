@@ -62,9 +62,13 @@ While not technically required in most cases, it is considered good form to end 
 
 Before we go any further we need a way for you to write and run JavaScript yourself. There are two easy ways to do this.
 
-1. Use an online sandbox like [CodePen](https://codepen.io). With CodePen you can write whatever JavaScript you would like and immediately see the results. Make sure you display the CodePen's Console window if your JavaScript is using the console.log function.
+1. Use an interactive JavasScript interpreter included in the instruction. 
 
-   ![Browser Debugger](codePenJavaScriptDebugger.png)
+
+   ```masteryls
+   {"id":"9f478149-7090-44a8-8985-8c69bff12c14", "title":"Web page development", "type":"web-page", "allowAiPrompt":true, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":650, "file":"javascriptPlayground.html" }
+   ```
+
 
 1. Use your browser's debugger. For example, if you open Chrome and press `F12` the debugger will display. Select the `Console` menu option. This will display a JavaScript interpreter where you can write and execute your code.
 
