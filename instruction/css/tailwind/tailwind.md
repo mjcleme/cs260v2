@@ -84,6 +84,9 @@ You may be concerned about all of those "css declarations" being put directly on
 
 ## Experimenting with Tailwind
 
+There is no course requirement for you to use Tailwind. However, it has become very popular and therefore might be worth experimenting with. Just note that it requires infrastructure that we will not cover until we introduce React.
+
+
 Tailwind requires a tool chain processor to convert the class names into a CSS stylesheet. You will include the necessary processor when you move your startup application to React. However, for now you can play with with Tailwind right now by creating a [Hello World React](../../webFrameworks/react/introduction/introduction.md#react-hello-world) application and then configuring Vite to support tailwind.
 
 The steps involved include creating the demo application, installing tailwind, configuring Vite to execute tailwind as part of the tool chain, adding a reference to the resulting CSS, and adding Tailwind class names to your HTML elements.
