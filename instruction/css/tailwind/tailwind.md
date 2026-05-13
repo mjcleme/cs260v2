@@ -25,10 +25,15 @@ Tailwind works really well with web component frameworks because it encourages y
 Here is an example of a button that is styled with Tailwind.
 
 ```html
-<button className="bg-blue-400 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition-colors m-4">Get Started</button>
+<button class="bg-blue-400 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition-colors m-4">Get Started</button>
 ```
 
-![alt text](tailwindButton.gif)
+```masteryls
+{"id":"c24c897d-c66e-4c42-be1c-7807d2e6cf84", "title":"Web page", "type":"web-page", "height":50}
+<!-- Tailwind via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<button class="bg-blue-400 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition-colors m-1">Get Started</button>
+```
 
 ## Comparison to Bootstrap
 
@@ -69,10 +74,8 @@ The visual result is similar in either case.
 
 ```masteryls
 {"id":"b1716236-e043-40fc-8f6e-11e3d029f965", "title":"Web page", "type":"web-page", "height":300}
-<head>
-  <!-- Tailwind via CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+<!-- Tailwind via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
 <div class="max-w-sm rounded bg-red-800 overflow-hidden">
   <div class="max-w-sm rounded bg-white overflow-hidden shadow-lg m-2 p-2">
     <img class="w-full" src="https://picsum.photos/400/200" />
