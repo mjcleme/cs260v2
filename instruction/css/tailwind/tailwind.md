@@ -102,6 +102,13 @@ You may be concerned about all of those "css declarations" being put directly on
 | **Learning curve** | Steep at first as you learn native CSS                | Easy to get started                                          |
 | **JS dependency**  | No JS (except if using plugins)                       | Depends on jQuery (Bootstrap ≤ 4) or native JS (Bootstrap 5) |
 
+
+```masteryls
+{"id":"34a35a7b-6a78-4f40-bf6d-1fef7be61963", "title":"Tailwind VS Bootstrap", "type":"teaching" }
+What should I prefer? Tailwind or Bootstrap?
+```
+
+
 ## Experimenting with Tailwind
 
 There is no course requirement for you to use Tailwind, only that you use some css framework for some portion of your project. However, it has become very popular and therefore might be worth experimenting with. We can use a content delivery network (CDN) to load Tailwind into a simple HTML page. Just note that it for production use you will want to use infrastructure that is described below, but that we will not cover until we introduce React.
