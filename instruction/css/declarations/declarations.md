@@ -35,6 +35,18 @@ CSS rule declarations specify a property and value to assign when the rule selec
 | width              | unit                               | `25vmin`            | Sets the width of the box                                                      |
 | z-index            | number                             | `100`               | Controls the positioning of the element on the z axis                          |
 
+
+```masteryls
+{"id":"d63220b7-a462-46bc-a70f-ad675f9bc072", "title":"Identifying CSS Properties", "type":"multiple-choice"}
+In a CSS declaration, which property and value pair is correctly used to change the thickness of text characters?
+
+- [ ] `text-weight: bold;`
+- [x] `font-weight: 700;`
+- [ ] `font-style: heavy;`
+- [ ] `text-thickness: 2px;`
+```
+
+
 ## Units
 
 📖 **Deeper dive reading**: [MDN Values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
