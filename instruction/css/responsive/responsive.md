@@ -1,5 +1,8 @@
 # Responsive design
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJ2x2oqT5QpCBOjGfW_Pea9KEMHeAnwdRzpAer-8AUFITj3YPaR9bRWx8qNUpVWk-7VV7kWkx0KPiT/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 📖 **Deeper dive reading**: [MDN Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 Modern web applications are expected to run well on a large variety of computing devices. This includes everything from desktops, to mobile phones, to shopping kiosks, to car dashboards. This ability to reconfigure the interface so the application accommodates and takes advantage of the screen's size and orientation is called `responsive design`.
