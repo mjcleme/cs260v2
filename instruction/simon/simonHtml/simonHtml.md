@@ -123,3 +123,11 @@ scp -r -i "$key" * ubuntu@$hostname:services/$service/public
 How did your deployment go? Explain what the `deployFiles.sh` script is doing.
 ```
 
+
+```masteryls
+{"id":"9c16c49d-eed4-4852-9843-c994c9542dfd", "title":"Simon HTML Deployed", "type":"url-submission", "syncGrade":false, "autoGrade":false, "validateUrl":true, "gradingCriteria":"The title contains 'Simon HTML'" }
+After you have deployed _Simon HTML_, verify that it is accessible by providing the URL.
+
+_Example: https://simon.yourdomain.click_
+```
+
