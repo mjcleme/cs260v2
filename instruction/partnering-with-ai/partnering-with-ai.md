@@ -56,7 +56,10 @@ graph TD
 Imagine you are building a feature for your "Simon" game or your startup application. You need a button that changes color when clicked. 
 
 Instead of searching for the syntax, you might type:
-`// Function to toggle the 'active' class on a button and play a sound`
+
+```sh
+Function to toggle the 'active' class on a button and play a sound
+```
 
 Copilot might suggest:
 ```javascript
