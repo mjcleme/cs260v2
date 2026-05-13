@@ -535,6 +535,7 @@
           "type": "embedded",
           "path": "https://leesjensen.com/demo/responsive.html",
           "id": "a37cfe45-c70b-4537-b9f3-15f41599c761",
+          "state": "published",
           "description": "https://leesjensen.com/demo/responsive.html"
         },
         {
@@ -543,7 +544,7 @@
           "id": "172ab5b4-04bc-4c42-9b5f-57c4a8989d54",
           "state": "published",
           "interactions": [],
-          "commit": "f55f0f9ce4eb32de24e34836a3873bf5561f317e"
+          "commit": "c0f2910d71cc696ac7333eaa74f08d39255771e8"
         },
         {
           "title": "Tailwind",
