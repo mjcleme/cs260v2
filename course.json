@@ -490,7 +490,11 @@
           "title": "☑ CSS practice",
           "path": "instruction/css/practice/practice.md",
           "id": "59544ce5-cbb6-4bf2-9e15-b9b5cd310bd1",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "37a86410-ae62-446a-a8d4-69325c4a0157"
+          ],
+          "commit": "90cd6ab1dd73dd4304443efce006877669c00139"
         },
         {
           "title": "Responsive design",
