@@ -567,6 +567,13 @@
           "externalRefs": {
             "canvasAssignmentId": 1354377
           }
+        },
+        {
+          "title": "Responsive design demo",
+          "type": "embedded",
+          "path": "https://leesjensen.com/demo/responsive.html",
+          "id": "a37cfe45-c70b-4537-b9f3-15f41599c761",
+          "description": "https://leesjensen.com/demo/responsive.html"
         }
       ]
     },
