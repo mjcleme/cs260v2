@@ -92,8 +92,13 @@ p {
 
 
 
-Animation is not just for pushing buttons or making text float around. Here is an example of [animating a watch](https://codepen.io/leesjensen/pen/MWBjXNq) using only HTML and CSS.
+Animation is not just for pushing buttons or making text float around. Here is an example of animating a watch using only HTML and CSS.
 
-![Watch animation](cssAnimationWatch.gif)
 
-CodePen has a lot of CSS animation examples that you can experiment with. Here is a simple one with [floating clouds](https://codepen.io/leesjensen/pen/wvXEaRq) that I found interesting. If you find an interesting one share it with us on Discord.
+```masteryls
+{"id":"a8b4122a-c249-4f5c-a35d-3107fc95715a", "title":"Animated watch", "type":"ai-web-page", "allowAiPrompt":false, "syncGrade":false, "autoGrade":false, "gradingCriteria":"Second hand runs backwards", "height":500, "file":"watch.html" }
+See if you can make the second hand run backwards.
+
+```
+
+
