@@ -54,7 +54,7 @@ console.count('b');
 // OUTPUT: b: 1
 ```
 
-## experiment
+## Experiment
 
 Use the **JavaScript Interpreter**, or the console pane in the browser debugger, to experiment with different console.log commands.
 
@@ -63,6 +63,7 @@ Use the **JavaScript Interpreter**, or the console pane in the browser debugger,
 {"id":"e91229cd-b212-437c-becf-f32950a9b985", "type":"web-page", "allowAiPrompt":true, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":650, "file":"../introduction/javascriptPlayground.html" }
 ```
 
+## Reflect
 
 ```masteryls
 {"id":"f79f6d59-ba17-418d-a8f3-e3ea16baaee4", "title":"Why console.log?", "type":"essay" }
