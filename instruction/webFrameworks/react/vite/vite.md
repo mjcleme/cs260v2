@@ -96,7 +96,7 @@ After these changes, the application should look similar to this:
 
 ```masteryls
 {"id":"d16e7f1e-e689-4862-bf06-7ceda139a4de", "title":"Vite + React", "type":"essay" }
-Insert the lines of code that you had to change achieve the required modifications.
+Insert the lines of code that you had to change to achieve the required modifications.
 ```
 
 
