@@ -18,17 +18,17 @@ Browsers run JavaScript using a JavaScript interpreter and execution engine. For
 
 Your production environment web server comes with Node.js already installed. However, you will need to install Node.js in your development environment if you have not already. The easiest way to install Node.js is to use the official download found on [nodejs.org](https://nodejs.org/en/download/package-manager).
 
-You can pick the method that you would like to use to install, but it is suggested to use the **Prebuilt Installer** for your operating system and computer processor. Make sure that you select the latest Long Term Support version (LTS) in order to get the most stable version. In the image below this will install 22.12.0, however the version may be different by the time you view this instruction.
+You can pick the method that you would like to use to install, but it is suggested to use the **Prebuilt Installer** for your operating system and computer processor. Make sure that you select the latest **Long Term Support version (LTS)** in order to get the most stable version. In the image below this will install 22.12.0, however the version may be different by the time you view this instruction.
 
 ![Node installer](nodeInstaller.png)
 
 ## Checking that Node is installed
 
-The node.js console application is simply called `node`. You can verify that Node is working correctly by running `node` with the `-v` parameter. Note that your version might be different than what is shown here. As long as it is an LTS version you should be fine.
+The node.js console application is simply called `node`. You can verify that Node is working correctly by running `node` with the `-v` parameter. Note that your version might be different than what is shown here. As long as it is an **LTS version** you should be fine.
 
 ```sh
 ➜ node -v
-v22.12.0
+v24.13.0
 ```
 
 ## Running programs
@@ -44,7 +44,7 @@ You can also run `node` in interpretive mode by executing it without any paramet
 
 ```sh
 ➜ node
-Welcome to Node.js v16.15.1.
+Welcome to Node.js v24.13.0.
 > 1+1
 2
 > console.log('hello')
