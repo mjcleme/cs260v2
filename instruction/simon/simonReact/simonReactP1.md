@@ -314,6 +314,19 @@ Our directory structure should look like the following at this point.
 
 ```
 
+## Rename the application
+
+Modify `index.html` to change the title of the application to be `Simon React P1: Routing`.
+
+```html
+  <head>
+    ...
+
+    <title>Simon React P1: Routing</title>
+  </head>
+```
+
+
 ## Create view components
 
 We now create React component files `login.jsx`, `play.jsx`, `scores.jsx`, and `about.jsx` to represent each of the application views. To begin with, these are just stubs that we will soon begin populating as we port code from the requisite `.html` files and which we will further develop with javascript functionality in part 2. We place each of the stubbed components in a separate directory (e.g. `src/login/login.jsx`) so that we can keep all of the component files together.
@@ -575,8 +588,8 @@ Do the following as part of your mastery demonstration for this phase. This is a
 
 
 ```masteryls
-{"id":"bc16c49e-eed4-4852-9843-c994c9542dfd", "title":"Simon React P1: Routing Deployed", "type":"url-submission", "syncGrade":false, "autoGrade":false, "validateUrl":true, "gradingCriteria":"The title contains 'Simon React'" }
-After you have deployed _Simon React P1_, verify that it is accessible by providing the URL.
+{"id":"bc16c49e-eed4-4852-9843-c994c9542dfd", "title":"Simon React P1: Routing Deployed", "type":"url-submission", "syncGrade":false, "autoGrade":false, "validateUrl":true, "gradingCriteria":"The title contains 'Simon React P1: Routing'" }
+After you implemented and deployed the React router in the Simon CSS version, verify that it is accessible by providing the URL.
 
 _Example: https://simon.yourdomain.click_
 ```
