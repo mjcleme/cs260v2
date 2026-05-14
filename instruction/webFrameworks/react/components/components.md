@@ -67,22 +67,13 @@ The JSX that a component returns may reference other components. This allows you
 graph TD
     App[App Component]
     
-    %% First level of children
     App --> Header[Child Component A]
     App --> Content[Child Component B]
     App --> Footer[Child Component C]
     
-    %% Second level of children (Grandchildren)
-    Header --> Link1[Link Home]
-    Header --> Link2[Link Users]
-    Header --> Link3[Link About]
-    
-    Content --> GrandchildB1[Grandchild Component B.1]
-
-    %% Styling to emphasize hierarchy
-    style App fill:#f9f,stroke:#333,stroke-width:2px
-    style Header fill:#bbf,stroke:#333,stroke-width:1px
-    style Content fill:#bbf,stroke:#333,stroke-width:1px
+    Header --> Link1[Link1 Home]
+    Header --> Link2[Link2 Users]
+    Header --> Link3[Link3 About]
 ```
 
 #### index.jsx
