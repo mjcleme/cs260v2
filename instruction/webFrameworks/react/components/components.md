@@ -296,7 +296,11 @@ Examine the source code and see how React state is used to specify the style of 
 
 ## Reactivity
 
-A component's properties and state are used by the React framework to determine the reactivity of the interface. Reactivity controls how a component responds to actions taken by the user or events that happen within the application. Whenever a component's state or properties change, the `render` function for the component and all of its dependent component `render` functions are called.
+A component's properties and state serve as the "source of truth" that React uses to drive the **reactivity** of the interface. Reactivity is the process by which the UI automatically stays in sync with the underlying data. When a user interacts with the page or an event occurs, the data changes, and React ensures the UI reflects that change immediately.
+
+Whenever a component's state or properties are updated, React triggers a **re-render**. For functional components, this means React executes the component function again to determine what the new JSX should look like based on the updated values. This re-rendering process is recursive: by default, when a parent component re-renders, all of its nested child components are also re-evaluated to ensure the entire UI tree remains consistent.
+
+To keep this process efficient, React uses a "Virtual DOM." Instead of rebuilding the entire webpage's HTML from scratch—which would be slow—React compares the new JSX output with the previous version (a process called "diffing") and calculates the most efficient way to update the actual browser DOM. This ensures that only the specific elements that truly changed are modified, keeping the application fast and responsive.
 
 ## ☑ Assignment
 
