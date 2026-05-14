@@ -637,8 +637,10 @@
           "path": "instruction/javascript/node/node.md",
           "id": "d37bc80e-b699-4249-9a11-388e2548fd29",
           "state": "published",
-          "interactions": [],
-          "commit": "a1f34759e126b723f22cc72420e99e960f7749da"
+          "interactions": [
+            "6ee76cff-5ee4-4681-87af-919fd6c43221"
+          ],
+          "commit": "93fc4eb17c4d9bf5f9bc086288cc16ae2d791aa6"
         },
         {
           "title": "Debugging JavaScript",
