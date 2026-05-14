@@ -10,8 +10,7 @@ Some frameworks take things beyond the standard web technologies (HTML, CSS, Jav
 
 There are lots of web frameworks to choose from and they evolve all the time. You can view the latest popularity poll at [StateOfJS](https://stateofjs.com).
 
-![web frameworks](stateofjs-webframeworks.jpg)
-
+![stateOfJs2025-frameworks.png](stateOfJs2025-frameworks.png)
 \- **Source**: _StateOfJS web framework poll_
 
 Each framework has advantages and disadvantages. Some are very prescriptive (opinionated) about how to do things, some have major institutional backing, and others have a strong open source community. Other factors you want to consider include how easy it is to learn, how it impacts productivity, how performant it is, how long it takes to build, and how actively the framework is evolving.
