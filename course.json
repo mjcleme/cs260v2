@@ -816,7 +816,11 @@
           "title": "Destructuring",
           "path": "instruction/javascript/destructuring/destructuring.md",
           "id": "6a68e93c-e941-4162-82af-fcb82c74d740",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "dda944de-a226-4787-87b2-02176f5719b5"
+          ],
+          "commit": "3cb1f3ad814cede78bf8c9db53359404b76579b4"
         },
         {
           "title": "Time and interval",
