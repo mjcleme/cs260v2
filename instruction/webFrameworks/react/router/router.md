@@ -142,54 +142,45 @@ Interactively create an HTML page from your prompt.
 <body>
   <div id="root">... loading</div>
 
-<script type="importmap">
-  {
-    "imports": {
-      "react": "https://esm.sh/react@18",
-      "react-dom/client": "https://esm.sh/react-dom@18/client",
-      "react-router-dom": "https://esm.sh/react-router-dom@6?deps=react@18,react-dom@18"
-    }
-  }
-</script>
-
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/react-router-dom@5/umd/react-router-dom.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <script type="text/babel" data-type="module">
-    import React from "react";
-    import { createRoot } from "react-dom/client";
-    import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+<script type="text/babel">
+  const { MemoryRouter, NavLink, Switch, Route } = ReactRouterDOM;
 
-    function Page({ color }) {
-      return (
-        <div className="page" style={{ backgroundColor: color }}>
-          <h1>{color}</h1>
+  function Page({ color }) {
+    return (
+      <div className="page" style={{ backgroundColor: color }}>
+        <h1>{color}</h1>
+      </div>
+    );
+  }
+
+  function App() {
+    return (
+      <MemoryRouter>
+        <div className="app">
+          <nav>
+            <NavLink exact to="/">Red</NavLink>
+            <NavLink to="/green">Green</NavLink>
+            <NavLink to="/blue">Blue</NavLink>
+          </nav>
+          <main>
+            <Switch>
+              <Route exact path="/" render={() => <Page color="red" />} />
+              <Route path="/green" render={() => <Page color="green" />} />
+              <Route path="/blue" render={() => <Page color="blue" />} />
+            </Switch>
+          </main>
         </div>
-      );
-    }
+      </MemoryRouter>
+    );
+  }
 
-    function App() {
-      return (
-        <BrowserRouter>
-          <div className="app">
-            <nav>
-              <NavLink to="/">Red</NavLink>
-              <NavLink to="/green">Green</NavLink>
-              <NavLink to="/blue">Blue</NavLink>
-            </nav>
-            <main>
-              <Routes>
-                <Route path="/" element={<Page color="red" />} />
-                <Route path="/green" element={<Page color="green" />} />
-                <Route path="/blue" element={<Page color="blue" />} />
-              </Routes>
-            </main>
-          </div>
-        </BrowserRouter>
-      );
-    }
-
-    createRoot(document.getElementById("root")).render(<App />);
-  </script>
+  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
 
   <style>
     * { margin: 0; font-family: sans-serif; }
