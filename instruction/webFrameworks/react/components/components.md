@@ -62,6 +62,8 @@ root.render(hello);
 
 The JSX that a component returns may reference other components. This allows you to build up a complex tree of interrelated components. Consider the following application that has a header with navigational elements, main content, and a footer. The App component is the parent of all the other components.
 
+
+
 #### index.jsx
 
 ```jsx
