@@ -96,3 +96,105 @@ function Db() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Clicker />);
 ```
+
+
+## useContext hook
+
+In React, data usually flows from top to bottom via props. However, as an application grows, you may find yourself passing props through many components that don't actually need the data, just to get it to a deeply nested child. This phenomenon is known as **prop drilling**. The `useContext` hook provides a way to share values like themes, user authentication, or preferred language between components without explicitly passing a prop through every level of the tree.
+
+### The Problem: Prop Drilling
+When you have a piece of state in a root component that is needed by a component five levels deep, every intermediate component must act as a "middleman." This makes the code harder to maintain and refactor.
+
+```mermaid
+graph TD
+    App --> Layout
+    Layout --> Header
+    Layout --> Main
+    Main --> Sidebar
+    Main --> Content
+    Content --> UserProfile
+    
+    subgraph PropDrilling
+    App -.->|user prop| Layout
+    Layout -.->|user prop| Main
+    Main -.->|user prop| Content
+    Content -.->|user prop| UserProfile
+    end
+
+    subgraph ContextAPI
+    App == "Context Provider" ==> UserProfile
+    end
+
+    classDef default fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
+```
+
+### How to use useContext
+To implement context in your application, you generally follow three steps:
+1.  **Create the Context:** Use `createContext()` to create a context object.
+2.  **Provide the Context:** Wrap your component tree with a `Provider` and pass the data into the `value` prop.
+3.  **Consume the Context:** Use the `useContext` hook in any child component to access that value.
+
+### Implementation Example: Theme Switching
+Below is a practical example of how to implement a light/dark mode toggle using `useContext`.
+
+```jsx
+import React, { createContext, useContext, useState } from 'react';
+
+// 1. Create the Context
+const ThemeContext = createContext();
+
+export function ThemeProvider({ children }) {
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
+
+  // 2. Provide the Context
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+
+function ThemedButton() {
+  // 3. Consume the Context
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  
+  return (
+    <button 
+      onClick={toggleTheme}
+      style={{ 
+        background: theme === 'light' ? '#fff' : '#333', 
+        color: theme === 'light' ? '#000' : '#fff' 
+      }}
+    >
+      Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
+    </button>
+  );
+}
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <ThemedButton />
+    </ThemeProvider>
+  );
+}
+```
+
+### Key Considerations
+*   **Performance:** When the `value` of a Provider changes, all components calling `useContext` for that specific context will re-render. To optimize this, keep your context values as granular as possible.
+*   **Default Values:** When calling `createContext(defaultValue)`, the default value is only used if a component does not have a matching Provider above it in the tree.
+*   **Composition:** Context is best used for "global" data. If you are only passing props down one or two levels, standard prop passing is often cleaner and easier to trace.
+
+```masteryls
+{"id":"usecontext-purpose", "title":"Understanding useContext", "type":"multiple-choice"}
+What is the primary problem that the useContext hook is designed to solve in React applications?
+
+- [ ] It is used to fetch data from external APIs asynchronously.
+- [ ] It replaces the useState hook for managing local component state.
+- [x] It prevents "prop drilling" by allowing components to access global data without intermediate props.
+- [ ] It is used to directly manipulate the browser's DOM elements.
+```
