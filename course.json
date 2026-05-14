@@ -686,7 +686,12 @@
           "title": "React",
           "path": "instruction/webFrameworks/react/introduction/introduction.md",
           "id": "5bc6a62d-3106-4ace-9c21-08ddcc992f0f",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "955d56f9-ade3-4b8a-8b54-18e448995a11",
+            "955d56f9-ade3-4b8a-8b54-18e448995a11"
+          ],
+          "commit": "0d3190e5bea9edadf649a07425a96691152054bc"
         },
         {
           "title": "☑ Components",
