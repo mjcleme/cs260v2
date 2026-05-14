@@ -69,6 +69,7 @@ Go ahead and play with the code. Manipulate it so that the list contains the wor
     import { createRoot } from 'https://esm.sh/react-dom@18.3.1/client';
 
     function App() {
+      const i = 3;
       const list = React.createElement('ol', { style: {color:'green'}}, React.createElement('li', null, 'Item ', i), React.createElement('li', null, 'Item ', 3 + i));
       return list;
     }
@@ -81,7 +82,7 @@ Go ahead and play with the code. Manipulate it so that the list contains the wor
 ```
 
 ```masteryls
-{"id":"a55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the list and the color be blue.", "height":20 }
+{"id":"a55d56f9-ade3-4b8a-8b54-18e448995a22", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the list and the color be blue.", "height":75 }
 Now we can replace the React DOM manipulate functions with JSX. This simplifies things to a representation that is easier to use because it is similar to HTML. Babel pre-processes the JSX into JavaScript that is then passed to the browser for rendering. This basically turns it into the JavaScript code from the previous example interaction.
 
 Once again, change the list text to contain `BYU` and set the color to blue. This should be a lot easier to do with JSX than the previous JavaScript version.
@@ -95,9 +96,10 @@ Once again, change the list text to contain `BYU` and set the color to blue. Thi
 
   <script type="text/babel">
     function App() {
-      return <ol style='color:green'>
-              <li>Item 3</li>
-              <li>Item 6</li>
+      const i = 3;
+      return <ol style={{ color: 'green' }}>
+              <li>Item {i}</li>
+              <li>Item {i*2}</li>
             </ol>;
     }
 
