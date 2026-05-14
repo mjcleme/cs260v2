@@ -93,6 +93,11 @@ After these changes, the application should look similar to this:
 
 ![React altered](reactAppAltered.png)
 
-_If your section of this course requires that you submit assignments for grading_: Submit a screen capture of the altered application to the Canvas assignment.
+
+```masteryls
+{"id":"d16e7f1e-e689-4862-bf06-7ceda139a4de", "title":"Vite + React", "type":"essay" }
+Insert the lines of code that you had to change achieve the required modifications.
+```
+
 
 Don't forget to update your GitHub startup repository `notes.md` with all of the things you learned and want to remember.
