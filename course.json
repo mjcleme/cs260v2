@@ -836,7 +836,9 @@
           "title": "Hooks",
           "path": "instruction/webFrameworks/react/hooks/hooks.md",
           "id": "d2709f1b-a217-4c40-935a-00e8c1c7676a",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "36a109e5048b8e5c9b9daccaac47cc6de6b2eac3"
         },
         {
           "title": "☑ Reactivity",
