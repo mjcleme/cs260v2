@@ -202,7 +202,7 @@ function debounce(windowMs, windowFunc) {
 
 ```masteryls
 {"id":"155bb729-1239-4569-8199-1cb5cc13f842", "title":"Debouncer", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":100 }
-Drag the scrollbar to see the color change. As long as you keep scrolling the color will keep changing. Once you stop the debounce function will fire. In this case the color will reset to white.
+Drag the scrollbar to see the color change. As long as you keep scrolling the color will keep changing. Once you stop scrolling for half a second, the debounce function will fire and the color will reset to white.
 
 ~~~html
 <html>
@@ -231,7 +231,7 @@ Drag the scrollbar to see the color change. As long as you keep scrolling the co
 
       document.body.addEventListener(
         "scroll",
-        debounce(200, () => {
+        debounce(500, () => {
           document.documentElement.style.backgroundColor = "#FFFFFF";
         })
       );
