@@ -69,7 +69,7 @@ This code demonstrates using the React library functions to inject dynamically c
 Go ahead and play with the code. Manipulate it so that the list contains the word `BYU`. Set the color is set to blue.
 ~~~html
 <body>
-  <div id="root"></div>
+  <div id="root">...loading</div>
 
   <script type="module">
     import React, { useState } from 'https://esm.sh/react@18.3.1';
@@ -95,7 +95,7 @@ Now we can replace the React DOM manipulate functions with JSX. This simplifies 
 Once again, change the list text to contain `BYU` and set the color to blue. This should be a lot easier to do with JSX than the previous JavaScript version.
 ~~~html
 <body>
-  <div id="root"></div>
+  <div id="root">...loading</div>
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -152,7 +152,7 @@ Note that here is nothing special about the variable names that you choose as th
 The following example will change the background color when you click on the text. Experiment with the source code and then modify it so that the name toggles between 'BYU' and 'Cougar' when you click on it.
 ~~~html
 <body>
-  <div id="root" style="">... loading</div>
+  <div id="root">... loading</div>
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
