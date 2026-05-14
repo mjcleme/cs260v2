@@ -51,7 +51,7 @@ When you are finished, the placeholder for your startup will be available from `
 
 ```masteryls
 {"id":"6edadab4-91ee-46f0-952e-469f42dc841e", "title":"Startup AWS Deliverable", "type":"url-submission", "syncGrade":true, "autoGrade":true, "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
-Submit the URL to your startup server.
+After completing all the prerequisites and rubric items, submit the URL to your startup server. The server must be up and running correctly.
 
 _Example: https://mydomainname.click_
 ```
