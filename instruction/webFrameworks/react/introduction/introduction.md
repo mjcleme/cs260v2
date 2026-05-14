@@ -125,26 +125,26 @@ JSX gives us the ability to easily represents HTML that is manipulated by JavaSc
 
 This happens when a user clicks on a button, inputs information, views different content, or simply moves the mouse. State changes can also be driven by external data sources such as the time of day, stock price, weather, or a chat message.
 
-A simple representation of React state is shown below.
+The following demonstrates using React state to change the target of the hello message whenever the text is click on. This works by declaring a React state variable with `React.useState` and providing it the initial value of the state variable. This returns two things: 1) a constant `name` that is used to reference the current value of the state and 2) a function to set a new value for the variable (`setName`). You can reference the `name` constant in the JSX to render the current value. You can also use the `setName` function to change the name in your JavaScript.
+
 
 ```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
 function App() {
-  const [target, setTarget] = React.useState('BYU');
+  const [name, setName] = React.useState('BYU');
 
   const handleClick = () => {
-    setTarget(target === 'BYU' ? 'Cougar' : 'BYU');
+    setName(name === 'BYU' ? 'Cougar' : 'BYU');
   };
 
   return (
     <div onClick={handleClick}>
-      <div> Hello {target} </div>
+      <div> Hello {name} </div>
     </div>
   );
 }
 ```
+
+Note that here is nothing special about the variable names that you choose as the return values from `React.useState`. You can set those to whatever makes sense in your application.
 
 
 ```masteryls
