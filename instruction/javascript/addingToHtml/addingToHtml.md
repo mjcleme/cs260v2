@@ -19,7 +19,7 @@ function sayHello() {
 ```html
 <!-- external script -->
 <head>
-  <script src="index.js"></script>
+  <script src="/index.js"></script>
 </head>
 <body>
   <button onclick="sayHello()">Say Hello</button>
