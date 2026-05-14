@@ -38,13 +38,13 @@ Babel converts the JSX into valid JavaScript that looks really complex to a huma
 
 ```js
 const i = 3;
-const list = React.createElement('ol', { class: 'big' }, React.createElement('li', null, 'Item ', i), React.createElement('li', null, 'Item ', 3 + i));
+const list = React.createElement('ol', { style: {color:'green'}}, React.createElement('li', null, 'Item ', i), React.createElement('li', null, 'Item ', 3 + i));
 ```
 
 When the JavaScript interpreter running in the browser executes the `React.createElement` functions it will generate HTML elements are displayed to the user.
 
 ```html
-<ol class="big">
+<ol style='color:green'>
   <li>Item 3</li>
   <li>Item 6</li>
 </ol>
@@ -56,10 +56,10 @@ The following interactions demonstrate how JSX simplifies the complexity of repr
 
 
 ```masteryls
-{"id":"955d56f9-ade3-4b8a-8b54-18e448995a11", "title":"ReactDOM functions", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
-This code demonstrates using the React library functions to inject dynamically created DOM elements into an HTML `div`. In this case a **button** element is created and added as a child to the div with ID of root. The object that is passed to button represents the attributes of the newly created button element including the `onClick` handler.
+{"id":"b55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"ReactDOM functions", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the list and the color be blue.", "height":75 }
+This code demonstrates using the React library functions to inject dynamically created DOM elements into an HTML `div`. In this case a **list** element is created and added as a child to the div with ID of root. The list has a style attribute that sets its color to green.
 
-Go ahead and click on the button and play with the code. Manipulate the code so that the button text contains the word `BYU`. Set the initial count to be 10.
+Go ahead and play with the code. Manipulate it so that the list contains the word `BYU`. Set the color is set to blue.
 ~~~html
 <body>
   <div id="root"></div>
@@ -69,12 +69,8 @@ Go ahead and click on the button and play with the code. Manipulate the code so 
     import { createRoot } from 'https://esm.sh/react-dom@18.3.1/client';
 
     function App() {
-      const [count, setCount] = useState(0);
-      return React.createElement(
-        'button',
-        { onClick: () => setCount((c) => c + 1), type: 'button' },
-        `count is ${count}`,
-      );
+      const list = React.createElement('ol', { style: {color:'green'}}, React.createElement('li', null, 'Item ', i), React.createElement('li', null, 'Item ', 3 + i));
+      return list;
     }
 
     const root = createRoot(document.getElementById('root'));
@@ -85,10 +81,10 @@ Go ahead and click on the button and play with the code. Manipulate the code so 
 ```
 
 ```masteryls
-{"id":"a55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
+{"id":"a55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the list and the color be blue.", "height":20 }
 Now we can replace the React DOM manipulate functions with JSX. This simplifies things to a representation that is easier to use because it is similar to HTML. Babel pre-processes the JSX into JavaScript that is then passed to the browser for rendering. This basically turns it into the JavaScript code from the previous example interaction.
 
-Once again, change the button text to contain `BYU` and set the initial count to be 10. This should be a lot easier to do than the previous JavaScript version.
+Once again, change the list text to contain `BYU` and set the color to blue. This should be a lot easier to do with JSX than the previous JavaScript version.
 ~~~html
 <body>
   <div id="root"></div>
@@ -99,8 +95,10 @@ Once again, change the button text to contain `BYU` and set the initial count to
 
   <script type="text/babel">
     function App() {
-      const [count, setCount] = React.useState(0);
-      return <button onClick={() => setCount(count + 1)}>count is {count}</button>;
+      return <ol style='color:green'>
+              <li>Item 3</li>
+              <li>Item 6</li>
+            </ol>;
     }
 
     const root = ReactDOM.createRoot(document.getElementById('root'));
