@@ -99,7 +99,7 @@ Once again, change the list text to contain `BYU` and set the color to blue. Thi
       const i = 3;
       return <ol style={{ color: 'green' }}>
               <li>Item {i}</li>
-              <li>Item {i*2}</li>
+              <li>Item {3 + i}</li>
             </ol>;
     }
 
