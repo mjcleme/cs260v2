@@ -60,7 +60,7 @@ Use the **JavaScript Interpreter**, or the console pane in the browser debugger,
 
 
 ```masteryls
-{"id":"e91229cd-b212-437c-becf-f32950a9b985", "type":"web-page", "allowAiPrompt":true, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":650, "file":"../introduction/javascriptPlayground.html" }
+{"id":"e91229cd-b212-437c-becf-f32950a9b985", "type":"web-page", "height":650, "file":"../introduction/javascriptPlayground.html" }
 ```
 
 ## Reflect
