@@ -20,7 +20,56 @@ In order to understand how React state works, consider a simple React applicatio
 
 Whenever you change the color using the `ColorPicker` component, it causes the color rendered by the `ColorDisplay` component to update.
 
-![Color picker](colorPicker.gif)
+
+```masteryls
+{"id":"9ce45230-7cbd-40d2-9ab7-50b814eed0a6", "type":"web-page", "height":150}
+<body>
+  <div id="root">... loading</div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function App() {
+      const [color, updateColor] = React.useState('#737AB0');
+
+      return (
+        <div>
+          <h1>Pick a color</h1>
+          <ColorDisplay color={color} />
+          <ColorPicker color={color} updateColor={updateColor} />
+        </div>
+      );
+    }
+
+    function ColorDisplay({ color }) {
+      return (
+        <div>
+          Your color: <span style={{ color: color }}>{color}</span>
+        </div>
+      );
+    }
+
+    function ColorPicker({ color, updateColor }) {
+      function onChange(e) {
+        updateColor(e.target.value);
+      }
+
+      return (
+        <div>
+          <span>Pick a color: </span>
+          <input type='color' onChange={onChange} value={color} />
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+
+```
 
 The `App` component creates a React state variable by calling the `React.useState` function. This creates an entry in React's state table that tracks the current and desired value of every state object.
 
