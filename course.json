@@ -722,13 +722,15 @@
           "commit": "116fcc0dfe17db44732d047a6af4d9c39548ad74"
         },
         {
-          "title": "☑ Simon React P1: Routing",
+          "title": "Simon React P1: Routing",
+          "type": "instruction",
           "path": "instruction/simon/simonReact/simonReactP1.md",
           "id": "a2ba4351-fc02-41b7-8795-3d9ac17be2ff",
           "state": "published",
           "interactions": [
             "bc16c49e-eed4-4852-9843-c994c9542dfd"
           ],
+          "description": "",
           "commit": "185de8fe62cd42f2cee3dfb4e9e70fd9093de307"
         },
         {
