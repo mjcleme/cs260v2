@@ -96,4 +96,4 @@ _Example: https://github.com/myaccount/startup_
 
 ## Go celebrate
 
-With the port to React your startup should now feel like a modern web application. Time to celebrate. I'm thinking lollipops. 🍭
+With the port to React your startup should now feel like a modern web application. Time to celebrate. I'm thinking lollipops for everyone! 🍭
