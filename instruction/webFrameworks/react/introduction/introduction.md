@@ -110,7 +110,7 @@ Once again, change the list text to contain `BYU` and set the color to blue. Thi
 ~~~
 ```
 
-Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
+Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of JSX and cause it to rerender the JSX into new HTML.
 
 
 ## React Hello World
