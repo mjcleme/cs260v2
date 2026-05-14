@@ -17,6 +17,13 @@ React, and its associated projects, provide a powerful web programming framework
 
 React was created by Jordan Walke for use at Facebook in 2011. It was first used with Facebook's news feed and then as the main framework for Instagram. Shortly thereafter, Facebook open sourced the framework and it was quickly adopted by many popular web applications.
 
+The core React library support two functional pieces: 
+
+1. **JSX** - A syntax that lets you write UI markup in JavaScript, making interactive interfaces easier to build and read.
+1. **State** - Data managed by a component that, when changed, causes the relevant HTML to re-render.
+
+
+## JSX
 
 ![bableTransformation.jpg](bableTransformation.jpg)
 
@@ -112,6 +119,9 @@ Once again, change the list text to contain `BYU` and set the color to blue. Thi
 
 Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of JSX and cause it to rerender the JSX into new HTML.
 
+## State
+
+Put examples of a button click here.
 
 ## React Hello World
 
