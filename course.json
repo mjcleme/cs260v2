@@ -708,13 +708,15 @@
           "commit": "a521b20c1f94270bfd0108e3715e4a2da8656e22"
         },
         {
-          "title": "☑ Router",
+          "title": "Router",
+          "type": "instruction",
           "path": "instruction/webFrameworks/react/router/router.md",
           "id": "41c73fe0-dd77-477a-85ae-8046eed7ccc7",
           "state": "published",
           "interactions": [
             "f1da9f1e-e9e2-49ac-b3ec-99cded897e4c"
           ],
+          "description": "",
           "commit": "116fcc0dfe17db44732d047a6af4d9c39548ad74"
         },
         {
