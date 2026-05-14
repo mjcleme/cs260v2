@@ -142,12 +142,23 @@ Interactively create an HTML page from your prompt.
 <body>
   <div id="root">... loading</div>
 
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://esm.sh/react-router-dom"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18",
+      "react-dom/client": "https://esm.sh/react-dom@18/client",
+      "react-router-dom": "https://esm.sh/react-router-dom@6?deps=react@18,react-dom@18"
+    }
+  }
+</script>
+
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <script type="text/babel">
+  <script type="text/babel" data-type="module">
+    import React from "react";
+    import { createRoot } from "react-dom/client";
+    import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+
     function Page({ color }) {
       return (
         <div className="page" style={{ backgroundColor: color }}>
@@ -165,10 +176,9 @@ Interactively create an HTML page from your prompt.
               <NavLink to="/green">Green</NavLink>
               <NavLink to="/blue">Blue</NavLink>
             </nav>
-
             <main>
               <Routes>
-                <Route path="/" element={<Page color="red" />} exact />
+                <Route path="/" element={<Page color="red" />} />
                 <Route path="/green" element={<Page color="green" />} />
                 <Route path="/blue" element={<Page color="blue" />} />
               </Routes>
@@ -177,16 +187,18 @@ Interactively create an HTML page from your prompt.
         </BrowserRouter>
       );
     }
+
+    createRoot(document.getElementById("root")).render(<App />);
   </script>
 
   <style>
-    * {  margin: 0;  font-family: sans-serif;}
-    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;}
-    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1;}
-    a {  margin: 0 10px;  color: rgb(76, 146, 171);  text-decoration: none;  border: 1px solid rgb(76, 146, 171);  padding: 10px;}
-    a:hover {  background-color: rgb(76, 146, 171);  color: #f1f1f1;}
-    main {  height: 100%;  width: 100%;}
-    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; background-color: #f9f9f9;}
+    * { margin: 0; font-family: sans-serif; }
+    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; }
+    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1; }
+    a { margin: 0 10px; color: rgb(76, 146, 171); text-decoration: none; border: 1px solid rgb(76, 146, 171); padding: 10px; }
+    a:hover { background-color: rgb(76, 146, 171); color: #f1f1f1; }
+    main { height: 100%; width: 100%; }
+    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; }
   </style>
 </body>
 ~~~
