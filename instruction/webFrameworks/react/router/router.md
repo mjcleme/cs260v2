@@ -12,7 +12,7 @@ With a single page application, the browser only loads one HTML page and then Ja
 
 React does not have a standard router package, and there are many that you can choose from. We will use [react-router-dom](https://www.npmjs.com/package/react-router-dom). The simplified routing functionality of React-router-dom derives from the project [react-router](https://www.npmjs.com/package/react-router) for its core functionality. Do not confuse the two when reading tutorials and documentation.
 
-The following show how the router toggles between content as a user clicks on the header elements.
+The following shows how the router toggles between content as a user clicks on the header elements.
 
 ![React Router](routerPenExample.gif)
 
