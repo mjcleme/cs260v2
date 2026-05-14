@@ -94,9 +94,8 @@ root.render(<App />);
 
 This results in the following.
 
-
 ```masteryls
-{"id":"484515fd-8066-4bae-988c-fb6cf13cfc21", "title":"Web page", "type":"web-page", "height":80}
+{"id":"484515fd-8066-4bae-988c-fb6cf13cfc21", "title":"Styling JSX", "type":"web-page", "height":80}
 <body>
   <div id="root">... loading</div>
 
@@ -123,6 +122,33 @@ This results in the following.
     root.render(<App />);
   </script>
 </body>
+```
+
+
+```masteryls
+{"id":"cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6", "title":"Dynamic Styling", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The background color is blue", "height":100 }
+Examine the source code and see how React state is used to specify the style of the component element.
+
+~~~html
+<body>
+  <div id="root">... loading</div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function App() {
+      return (
+        <div>Simple math</div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+~~~
 ```
 
 
