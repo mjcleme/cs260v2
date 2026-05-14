@@ -78,6 +78,10 @@ graph TD
     Header --> Link3[Link About]
 ```
 
+With React you typically start with a single HTML element defined in `index.html` and then it is a tree of nested components all the way down.
+
+The following code demonstrates the component structure described above.
+
 #### index.jsx
 
 ```jsx
