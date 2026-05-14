@@ -826,7 +826,11 @@
           "title": "Time and interval",
           "path": "instruction/javascript/timeoutAndInterval/timeoutAndInterval.md",
           "id": "01c5785d-ebe0-4346-869d-0fb5d46a0929",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "b8866af7-c9c5-4250-bfb3-c58968294f8c"
+          ],
+          "commit": "dc84ad033498d39edceb251269ad83099721e1bb"
         },
         {
           "title": "Hooks",
