@@ -27,7 +27,7 @@ When you are finished, the placeholder for your startup will be available from `
 ## 🚀 Deliverable
 
 1. [Set up your AWS account](../../essentials/awsAccount/awsAccount.md) using your byu.edu email address.
-
+1. [Create a new EC2 instance](../amazonWebServicesEc2/amazonWebServicesEc2.md) and access the server using `http://x.x.x.x` (where x.x.x.x is your IP address).
 1. [Lease a domain](../amazonWebServicesRoute53/amazonWebServicesRoute53.md) in Route53. Make sure you respond to the email that they will send you.
 1. Make sure that you can access your server through HTTP through http://startup.yourdomain (where yourdomain is replaced with the domain you leased from Route53)
 1. [Edit your Caddyfile](../https/https.md) so that you can access your server through HTTPS.
