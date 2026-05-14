@@ -324,6 +324,22 @@ To keep this process efficient, React uses a "Virtual DOM." Instead of rebuildin
 
 ## ☑ Assignment
 
+
+```masteryls
+{"id":"cc76e021-8012-43be-bb3b-8427ee7aabbf", "title":"Components", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There exists a new property to the Demo component that provides the background color for the component. There exists a state variable that changes the color on a mouse over event.", "height":500 }
+Examine the provided source code. Try the following:
+
+1. Add a new property to the Demo component that provides the background color for the component.
+2. Add another state variable that changes the color on a mouse over event.
+
+~~~html
+  <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3aa,#004949);color:#ecfeff;font-family:ui-monospace,monospace;">
+    <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
+  </body>
+~~~
+```
+
+
 Create a fork of this [CodePen](https://codepen.io/leesjensen/pen/Yzvaver) and experiment.
 
 Try the following:
