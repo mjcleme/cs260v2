@@ -326,16 +326,57 @@ To keep this process efficient, React uses a "Virtual DOM." Instead of rebuildin
 
 
 ```masteryls
-{"id":"cc76e021-8012-43be-bb3b-8427ee7aabbf", "title":"Components", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There exists a new property to the Demo component that provides the background color for the component. There exists a state variable that changes the color on a mouse over event.", "height":500 }
+{"id":"cc76e021-8012-43be-bb3b-8427ee7aabbf", "title":"Components", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There exists a new property to the Demo component that provides the background color for the component. There exists a state variable that changes the color on a mouse over event.", "height":225 }
 Examine the provided source code. Try the following:
 
 1. Add a new property to the Demo component that provides the background color for the component.
 2. Add another state variable that changes the color on a mouse over event.
 
 ~~~html
-  <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3aa,#004949);color:#ecfeff;font-family:ui-monospace,monospace;">
-    <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
-  </body>
+<body>
+  <div id="root">... loading</div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    // Top level component that contains child components
+    function App() {
+      return (
+        <div>
+          Function Style Component: <Demo who="function" />
+        </div>
+      );
+    }
+
+    // Child component
+    function Demo(props) {
+      const [outlook, setOutlook] = React.useState("beautiful");
+
+      function changeOutlook() {
+        setOutlook(outlook === "exciting" ? "beautiful" : "exciting");
+      }
+
+      return (
+        <div className="component">
+          <p>
+            Hello {outlook} {props.who}
+          </p>
+          <button onClick={changeOutlook}>change</button>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+
+  <style>
+    * {font-family: Arial;padding: 0.5em;}
+    .component {border: solid thick #888;margin: 0.5em 0;width: %100;}
+  </style>
+</body>
 ~~~
 ```
 
