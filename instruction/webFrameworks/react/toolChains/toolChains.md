@@ -1,5 +1,6 @@
 # Toolchains
 
+![toolchain.jpg](toolchain.jpg)
 
 A toolchain is a collection of distinct software development tools that are linked together to perform a complex task, most commonly the transformation of source code into a functional application. Instead of a single monolithic program, a toolchain relies on a pipeline where the output of one utility becomes the input for the next. This modular approach allows developers to swap out specific components—such as using a different compiler or linker—without redesigning the entire development environment.
 
@@ -46,8 +47,6 @@ Which of the following best describes the fundamental characteristic of a softwa
 - [ ] A cloud-based repository used exclusively for storing and versioning source code files.
 - [ ] A hardware interface used to connect a development computer to a production server.
 ```
-
-
 
 ## Web application toolchains
 
