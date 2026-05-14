@@ -79,7 +79,7 @@ Go ahead and play with the code. Change the button text to contain `BYU` and set
 ```
 
 ```masteryls
-{"id":"955d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
+{"id":"a55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
 This code simplifies things by using JSX instead of the React functions. Babel to preprocess the script before it is passed to the browser. This basically turns it into the JavaScript code from the previous example.
 
 Once again, change the button text to contain `BYU` and set the initial count to be 10. This should be a lot easier to do than the previous version.
