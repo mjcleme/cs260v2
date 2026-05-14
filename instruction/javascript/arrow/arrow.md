@@ -199,4 +199,54 @@ function debounce(windowMs, windowFunc) {
 }
 ```
 
+
+```masteryls
+{"id":"155bb729-1239-4569-8199-1cb5cc13f842", "title":"Debouncer", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":500 }
+Interactively create an HTML page from your prompt.
+
+~~~html
+
+<style>
+body {  font-size: 20vh;  font-family: sans-serif;  height: 100vh;  margin: 0;}
+</style>
+
+<body>
+  <div>Debounce example</div>
+</body>
+
+<script>
+function debounce(windowMs, windowFunc) {
+  let callCount = 0;
+  let timeout;
+  return function () {
+    // Change color as the user scrolls
+    const color = `hsl(${callCount++}, 100%, 50%)`;
+    document.querySelector("body").style.backgroundColor = color;
+    clearTimeout(timeout);
+    timeout = setTimeout(() => windowFunc(), windowMs);
+  };
+}
+
+window.addEventListener(
+  "scroll",
+  debounce(500, () => {
+    // Clear color only when scrolling stops
+    document.querySelector("body").style.backgroundColor = "#FFFFFF";
+  })
+);
+</script>
+~~~
+```
+
+
 You can experiment with this in [CodePen](https://codepen.io/leesjensen/pen/XWxVBRx). In this example, the background color will change as long as the user is scrolling. When they stop the background reverts back to white.
+
+
+## Experiment
+
+Use the **JavaScript Interpreter**, or the console pane in the browser debugger, to experiment with arrow functions.
+
+
+```masteryls
+{"id":"a92239de-b212-437c-becf-f42950a9b999", "type":"web-page", "height":650, "file":"../introduction/javascriptPlayground.html" }
+```
