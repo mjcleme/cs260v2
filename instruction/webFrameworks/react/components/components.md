@@ -327,7 +327,7 @@ To keep this process efficient, React uses a "Virtual DOM." Instead of rebuildin
 
 ```masteryls
 {"id":"cc76e021-8012-43be-bb3b-8427ee7aabbf", "title":"Components", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There exists a new property to the Demo component that provides the background color for the component. There exists a state variable that changes the color on a mouse over event.", "height":225 }
-Examine the provided source code. Try the following:
+Examine the provided source code and then modify it to:
 
 1. Add a new property to the Demo component that provides the background color for the component.
 2. Add another state variable that changes the color on a mouse over event.
@@ -381,15 +381,6 @@ Examine the provided source code. Try the following:
 ```
 
 
-Create a fork of this [CodePen](https://codepen.io/leesjensen/pen/Yzvaver) and experiment.
-
-Try the following:
-
-1. Add a new property to the Demo component that provides the background color for the component.
-2. Add another state variable that changes the color on a mouse over event.
-
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
-
 ### 🧧 Possible solution
 
 If you get stuck here is a possible solution.
@@ -425,7 +416,4 @@ function Demo(props) {
     </div>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 ```
