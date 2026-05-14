@@ -42,5 +42,5 @@ Use the **JavaScript Interpreter**, or the console pane in the browser debugger,
 
 ```masteryls
 {"id":"b8866af7-c9c5-4250-bfb3-c58968294f8c", "title":"Async function", "type":"essay" }
-Demonstrate the usage of setInterval by printing out the current time every five seconds.
+Demonstrate the usage of setInterval by printing out the current time every second. After five seconds cancel the interval execution.
 ```
