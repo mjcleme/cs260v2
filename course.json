@@ -782,7 +782,11 @@
           "title": "Arrow functions",
           "path": "instruction/javascript/arrow/arrow.md",
           "id": "02b9a912-938c-435c-afe1-6237a3a90128",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "155bb729-1239-4569-8199-1cb5cc13f842"
+          ],
+          "commit": "c514f82e701589a16091336761d2f6b8e0f5ff7c"
         },
         {
           "title": "☑ Arrays",
