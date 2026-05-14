@@ -676,7 +676,11 @@
           "title": "☑ Vite",
           "path": "instruction/webFrameworks/react/vite/vite.md",
           "id": "94d58212-317a-4744-a172-00ca145f2858",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "d16e7f1e-e689-4862-bf06-7ceda139a4de"
+          ],
+          "commit": "d0e236617cbee667b5461f6b243fdee847cedbfb"
         },
         {
           "title": "React",
