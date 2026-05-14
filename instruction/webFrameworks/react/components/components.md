@@ -1,125 +1,51 @@
-# Components
+# Router
 
-📖 **Recommended reading**: [React.dev - Your First Component](https://react.dev/learn/your-first-component)
+🔑 **Required reading**: [React Router DOM Tutorial](https://blog.webdevsimplified.com/2022-07/react-router/)
 
-A React component is simply a JavaScript function that returns JSX. The JSX is converted into JavaScript by Babel and then rendered in browser. This makes it easy to combine HTML and JavaScript in your web application.
+A web framework router provides essential functionality for single-page applications that otherwise would have been handled by rendering multiple HTML pages. With a multiple-webpage application the headers, footers, navigation, and common components must be either duplicated in each HTML page, or injected before the server sends the page to the browser.
 
-```js
-function SimpleComponent() {
-  const who = 'world';
-  return <b>Hello {who}</b>;
-}
-```
+![Multi page app](multipageapp.png)
 
-React components also allow you to modularize the functionality of your application. Components match well with the structural mental model of users. They also encourage code reuse because it is common for components to show up repeatedly.
+With a single page application, the browser only loads one HTML page and then JavaScript is used to manipulate the DOM and give it the appearance of multiple pages. The router defines the routes a user can take through the application, and automatically manipulates the DOM to display the appropriate framework components. This has the advantage of being able to store state as the user interacts with the page and not having to continually go to the server to get new HTML pages.
 
-## Rendering JSX
+![Single page app](singlepageapp.png)
 
-One of the primary purposes of a component is to generate the user interface. This is done with the JSX returned from a component. Whatever is returned, inserted into the component HTML element.
+React does not have a standard router package, and there are many that you can choose from. We will use [react-router-dom](https://www.npmjs.com/package/react-router-dom). The simplified routing functionality of React-router-dom derives from the project [react-router](https://www.npmjs.com/package/react-router) for its core functionality. Do not confuse the two when reading tutorials and documentation.
 
-As a simple example, a JSX file containing a React component element named `Demo` would cause React to load the `Demo` component, get the JSX returned from the component, and insert the result into the place of the `Demo` element.
+The following shows how the router toggles between content as a user clicks on the header elements.
 
-**JSX**
+![React Router](routerPenExample.gif)
+
+A basic implementation of the router consists of a `BrowserRouter` component that encapsulates the entire application and controls the routing action. The `Link`, or `NavLink`, component captures user navigation events and modifies what is rendered by the `Routes` component by matching up the `to` and `path` attributes. The example contains two components. The **App** component with the router and a **Page** component that is routed to when a link is pressed.
 
 ```jsx
-<div>
-  Component: <Demo />
-</div>
-```
-
-Notice that `Demo` is not a valid HTML element. The transpiler will replace this tag with the resulting rendered HTML.
-
-**React component**
-
-```jsx
-function Demo() {
-  const who = 'world';
-  return <b>Hello {who}</b>;
-}
-```
-
-**Resulting HTML**
-
-```html
-<div>Component: <b>Hello world</b></div>
-```
-
-You should note that you can use JSX even without a function. A simple variable representing JSX will work anyplace you would otherwise provide a component.
-
-```jsx
-const hello = <div>Hello</div>;
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(hello);
-```
-
-**Resulting HTML**
-
-```html
-<div>Hello</div>
-```
-
-## Child components
-
-The JSX that a component returns may reference other components. This allows you to build up a complex tree of interrelated components. Consider the following application that has a header with navigational elements, main content, and a footer. The App component is the parent of all the other components.
-
-
-```mermaid
-graph TD
-    classDef default fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
-
-    App
-    
-    App --> Header
-    App --> Content
-    App --> Footer
-    
-    Header --> Link1[Link Home]
-    Header --> Link2[Link Users]
-    Header --> Link3[Link About]
-```
-
-With React you typically start with a single HTML element defined in `index.html` and then it is a tree of nested components all the way down.
-
-The following code demonstrates the component structure described above.
-
-#### index.jsx
-
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-
-function Header() {
+function Page({ color }) {
   return (
-    <nav className='app-bar'>
-      <Link label='home' />
-      <Link label='users' />
-      <Link label='about' />
-    </nav>
+    <div className="page" style={{ backgroundColor: color }}>
+      <h1>{color}</h1>
+    </div>
   );
-}
-
-function Link(label) {
-  return <div>{label.label}</div>;
-}
-
-function Content() {
-  return <div className='content'>Here is the content</div>;
-}
-
-function Footer() {
-  return <div className='app-bar'>Footer</div>;
 }
 
 function App() {
   return (
-    <div className='app'>
-      <Header />
+    <BrowserRouter>
+      <div className="app">
+        <nav>
+          <NavLink to="/">Red</NavLink>
+          <NavLink to="/green">Green</NavLink>
+          <NavLink to="/blue">Blue</NavLink>
+        </nav>
 
-      <Content />
-
-      <Footer />
-    </div>
+        <main>
+          <Routes>
+            <Route path="/" element={<Page color="red" />} exact />
+            <Route path="/green" element={<Page color="green" />} />
+            <Route path="/blue" element={<Page color="blue" />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
@@ -127,210 +53,90 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 ```
 
-#### index.css
+## Router example
+
+You can enhance the simple [Hello World React](../introduction/introduction.md#react-hello-world) app that you created in previous instruction to include a router by first installing the React Router Dom dependency.
+
+```sh
+npm install react-router-dom
+```
+
+Now you can replace the JSX for the application found in `index.jsx` with the router code given above. You will need to add the reference to the `react-router-dom` import as well as the CSS that is used for making things look pretty.
+
+```jsx
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+
+import './styles.css';
+```
+
+Place the following CSS in a new file named `styles.css`.
 
 ```css
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .app {
-  font-family: sans-serif;
-}
-
-.app-bar {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  background: #ddd;
+  align-items: center;
+  height: 100vh;
 }
 
-.app-bar div {
-  padding: 0.25em;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  font-size: 1em;
+  background-color: #f1f1f1;
 }
 
-.content {
-  margin: 1em;
-}
-```
-
-This results in the following.
-
-![alt text](withCss.png)
-
-## Properties
-
-React components also allow you to pass information to them in the form of element properties. The component receives the properties in its constructor and then can display them when it renders.
-
-**JSX**
-
-```jsx
-<div>Component: <Demo who="Walke" /><div>
-```
-
-**React component**
-
-```jsx
-function Demo(props) {
-  return <b>Hello {props.who}</b>;
-}
-```
-
-## State
-
-In addition to properties, a component can have internal state. Component state is created by calling the `React.useState` hook function. The `useState` function returns a variable that contains the current state and a function to update the state. The following example creates a state variable called `clicked` and toggles the click state in the `updateClicked` function that gets called when the paragraph text is clicked.
-
-```jsx
-function App() {
-  const [clicked, updateClicked] = React.useState(false);
-
-  function onClicked() {
-    updateClicked(!clicked);
-  }
-
-  return <p onClick={onClicked}>clicked: {`${clicked}`}</p>;
+a {
+  margin: 0 10px;
+  color: rgb(76, 146, 171);
+  text-decoration: none;
+  border: 1px solid rgb(76, 146, 171);
+  padding: 10px;
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-```
-
-## Styling components
-
-If you don't want to directly style your components with inline CSS rule sets, you can reference and external CSS file and then reference the rules in your JSX just like you would normally do with HTML. For example, if you had a CSS file named `index.css` with the following styles.
-
-```css
-div {
-  font-family: sans-serif;
+a:hover {
+  background-color: rgb(76, 146, 171);
+  color: #f1f1f1;
 }
 
-.code {
-  color: green;
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 10vw;
+  background-color: #f9f9f9;
 }
 ```
 
-You could apply the style rules using importing the CSS. The styles will then apply as they would normally, with the exception that you need to use `className` attribute on an element instead of `class` because class is a keyword in JavaScript.
+Now you are ready to start up the application by running `npm run dev` and opening up the application in your browser.
 
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+Notice that as you click on the different navigation links the URL of the application changes to match the route. This is happens because the Routes component plugs into the browser's location API and modifies the displayed path so that it gives the appearance that a different resource is being displayed, when in reality the DOM is simply being manipulated to display a different React component.
 
-function App() {
-  return (
-    <div>
-      <pre className='code'>console.log(1+1);</pre>
-      <p>Simple math</p>
-    </div>
-  );
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-```
-
-This results in the following.
-
-```masteryls
-{"id":"484515fd-8066-4bae-988c-fb6cf13cfc21", "title":"Styling JSX", "type":"web-page", "height":80}
-<body>
-  <div id="root">... loading</div>
-
-  <style>
-  div {font-family: sans-serif;}
-  .code {color: green;}
-  </style>
-
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <script type="text/babel">
-    function App() {
-      return (
-        <div>
-          <pre className='code'>console.log(1+1);</pre>
-          <p>Simple math</p>
-        </div>
-      );
-    }
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
-</body>
-```
-
-### Dynamic Styling
-You can also use React state to control the styling of your components. 
-
-```jsx
-function ColorComponent() {
-  const [color, setColor] = useState('blue');
-
-  return <div style={{ color: color}}>{color}</div>
-}
-```
-
-The double curly bracket syntax looks a bit strange to start with, but if you consider that you are first escaping to JavaScript and then supplying an object that defines each of the style properties, it begins to make sense.
-
-
-```masteryls
-{"id":"cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6", "title":"Dynamic Styling Practice", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The background transitions on mouse enter", "height":100 }
-Examine the source code and see how React state is used to specify the style of the component element. See what happens when you move your cursor over the text. Then change it so background color changes instead of the text color.
-
-~~~html
-<body>
-  <div id="root">... loading</div>
-
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <script type="text/babel">
-    const { useState } = React;
-
-    function App() {
-      const [hovered, setHovered] = useState(false);
-
-      return (
-        <div  style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-          <div
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-            style={{
-              fontSize: 32,
-              transition: "color 2s",
-              color: hovered ? "hotpink" : "steelblue",
-            }}
-          >
-            JSX with Style!
-          </div>
-        </div>
-      );
-    }
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
-</body>
-~~~
-```
-
-
-## Reactivity
-
-A component's properties and state serve as the "source of truth" that React uses to drive the **reactivity** of the interface. Reactivity is the process by which the UI automatically stays in sync with the underlying data. When a user interacts with the page or an event occurs, the data changes, and React ensures the UI reflects that change immediately.
-
-Whenever a component's state or properties are updated, React triggers a **re-render**. For functional components, this means React executes the component function again to determine what the new JSX should look like based on the updated values. This re-rendering process is recursive: by default, when a parent component re-renders, all of its nested child components are also re-evaluated to ensure the entire UI tree remains consistent.
-
-To keep this process efficient, React uses a "Virtual DOM." Instead of rebuilding the entire webpage's HTML from scratch—which would be slow—React compares the new JSX output with the previous version (a process called "diffing") and calculates the most efficient way to update the actual browser DOM. This ensures that only the specific elements that truly changed are modified, keeping the application fast and responsive.
+![Router coded example](routerCodedExample.gif)
 
 ## ☑ Assignment
 
 
 ```masteryls
-{"id":"cc76e021-8012-43be-bb3b-8427ee7aabbf", "title":"Components", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There exists a new property to the Demo component that provides the background color for the component. There exists a state variable that changes the color on a mouse over event.", "height":225 }
-Examine the provided source code and then modify it to:
-
-1. Add a new property to the Demo component that provides the background color for the component.
-2. Add another state variable that changes the color on a mouse over event.
+{"id":"f1da9f1e-e9e2-49ac-b3ec-99cded897e4c", "title":"Routing exercise", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":500 }
+Interactively create an HTML page from your prompt.
 
 ~~~html
 <body>
@@ -338,82 +144,58 @@ Examine the provided source code and then modify it to:
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://esm.sh/react-router-dom"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <script type="text/babel">
-    // Top level component that contains child components
+    function Page({ color }) {
+      return (
+        <div className="page" style={{ backgroundColor: color }}>
+          <h1>{color}</h1>
+        </div>
+      );
+    }
+
     function App() {
       return (
-        <div>
-          Function Style Component: <Demo who="function" />
-        </div>
+        <BrowserRouter>
+          <div className="app">
+            <nav>
+              <NavLink to="/">Red</NavLink>
+              <NavLink to="/green">Green</NavLink>
+              <NavLink to="/blue">Blue</NavLink>
+            </nav>
+
+            <main>
+              <Routes>
+                <Route path="/" element={<Page color="red" />} exact />
+                <Route path="/green" element={<Page color="green" />} />
+                <Route path="/blue" element={<Page color="blue" />} />
+              </Routes>
+            </main>
+          </div>
+        </BrowserRouter>
       );
     }
-
-    // Child component
-    function Demo(props) {
-      const [outlook, setOutlook] = React.useState("beautiful");
-
-      function changeOutlook() {
-        setOutlook(outlook === "exciting" ? "beautiful" : "exciting");
-      }
-
-      return (
-        <div className="component">
-          <p>
-            Hello {outlook} {props.who}
-          </p>
-          <button onClick={changeOutlook}>change</button>
-        </div>
-      );
-    }
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
   </script>
 
   <style>
-    * {font-family: Arial;padding: 0.5em;}
-    .component {border: solid thick #888;margin: 0.5em 0;width: %100;}
+    * {  margin: 0;  font-family: sans-serif;}
+    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;}
+    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1;}
+    a {  margin: 0 10px;  color: rgb(76, 146, 171);  text-decoration: none;  border: 1px solid rgb(76, 146, 171);  padding: 10px;}
+    a:hover {  background-color: rgb(76, 146, 171);  color: #f1f1f1;}
+    main {  height: 100%;  width: 100%;}
+    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; background-color: #f9f9f9;}
   </style>
 </body>
 ~~~
 ```
 
 
-### 🧧 Possible solution
 
-If you get stuck here is a possible solution.
+Create a fork of this [CodePen](https://codepen.io/leesjensen/pen/poKLKaX) and add another component for the path of `/orange`.
 
-```jsx
-function App() {
-  return (
-    <div>
-      Function Style Component: <Demo who='function' initialColor='yellow' />
-    </div>
-  );
-}
+_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
 
-function Demo(props) {
-  const [color, setColor] = React.useState(props.initialColor);
-  const [outlook, setOutlook] = React.useState('beautiful');
-
-  function changeOutlook() {
-    setOutlook(outlook === 'exciting' ? 'beautiful' : 'exciting');
-  }
-
-  function changeColor() {
-    let randomColor = Math.floor(Math.random() * 16777215).toString(16);
-    setColor('#' + randomColor);
-  }
-
-  return (
-    <div className='component' onMouseOver={changeColor} style={{ background: color }}>
-      <p>
-        Hello {outlook} {props.who}
-      </p>
-      <button onClick={changeOutlook}>change</button>
-    </div>
-  );
-}
-```
+Don't forget to update your GitHub startup repository `notes.md` with all of the things you learned and want to remember.
