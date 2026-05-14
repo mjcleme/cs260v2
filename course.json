@@ -772,7 +772,11 @@
           "title": "Functions",
           "path": "instruction/javascript/functions/functions.md",
           "id": "183be696-976a-4df0-be54-166357455952",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "f88669f7-c9c5-4250-bfb3-c58968294f8c"
+          ],
+          "commit": "24de4a4645bac1bec46d2e3128a55a8dd542493c"
         },
         {
           "title": "Arrow functions",
