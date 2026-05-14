@@ -45,7 +45,7 @@ When the JavaScript interpreter running in the browser executes the `React.creat
 </ol>
 ```
 
-Later, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
+Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
 
 ## Simplifying JavaScript with JSX
 
