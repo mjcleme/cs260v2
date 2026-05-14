@@ -152,7 +152,7 @@ Note that here is nothing special about the variable names that you choose as th
 The following example will change the background color when you click on the text. Experiment with the source code and then modify it so that the name toggles between 'BYU' and 'Cougar' when you click on it.
 ~~~html
 <body>
-  <div id="root" style="height:100vh; font: bold 40vh Arial; display:flex; align-items:center; justify-content: center">... loading</div>
+  <div id="root" style="">... loading</div>
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -167,7 +167,7 @@ The following example will change the background color when you click on the tex
       };
 
       return (
-          <div onClick={handleClick} style={{ backgroundColor: bgColor }}> Hello React </div>
+        <div onClick={handleClick} style={{ backgroundColor: bgColor, height:'100vh', font: 'bold 40vh Arial', display:'flex', alignItems:'center', justifyContent: 'center' }}> Hello React </div>
       );
     }
 
