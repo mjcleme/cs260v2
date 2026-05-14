@@ -329,11 +329,51 @@ return doubled;</textarea
                 logs.push(level + ': ' + text);
               };
 
+              const _counts = {};
+              const _timers = {};
               const console = {
-                log: function() { pushLog('log', Array.from(arguments)); },
-                info: function() { pushLog('info', Array.from(arguments)); },
-                warn: function() { pushLog('warn', Array.from(arguments)); },
+                log:   function() { pushLog('log',   Array.from(arguments)); },
+                info:  function() { pushLog('info',  Array.from(arguments)); },
+                warn:  function() { pushLog('warn',  Array.from(arguments)); },
                 error: function() { pushLog('error', Array.from(arguments)); },
+                debug: function() { pushLog('debug', Array.from(arguments)); },
+                dir:   function() { pushLog('dir',   Array.from(arguments)); },
+                table: function() { pushLog('table', Array.from(arguments)); },
+                assert: function(condition) {
+                  if (!condition) {
+                    const args = Array.from(arguments).slice(1);
+                    pushLog('assert', args.length ? args : ['Assertion failed']);
+                  }
+                },
+                count: function(label) {
+                  const key = label === undefined ? 'default' : String(label);
+                  _counts[key] = (_counts[key] || 0) + 1;
+                  pushLog('log', [key + ': ' + _counts[key]]);
+                },
+                countReset: function(label) {
+                  const key = label === undefined ? 'default' : String(label);
+                  _counts[key] = 0;
+                },
+                time: function(label) {
+                  const key = label === undefined ? 'default' : String(label);
+                  _timers[key] = Date.now();
+                },
+                timeEnd: function(label) {
+                  const key = label === undefined ? 'default' : String(label);
+                  const elapsed = _timers[key] !== undefined ? (Date.now() - _timers[key]) + 'ms' : 'no timer';
+                  delete _timers[key];
+                  pushLog('log', [key + ': ' + elapsed]);
+                },
+                timeLog: function(label) {
+                  const key = label === undefined ? 'default' : String(label);
+                  const elapsed = _timers[key] !== undefined ? (Date.now() - _timers[key]) + 'ms' : 'no timer';
+                  pushLog('log', [key + ': ' + elapsed]);
+                },
+                group:          function() { pushLog('group',    Array.from(arguments)); },
+                groupEnd:       function() { pushLog('groupEnd', []); },
+                groupCollapsed: function() { pushLog('group',    Array.from(arguments)); },
+                clear:          function() { logs.length = 0; },
+                trace:          function() { pushLog('trace',    Array.from(arguments)); },
               };
 
               try {
