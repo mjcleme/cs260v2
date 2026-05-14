@@ -793,7 +793,11 @@
           "title": "☑ Arrays",
           "path": "instruction/javascript/array/array.md",
           "id": "1f2e58f8-c29e-47f7-aee5-d7e86fff3745",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "js-array-performance"
+          ],
+          "commit": "35bc0583b8107e10a4ff8fb63ddabd159e993652"
         },
         {
           "title": "Objects and classes",
