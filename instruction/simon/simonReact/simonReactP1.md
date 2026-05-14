@@ -572,6 +572,15 @@ Do the following as part of your mastery demonstration for this phase. This is a
 1. Complete all of the steps given above to convert the CSS version over to a basic React version where your HTML and CSS are represented by **React components** and you have enabled **React routing**.
 1. Deploy the result to your simon production environment (simon.yourdomain) using the `deployReact.sh` deployment script from the [Simon React repository](https://github.com/webprogramming260/simon-react/blob/main/deployReact.sh).
 
+
+
+```masteryls
+{"id":"bc16c49e-eed4-4852-9843-c994c9542dfd", "title":"Simon React P1: Routing Deployed", "type":"url-submission", "syncGrade":false, "autoGrade":false, "validateUrl":true, "gradingCriteria":"The title contains 'Simon React'" }
+After you have deployed _Simon React, verify that it is accessible by providing the URL.
+
+_Example: https://simon.yourdomain.click_
+```
+
 > [!IMPORTANT]
 >
 > Do not attempt to port your startup to React until you have completed and deployed your port of Simon to React.
