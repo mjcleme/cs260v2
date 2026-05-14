@@ -133,8 +133,64 @@ Notice that as you click on the different navigation links the URL of the applic
 
 ## ☑ Assignment
 
-Create a fork of this [CodePen](https://codepen.io/leesjensen/pen/poKLKaX) and add another component for the path of `/orange`.
 
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
+```masteryls
+{"id":"f1da9f1e-e9e2-49ac-b3ec-99cded897e4c", "title":"Routing exercise", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":500 }
+Interactively create an HTML page from your prompt.
+
+~~~html
+<body>
+  <div id="root">... loading</div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://esm.sh/react-router-dom"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function Page({ color }) {
+      return (
+        <div className="page" style={{ backgroundColor: color }}>
+          <h1>{color}</h1>
+        </div>
+      );
+    }
+
+    function App() {
+      return (
+        <BrowserRouter>
+          <div className="app">
+            <nav>
+              <NavLink to="/">Red</NavLink>
+              <NavLink to="/green">Green</NavLink>
+              <NavLink to="/blue">Blue</NavLink>
+            </nav>
+
+            <main>
+              <Routes>
+                <Route path="/" element={<Page color="red" />} exact />
+                <Route path="/green" element={<Page color="green" />} />
+                <Route path="/blue" element={<Page color="blue" />} />
+              </Routes>
+            </main>
+          </div>
+        </BrowserRouter>
+      );
+    }
+  </script>
+
+  <style>
+    * {  margin: 0;  font-family: sans-serif;}
+    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;}
+    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1;}
+    a {  margin: 0 10px;  color: rgb(76, 146, 171);  text-decoration: none;  border: 1px solid rgb(76, 146, 171);  padding: 10px;}
+    a:hover {  background-color: rgb(76, 146, 171);  color: #f1f1f1;}
+    main {  height: 100%;  width: 100%;}
+    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; background-color: #f9f9f9;}
+  </style>
+</body>
+~~~
+```
+
 
 Don't forget to update your GitHub startup repository `notes.md` with all of the things you learned and want to remember.
