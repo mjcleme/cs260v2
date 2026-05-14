@@ -63,6 +63,27 @@ root.render(hello);
 The JSX that a component returns may reference other components. This allows you to build up a complex tree of interrelated components. Consider the following application that has a header with navigational elements, main content, and a footer. The App component is the parent of all the other components.
 
 
+```mermaid
+graph TD
+    App[App Component]
+    
+    %% First level of children
+    App --> Header[Child Component A]
+    App --> Content[Child Component B]
+    App --> Footer[Child Component C]
+    
+    %% Second level of children (Grandchildren)
+    Header --> Link1[Link Home]
+    Header --> Link2[Link Users]
+    Header --> Link3[Link About]
+    
+    Content --> GrandchildB1[Grandchild Component B.1]
+
+    %% Styling to emphasize hierarchy
+    style App fill:#f9f,stroke:#333,stroke-width:2px
+    style Header fill:#bbf,stroke:#333,stroke-width:1px
+    style Content fill:#bbf,stroke:#333,stroke-width:1px
+```
 
 #### index.jsx
 
