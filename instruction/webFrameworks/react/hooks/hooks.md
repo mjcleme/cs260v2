@@ -31,7 +31,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<UseEffectHookDemo />);
 ```
 
-## UseEffect dependencies
+### UseEffect dependencies
 
 By default, the **useEffect** callback is called every time the component is rendered. You can control what triggers a **useEffect** hook by specifying its dependencies. In the following example we have two state variables, but we only want the **useEffect** hook to be called when the component is initially called and when the first variable is clicked. To accomplish this you pass an array of dependencies as a second parameter to the **useEffect** call.
 
@@ -62,7 +62,7 @@ If you specify an empty array `[]` as the hook dependency then it is only called
 >
 > Hooks must be called at the top scope of the function and cannot be called inside of a loop or conditional. This restriction ensures that hooks are always called in the same order when a component is rendered.
 
-## useEffect clean up
+### useEffect clean up
 
 You can also take action when the component cleans up by returning a cleanup function when you call `useEffect`. Consider the example where a component creates a database connection. The database connection is a resource that needs to be released when the component is destroyed. In the example, the function returned from **useEffect** when get called when the component gets destroyed. This is triggered after a user clicks five times on the clicker component.
 
