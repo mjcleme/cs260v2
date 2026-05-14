@@ -163,7 +163,7 @@ The following example will change the background color when you click on the tex
       const [bgColor, setBgColor] = React.useState('white');
 
       const handleClick = () => {
-        setBgColor(bgColor === 'white' ? '#adc4ff' : 'white');
+        setBgColor(bgColor === 'white' ? '#bdede6' : 'white');
       };
 
       return (
