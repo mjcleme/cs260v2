@@ -68,6 +68,9 @@ Doing this will make this deliverable of your startup available from `https://st
 
 ## Grading Rubric
 
+> [!IMPORTANT]
+>
+> This Simon prerequisite is different than other deliverables. Make sure you read and comply with the instruction.
 
 
 ```masteryls
