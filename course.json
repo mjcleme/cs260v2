@@ -726,8 +726,10 @@
           "path": "instruction/simon/simonReact/simonReactP1.md",
           "id": "a2ba4351-fc02-41b7-8795-3d9ac17be2ff",
           "state": "published",
-          "interactions": [],
-          "commit": "c6ec81c245f01b7dd04e9245771a96edfb151fe9"
+          "interactions": [
+            "bc16c49e-eed4-4852-9843-c994c9542dfd"
+          ],
+          "commit": "401462e62a810a65815a373f96f4060e20f9e602"
         },
         {
           "title": "Simon React P1 video",
