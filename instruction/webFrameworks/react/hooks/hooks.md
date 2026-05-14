@@ -198,3 +198,84 @@ What is the primary problem that the useContext hook is designed to solve in Rea
 - [x] It prevents "prop drilling" by allowing components to access global data without intermediate props.
 - [ ] It is used to directly manipulate the browser's DOM elements.
 ```
+
+
+## useMemo hook
+
+In React, components re-render whenever their state or props change. While React's reconciliation process is fast, some operations—such as processing large datasets, complex mathematical transformations, or generating filtered lists—can be computationally expensive. If these operations run on every single render, they can lead to UI lag and a poor user experience. The `useMemo` hook is designed to solve this by "memoizing" (caching) the result of a calculation between re-renders.
+
+The `useMemo` hook accepts two arguments: a function that returns a value and a dependency array. React will only re-execute the function when one of the dependencies has changed. If the dependencies remain the same between renders, React skips the function and returns the previously cached value.
+
+```mermaid
+graph TD
+  Start[Component Renders] --> Check{Dependencies Changed?}
+  Check -- Yes --> Calc[Execute expensive function]
+  Calc --> Store[Update Cache]
+  Store --> Return[Return New Value]
+  Check -- No --> Cache[Retrieve from Cache]
+  Cache --> Return
+  
+  classDef default fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
+```
+
+### When to use useMemo
+
+There are two primary scenarios where `useMemo` is beneficial:
+
+1.  **Expensive Calculations:** When you have a function that takes a significant amount of time to run (e.g., sorting a list of 10,000 items).
+2.  **Referential Equality:** In JavaScript, objects and arrays are compared by reference. If you pass an object or array created inside a component body to a memoized child component (via `React.memo`), that child will re-render every time because the reference changes on every render. `useMemo` ensures the reference stays the same unless dependencies change.
+
+### Implementation Example
+
+Consider a component that filters a large list of users based on a search query. Without `useMemo`, the filtering logic runs even if the user is merely clicking a "Toggle Theme" button that has nothing to do with the user list.
+
+```javascript
+import React, { useState, useMemo } from 'react';
+
+const UserList = ({ users }) => {
+  const [query, setQuery] = useState('');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // This calculation only re-runs if 'users' or 'query' changes
+  const filteredUsers = useMemo(() => {
+    console.log("Filtering users...");
+    return users.filter(user => 
+      user.name.toLowerCase().includes(query.toLowerCase())
+    );
+  }, [users, query]);
+
+  return (
+    <div className={isDarkMode ? 'dark' : 'light'}>
+      <button onClick={() => setIsDarkMode(!isDarkMode)}>
+        Toggle Theme
+      </button>
+      <input 
+        value={query} 
+        onChange={(e) => setQuery(e.target.value)} 
+        placeholder="Search users..." 
+      />
+      <ul>
+        {filteredUsers.map(user => <li key={user.id}>{user.name}</li>)}
+      </ul>
+    </div>
+  );
+};
+```
+
+### Best Practices and Pitfalls
+
+While it might be tempting to wrap everything in `useMemo`, it comes with its own overhead. Memory must be allocated to store the cached value, and React must perform a comparison on the dependency array during every render.
+
+*   **Don't over-optimize:** For simple arithmetic or small array manipulations, the overhead of `useMemo` may exceed the performance gain.
+*   **Keep it pure:** The function passed to `useMemo` should be a pure function. Side effects (like API calls) belong in `useEffect`, not `useMemo`.
+*   **Dependency accuracy:** Always include every variable from the component scope that is used inside the memoized function in the dependency array. Failing to do so will result in "stale" values.
+
+```masteryls
+{"id":"usememo-mechanics", "title":"Understanding useMemo", "type":"multiple-choice"}
+What happens if you provide an empty dependency array `[]` to the useMemo hook?
+
+- [ ] The calculation runs on every single render.
+- [ ] The hook returns `undefined` because there are no dependencies to track.
+- [x] The calculation runs only once during the initial mount and the cached result is returned for all subsequent renders.
+- [ ] React will throw a runtime error because at least one dependency is required.
+```
