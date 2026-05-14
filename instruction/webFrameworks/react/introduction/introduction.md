@@ -149,9 +149,10 @@ Note that here is nothing special about the variable names that you choose as th
 
 ```masteryls
 {"id":"b55d56f9-ade3-4b8a-8b54-18e448995a32", "title":"State driven rendering", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The words 'byu' and 'cougar'  must toogle as the react state changes.", "height":75 }
+The following example will change the background color when you click on the text. Experiment with the source code and then modify it so that the name toggles between 'BYU' and 'Cougar' when you click on it.
 ~~~html
 <body>
-  <div id="root"></div>
+  <div id="root">xxx</div>
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -171,6 +172,9 @@ Note that here is nothing special about the variable names that you choose as th
         </div>
       );
     }
+
+    const root = createRoot(document.getElementById('root'));
+    root.render(React.createElement(App));
   </script>
 </body>
 ~~~
