@@ -184,7 +184,7 @@ Another way to easily play with HTML is to use a sandbox like the interaction sh
         <span class="topic">web programming</span>.
       </p>
       <p class="question">What will this mean to you?</p>
-      <p class="assignment">Learn more <a href="instruction.html">here</a>.</p>
+      <p class="assignment">Learn more <span>here</span>.</p>
     </main>
   </body>
 </html>
