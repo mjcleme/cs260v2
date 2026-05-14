@@ -578,7 +578,7 @@ Do the following as part of your mastery demonstration for this phase. This is a
 {"id":"bc16c49e-eed4-4852-9843-c994c9542dfd", "title":"Simon React P1: Routing Deployed", "type":"url-submission", "syncGrade":false, "autoGrade":false, "validateUrl":true, "gradingCriteria":"The title contains 'Simon React'" }
 After you have deployed _Simon React, verify that it is accessible by providing the URL.
 
-_Example: https://simon.yourdomain.click_
+Example: https://simon.yourdomain.click
 ```
 
 > [!IMPORTANT]
