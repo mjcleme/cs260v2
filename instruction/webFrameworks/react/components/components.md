@@ -4,7 +4,14 @@
 
 A React component is simply a JavaScript function that returns JSX. The JSX is converted into JavaScript by Babel and then rendered in browser. This makes it easy to combine HTML and JavaScript in your web application.
 
-React components also allow you to modularize the functionality of your application. A component representation connects the code to the structural mental model that a user interacts with. It also enables code reuse as common application components often show up repeatedly.
+```js
+function SimpleComponent() {
+  const who = 'world';
+  return <b>Hello {who}</b>;
+}
+```
+
+React components also allow you to modularize the functionality of your application. Components match well with the structural mental model of users. They also encourage code reuse because it is common for components to show up repeatedly.
 
 ## Rendering JSX
 
@@ -24,7 +31,7 @@ Notice that `Demo` is not a valid HTML element. The transpiler will replace this
 
 **React component**
 
-```js
+```jsx
 function Demo() {
   const who = 'world';
   return <b>Hello {who}</b>;
