@@ -125,19 +125,19 @@ JSX gives us the ability to easily represents HTML that is manipulated by JavaSc
 
 This happens when a user clicks on a button, inputs information, views different content, or simply moves the mouse. State changes can also be driven by external data sources such as the time of day, stock price, weather, or a chat message.
 
-The use of React state is shown below.
+The use of React state is shown below. First we declare the use of a state variable with `React.useState`. This gives us two return values, the variable **target** and a function **setTarget** to a new value. We can then reference the state variable in the JSX, and set it to a new value in our JavaScript.
 
 ```jsx
 function App() {
-  const [bgColor, setBgColor] = React.useState('white');
+  const [target, setTarget] = React.useState('BYU');
 
   const handleClick = () => {
-    setBgColor(bgColor === 'white' ? 'yellow' : 'white');
+    setTarget(target === 'BYU' ? 'Cougar' : 'BYU');
   };
 
   return (
     <div onClick={handleClick}
-      <div> Hello React </div>
+      <div> Hello {target} </div>
     </div>
   );
 }
@@ -146,7 +146,9 @@ function App() {
 
 ```masteryls
 {"id":"b55d56f9-ade3-4b8a-8b54-18e448995a32", "title":"State driven rendering", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The words 'byu' and 'cougar'  must toogle as the react state changes.", "height":75 }
-Modify the source code so that the display text toggles between the words 'byu' and 'cougar'.
+The following example uses React state to toggle the background color when you click on the text. Go ahead and try it.
+
+Now, modify the source code so that the display text toggles between the words 'BYU' and 'Cougar'. If you need help use the `Discuss` feature.
 ~~~html
 <body>
   <div id="root"></div>
@@ -160,15 +162,18 @@ Modify the source code so that the display text toggles between the words 'byu' 
       const [bgColor, setBgColor] = React.useState('white');
 
       const handleClick = () => {
-        setBgColor(bgColor === 'white' ? 'yellow' : 'white');
+        setBgColor(bgColor === 'white' ? '#adc4ff' : 'white');
       };
 
       return (
-        <div onClick={handleClick}
-          <div> Hello React </div>
+        <div onClick={handleClick} style={{ backgroundColor: bgColor, height: '100vh', font: 'bold 40vh Arial', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div> Hello BYU </div>
         </div>
       );
     }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
   </script>
 </body>
 ~~~
