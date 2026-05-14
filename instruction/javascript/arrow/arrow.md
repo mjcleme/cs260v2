@@ -344,7 +344,7 @@ When you have experimented with the debouncer and added the display of the diffe
           bounceCount++;
 
           document.documentElement.style.backgroundColor = "#FFFFFF";
-          document.documentElement.scrollTop = 0;
+          document.body.scrollTop = 0;
         })
       );
   });
