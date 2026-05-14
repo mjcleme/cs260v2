@@ -204,6 +204,8 @@ function debounce(windowMs, windowFunc) {
 {"id":"155bb729-1239-4569-8199-1cb5cc13f842", "title":"Debouncer", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included in the HTML.", "height":100 }
 Drag the scrollbar to see the color change. As long as you keep scrolling the color will keep changing. Once you stop scrolling for half a second, the debounce function will fire and the color will reset to white.
 
+Enhance the debouncer function to report the number of scroll and debounce events. As you scroll around you should see a significant difference between the two.
+
 ~~~html
 <html>
 <style>
@@ -217,11 +219,13 @@ Drag the scrollbar to see the color change. As long as you keep scrolling the co
 
   <script>
   document.addEventListener("DOMContentLoaded", function () {
+      let scrollCount = 0;
+      let bounceCount = 0;
+
       function debounce(windowMs, windowFunc) {
-        let callCount = 0;
         let timeout;
         return function () {
-          const color = `hsl(${callCount++}, 100%, 50%)`;
+          const color = `hsl(${scrollCount++}, 100%, 50%)`;
           document.documentElement.style.backgroundColor = color;
 
           clearTimeout(timeout);
@@ -232,6 +236,8 @@ Drag the scrollbar to see the color change. As long as you keep scrolling the co
       document.body.addEventListener(
         "scroll",
         debounce(500, () => {
+          bounceCount++;
+
           document.documentElement.style.backgroundColor = "#FFFFFF";
         })
       );
