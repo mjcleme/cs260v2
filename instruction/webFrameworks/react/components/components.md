@@ -58,6 +58,119 @@ root.render(hello);
 <div>Hello</div>
 ```
 
+## Child components
+
+The JSX that a component returns may reference other components. This allows you to build up a complex tree of interrelated components. Consider the following application that has a header with navigational elements, main content, and a footer. The App component is the parent of all the other components.
+
+#### index.jsx
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+
+function Header() {
+  return (
+    <nav className='app-bar'>
+      <Link label='home' />
+      <Link label='users' />
+      <Link label='about' />
+    </nav>
+  );
+}
+
+function Link(label) {
+  return <div>{label.label}</div>;
+}
+
+function Content() {
+  return <div className='content'>Here is the content</div>;
+}
+
+function Footer() {
+  return <div className='app-bar'>Footer</div>;
+}
+
+function App() {
+  return (
+    <div className='app'>
+      <Header />
+
+      <Content />
+
+      <Footer />
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+```
+
+#### index.css
+
+```css
+.app {
+  font-family: sans-serif;
+}
+
+.app-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+
+.app-bar div {
+  padding: 0.25em;
+}
+
+.content {
+  margin: 1em;
+}
+```
+
+This results in the following.
+
+![alt text](withCss.png)
+
+## Properties
+
+React components also allow you to pass information to them in the form of element properties. The component receives the properties in its constructor and then can display them when it renders.
+
+**JSX**
+
+```jsx
+<div>Component: <Demo who="Walke" /><div>
+```
+
+**React component**
+
+```jsx
+function Demo(props) {
+  return <b>Hello {props.who}</b>;
+}
+```
+
+## State
+
+In addition to properties, a component can have internal state. Component state is created by calling the `React.useState` hook function. The `useState` function returns a variable that contains the current state and a function to update the state. The following example creates a state variable called `clicked` and toggles the click state in the `updateClicked` function that gets called when the paragraph text is clicked.
+
+```jsx
+function App() {
+  const [clicked, updateClicked] = React.useState(false);
+
+  function onClicked() {
+    updateClicked(!clicked);
+  }
+
+  return <p onClick={onClicked}>clicked: {`${clicked}`}</p>;
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+```
+
 ## Styling components
 
 If you don't want to directly style your components with inline CSS rule sets, you can reference and external CSS file and then reference the rules in your JSX just like you would normally do with HTML. For example, if you had a CSS file named `index.css` with the following styles.
@@ -180,120 +293,6 @@ Examine the source code and see how React state is used to specify the style of 
 ~~~
 ```
 
-
-
-## Child components
-
-The JSX that a component returns may reference other components. This allows you to build up a complex tree of interrelated components. Consider the following application that has a header with navigational elements, main content, and a footer. The App component is the parent of all the other components.
-
-#### index.jsx
-
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-
-function Header() {
-  return (
-    <nav className='app-bar'>
-      <Link label='home' />
-      <Link label='users' />
-      <Link label='about' />
-    </nav>
-  );
-}
-
-function Link(label) {
-  return <div>{label.label}</div>;
-}
-
-function Content() {
-  return <div className='content'>Here is the content</div>;
-}
-
-function Footer() {
-  return <div className='app-bar'>Footer</div>;
-}
-
-function App() {
-  return (
-    <div className='app'>
-      <Header />
-
-      <Content />
-
-      <Footer />
-    </div>
-  );
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-```
-
-#### index.css
-
-```css
-.app {
-  font-family: sans-serif;
-}
-
-.app-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ddd;
-}
-
-.app-bar div {
-  padding: 0.25em;
-}
-
-.content {
-  margin: 1em;
-}
-```
-
-This results in the following.
-
-![alt text](withCss.png)
-
-## Properties
-
-React components also allow you to pass information to them in the form of element properties. The component receives the properties in its constructor and then can display them when it renders.
-
-**JSX**
-
-```jsx
-<div>Component: <Demo who="Walke" /><div>
-```
-
-**React component**
-
-```jsx
-function Demo(props) {
-  return <b>Hello {props.who}</b>;
-}
-```
-
-## State
-
-In addition to properties, a component can have internal state. Component state is created by calling the `React.useState` hook function. The `useState` function returns a variable that contains the current state and a function to update the state. The following example creates a state variable called `clicked` and toggles the click state in the `updateClicked` function that gets called when the paragraph text is clicked.
-
-```jsx
-function App() {
-  const [clicked, updateClicked] = React.useState(false);
-
-  function onClicked() {
-    updateClicked(!clicked);
-  }
-
-  return <p onClick={onClicked}>clicked: {`${clicked}`}</p>;
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-```
 
 ## Reactivity
 
