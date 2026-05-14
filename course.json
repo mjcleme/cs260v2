@@ -702,20 +702,15 @@
           "id": "ef3d76f9-2d32-4b26-a1b1-2a279b742a9e",
           "state": "published",
           "interactions": [
-            "cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6",
-            "cc76e021-8012-43be-bb3b-8427ee7aabbf"
+            "f1da9f1e-e9e2-49ac-b3ec-99cded897e4c"
           ],
-          "commit": "550e4bd6ab0caf6fdc5d7c00c95866555a25ca9a"
+          "commit": "5098dab4ba01dfb6bf881f6d397c0611d8926869"
         },
         {
           "title": "☑ Router",
           "path": "instruction/webFrameworks/react/router/router.md",
           "id": "41c73fe0-dd77-477a-85ae-8046eed7ccc7",
-          "state": "published",
-          "interactions": [
-            "f1da9f1e-e9e2-49ac-b3ec-99cded897e4c"
-          ],
-          "commit": "8223934714da9ccc11168a5eb69be7ecb1c4a086"
+          "state": "published"
         },
         {
           "title": "☑ Simon React P1: Routing",
