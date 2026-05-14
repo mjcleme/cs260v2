@@ -711,7 +711,11 @@
           "title": "☑ Router",
           "path": "instruction/webFrameworks/react/router/router.md",
           "id": "41c73fe0-dd77-477a-85ae-8046eed7ccc7",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "f1da9f1e-e9e2-49ac-b3ec-99cded897e4c"
+          ],
+          "commit": "7dc2c3c0a18a315e6a2f8fae5278ce1b9fbecf60"
         },
         {
           "title": "☑ Simon React P1: Routing",
