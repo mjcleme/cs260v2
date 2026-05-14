@@ -167,6 +167,19 @@ function App() {
 
 This results in concise, simple, thread safe code in a functional programming style.
 
+
+
+## Experiment
+
+Use the **JavaScript Interpreter**, or the console pane in the browser debugger, to experiment with arrow functions.
+
+
+```masteryls
+{"id":"a92239de-b212-437c-becf-f42950a9b999", "type":"web-page", "height":650, "file":"../introduction/javascriptPlayground.html" }
+```
+
+
+
 ## An advanced example
 
 If you are still wanting more, take a look at this complex example that demonstrates the use of functions, arrow functions, parameters, a function as a parameter (callback), closures, and browser event listeners. This is done by implementing a `debounce` function.
@@ -253,17 +266,4 @@ When you have experiment with the debouncer and added the display of the differe
 </body>
 </html>
 ~~~
-```
-
-
-You can experiment with this in [CodePen](https://codepen.io/leesjensen/pen/XWxVBRx). In this example, the background color will change as long as the user is scrolling. When they stop the background reverts back to white.
-
-
-## Experiment
-
-Use the **JavaScript Interpreter**, or the console pane in the browser debugger, to experiment with arrow functions.
-
-
-```masteryls
-{"id":"a92239de-b212-437c-becf-f42950a9b999", "type":"web-page", "height":650, "file":"../introduction/javascriptPlayground.html" }
 ```
