@@ -17,7 +17,7 @@ React, and its associated projects, provide a powerful web programming framework
 
 React was created by Jordan Walke for use at Facebook in 2011. It was first used with Facebook's news feed and then as the main framework for Instagram. Shortly thereafter, Facebook open sourced the framework and it was quickly adopted by many popular web applications.
 
-React abstracts HTML into a JavaScript variant called [JSX](https://reactjs.org/docs/introducing-jsx.html). JSX is converted into valid HTML and JavaScript using a preprocessor such as [Vite](https://vite.dev/) or [Babel](https://babeljs.io/). For example, the following is a JSX file. Notice that it mixes both HTML and JavaScript into a single representation.
+React abstracts HTML into a JavaScript variant called [JSX](https://reactjs.org/docs/introducing-jsx.html). JSX is converted into JavaScript that generates valid HTML using the preprocessor [Babel](https://babeljs.io/). For example, the following is a JSX file. Notice that it mixes both HTML and JavaScript into a single representation.
 
 ```jsx
 const i = 3;
@@ -29,7 +29,7 @@ const list = (
 );
 ```
 
-The preprocessor will convert the JSX into valid JavaScript that looks really complex to a human, but that a browser can render without any problems.
+Babel converts the JSX into valid JavaScript that looks really complex to a human, but that a browser can render without any problems.
 
 ```js
 const i = 3;
@@ -45,15 +45,15 @@ When the JavaScript interpreter running in the browser executes the `React.creat
 </ol>
 ```
 
-Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
+## Experiencing JSX to JavaScript
 
-## Simplifying JavaScript with JSX
+The following interactions demonstrate how JSX simplifies the complexity of representing dynamic DOM manipulation via JavaScript into something that looks much like HTML.
 
 ```masteryls
 {"id":"955d56f9-ade3-4b8a-8b54-18e448995a11", "title":"ReactDOM functions", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
 This code demonstrates using the React library functions to inject dynamically created DOM elements into an HTML `div`. In this case a **button** element is created and added as a child to the div with ID of root. The object that is passed to button represents the attributes of the newly created button element including the `onClick` handler.
 
-Go ahead and play with the code. Change the button text to contain `BYU` and set the initial count to be 10.
+Go ahead and click on the button and play with the code. Manipulate the code so that the button text to contains the word `BYU` and set the initial count to be 10.
 ~~~html
 <body>
   <div id="root"></div>
@@ -80,7 +80,7 @@ Go ahead and play with the code. Change the button text to contain `BYU` and set
 
 ```masteryls
 {"id":"a55d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
-This code simplifies things by using JSX instead of the React functions. Babel to preprocess the script before it is passed to the browser. This basically turns it into the JavaScript code from the previous example.
+Now we can replace the React DOM manipulate functions with JSX. This simplifies things to a representation that is easier to use because it is similar to HTML. Babel pre-processes the JSX into JavaScript that is then passed to the browser for rendering. This basically turns it into the JavaScript code from the previous example interaction.
 
 Once again, change the button text to contain `BYU` and set the initial count to be 10. This should be a lot easier to do than the previous version.
 ~~~html
@@ -103,6 +103,8 @@ Once again, change the button text to contain `BYU` and set the initial count to
 </body>
 ~~~
 ```
+
+Next, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
 
 
 ## React Hello World
