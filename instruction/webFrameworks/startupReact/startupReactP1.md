@@ -68,9 +68,13 @@ Doing this will make this deliverable of your startup available from `https://st
 
 ## Grading Rubric
 
-> [!IMPORTANT]
->
-> This Simon prerequisite is different than other deliverables. Make sure you read and comply with the instruction.
+
+
+```masteryls
+{"id":"b6e9b25c-9338-43dc-af83-3801ef95c8f9", "title":"Simon React P1 deployed", "type":"multiple-select" }
+- [x] I have completed my port of Simon CSS to use a React router and it is available on my production system under the **simon** subdomain.
+```
+
 
 - **Prerequisite**: Ported version of Simon CSS ported to Simon React and deployed to your production environment
 - **Prerequisite**: A link to your GitHub startup repository prominently displayed on your application's home page
