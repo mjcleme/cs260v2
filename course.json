@@ -743,8 +743,12 @@
           "path": "instruction/javascript/console/console.md",
           "id": "a200c81b-f154-4699-beb7-8f9142ad164a",
           "state": "published",
-          "interactions": [],
-          "commit": "4cad509836710a1209446981d8733a8979de47c8"
+          "interactions": [
+            "b55d56f9-ade3-4b8a-8b54-18e448995a11",
+            "a55d56f9-ade3-4b8a-8b54-18e448995a22",
+            "b55d56f9-ade3-4b8a-8b54-18e448995a32"
+          ],
+          "commit": "8d3a5165aea47dc29f7f644309e362865366752b"
         },
         {
           "title": "Functions",
