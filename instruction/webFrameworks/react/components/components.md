@@ -124,10 +124,23 @@ This results in the following.
 </body>
 ```
 
+### Dynamic Styling
+You can also use React state to control the styling of your components. 
+
+```jsx
+function ColorComponent() {
+  const [color, setColor] = useState('blue');
+
+  return <div style={{ color: color}}>{color}</div>
+}
+```
+
+The double curly bracket syntax looks a bit strange to start with, but if you consider that you are first escaping to JavaScript and then supplying an object that defines each of the style properties, it begins to make sense.
+
 
 ```masteryls
-{"id":"cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6", "title":"Dynamic Styling", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The background color is blue", "height":100 }
-Examine the source code and see how React state is used to specify the style of the component element.
+{"id":"cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6", "title":"Dynamic Styling Practice", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The background transitions on mouse enter", "height":100 }
+Examine the source code and see how React state is used to specify the style of the component element. See what happens when you move your cursor over the text. Then change it so background color changes instead of the text color.
 
 ~~~html
 <body>
@@ -138,9 +151,25 @@ Examine the source code and see how React state is used to specify the style of 
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <script type="text/babel">
+    const { useState } = React;
+
     function App() {
+      const [hovered, setHovered] = useState(false);
+
       return (
-        <div>Simple math</div>
+        <div  style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+          <div
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            style={{
+              fontSize: 32,
+              transition: "color 2s",
+              color: hovered ? "hotpink" : "steelblue",
+            }}
+          >
+            JSX with Style!
+          </div>
+        </div>
       );
     }
 
