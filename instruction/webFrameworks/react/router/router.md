@@ -136,7 +136,7 @@ Notice that as you click on the different navigation links the URL of the applic
 {"id":"f1da9f1e-e9e2-49ac-b3ec-99cded897e4c", "title":"Routing exercise", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"There is an 'orange' view in the router", "height":300 }
 This exercise shows a working React router. Play with the code and add an `orange` view to the routing.
 
-_**Note**: In order to have the router work within this page the memory version of the router is used and some of the router syntax is slightly different from what is shown above. If you focus on the routing concepts than the syntax difference won't matter, but do not use this code as a basis for your code._
+_**Note**: In order to have the router work within this page, the memory version of the router is used. The memory router uses slightly different syntax from what is shown above. If you focus on the routing concepts, than the syntax difference won't matter, but do not use this code as a basis for your code._
 
 ~~~html
 <body>
