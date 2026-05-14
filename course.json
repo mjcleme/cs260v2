@@ -838,9 +838,10 @@
           "id": "d2709f1b-a217-4c40-935a-00e8c1c7676a",
           "state": "published",
           "interactions": [
-            "usecontext-purpose"
+            "usecontext-purpose",
+            "usememo-mechanics"
           ],
-          "commit": "e54b6420a7ac6ad6efb2a459ddb49b0fa35fe489"
+          "commit": "94279ff5d23fcab8156e6c06b060b8031554fdc0"
         },
         {
           "title": "☑ Reactivity",
