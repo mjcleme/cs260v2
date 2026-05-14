@@ -57,7 +57,7 @@ When the JavaScript interpreter running in the browser executes the `React.creat
 </ol>
 ```
 
-## Experiencing JSX to JavaScript
+## From JavaScript to JSX
 
 The following interactions demonstrate how JSX simplifies the complexity of representing dynamic DOM manipulation via JavaScript into something that looks much like HTML.
 
@@ -163,7 +163,7 @@ The following example will change the background color when you click on the tex
       const [bgColor, setBgColor] = React.useState('white');
 
       const handleClick = () => {
-        setBgColor(bgColor === 'white' ? '#bdede6' : 'white');
+        setBgColor(bgColor === 'white' ? '#c1ecff' : 'white');
       };
 
       return (
