@@ -701,8 +701,10 @@
           "path": "instruction/webFrameworks/react/components/components.md",
           "id": "ef3d76f9-2d32-4b26-a1b1-2a279b742a9e",
           "state": "published",
-          "interactions": [],
-          "commit": "a56247bb98ca386f0da7ba9d1949ab24a4a3b0e0"
+          "interactions": [
+            "cf497eee-ab3e-4a39-b2f3-f6f00a5eb6f6"
+          ],
+          "commit": "1314464879ad49dc4ab71c100575e96657eee00b"
         },
         {
           "title": "☑ Router",
