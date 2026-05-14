@@ -224,7 +224,7 @@ document.querySelector('.scrollable').innerText = `Scroll events: ${scrollCount}
 
 ```masteryls
 {"id":"155bb729-1239-4569-8199-1cb5cc13f842", "title":"Debouncer", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The debounce function will change the div text to say how many events have occurred.", "height":100 }
-When you have experiment with the debouncer and added the display of the different event counts submit your changes for review.
+When you have experimented with the debouncer and added the display of the different event counts, submit your changes for review.
 
 ~~~html
 <html>
