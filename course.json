@@ -626,7 +626,11 @@
           "title": "Adding JavaScript to HTML",
           "path": "instruction/javascript/addingToHtml/addingToHtml.md",
           "id": "abd52096-048d-47e5-b50c-8386076edb37",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "cb181c05-18c3-49a3-bdcf-f4755b53f56c"
+          ],
+          "commit": "eb0813db403136c206797bbd6007efd4eecd73d2"
         },
         {
           "title": "Node.js",
