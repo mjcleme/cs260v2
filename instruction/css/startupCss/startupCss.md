@@ -80,6 +80,8 @@ Doing this will make this deliverable of your startup available from `https://st
 Update your README.md with clear descriptions  of what you did for each of the rubric items. Then that is done, submit the URL to your startup repository.
 
 _Example: https://github.com/myaccount/startup_
+
+**Note:** If you are updating your repository after initially submitting, you may need to way a few minutes before GitHub will return the version with your latest changes.
 ```
 
 ## Go celebrate
