@@ -65,15 +65,17 @@ The JSX that a component returns may reference other components. This allows you
 
 ```mermaid
 graph TD
-    App[App Component]
+    classDef default fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
+
+    App
     
-    App --> Header[Child Component A]
-    App --> Content[Child Component B]
-    App --> Footer[Child Component C]
+    App --> Header
+    App --> Content
+    App --> Footer
     
-    Header --> Link1[Link1 Home]
-    Header --> Link2[Link2 Users]
-    Header --> Link3[Link3 About]
+    Header --> Link1[Link Home]
+    Header --> Link2[Link Users]
+    Header --> Link3[Link About]
 ```
 
 #### index.jsx
