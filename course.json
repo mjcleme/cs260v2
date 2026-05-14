@@ -1270,7 +1270,7 @@
         {
           "title": "Demo day submission",
           "type": "project",
-          "points": 0,
+          "points": 5,
           "path": "instruction/demo-day-submission/demo-day-submission.md",
           "id": "27ab9b08-4dd9-4906-8fe9-507aa8d68db3",
           "state": "published",
