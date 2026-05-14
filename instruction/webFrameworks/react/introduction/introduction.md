@@ -47,6 +47,64 @@ When the JavaScript interpreter running in the browser executes the `React.creat
 
 Later, we will show you how to make your code reactive to user actions such as pressing a button. Those actions will change the state of the application and cause it to rerender the HTML.
 
+## Simplifying JavaScript with JSX
+
+```masteryls
+{"id":"955d56f9-ade3-4b8a-8b54-18e448995a11", "title":"ReactDOM functions", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
+This code demonstrates using the React library functions to inject dynamically created DOM elements into an HTML `div`. In this case a **button** element is created and added as a child to the div with ID of root. The object that is passed to button represents the attributes of the newly created button element including the `onClick` handler.
+
+Go ahead and play with the code. Change the button text to contain `BYU` and set the initial count to be 10.
+~~~html
+<body>
+  <div id="root"></div>
+
+  <script type="module">
+    import React, { useState } from 'https://esm.sh/react@18.3.1';
+    import { createRoot } from 'https://esm.sh/react-dom@18.3.1/client';
+
+    function App() {
+      const [count, setCount] = useState(0);
+      return React.createElement(
+        'button',
+        { onClick: () => setCount((c) => c + 1), type: 'button' },
+        `count is ${count}`,
+      );
+    }
+
+    const root = createRoot(document.getElementById('root'));
+    root.render(React.createElement(App));
+  </script>
+</body>
+~~~
+```
+
+```masteryls
+{"id":"955d56f9-ade3-4b8a-8b54-18e448995a11", "title":"JSX representation", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The word 'byu' must be included on the button and the count must start at 10.", "height":20 }
+This code simplifies things by using JSX instead of the React functions. Babel to preprocess the script before it is passed to the browser. This basically turns it into the JavaScript code from the previous example.
+
+Once again, change the button text to contain `BYU` and set the initial count to be 10. This should be a lot easier to do than the previous version.
+~~~html
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function App() {
+      const [count, setCount] = React.useState(0);
+      return <button onClick={() => setCount(count + 1)}>count is {count}</button>;
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+~~~
+```
+
+
 ## React Hello World
 
 Let's go ahead a create a simple React application. Don't worry too much if you don't understand everything that is done in this example. The point here is to get you using React as quickly as possible and then to use it as a place where you can explore how a modern web framework works. This includes understanding JavaScript, Node, NPM, and Vite.
