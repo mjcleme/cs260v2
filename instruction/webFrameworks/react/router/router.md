@@ -14,7 +14,7 @@ React does not have a standard router package, and there are many that you can c
 
 The following shows how the router toggles between content as a user clicks on the header elements.
 
-![React Router](routerPenExample.gif)
+![React Router](routerCodedExample.gif)
 
 A basic implementation of the router consists of a `BrowserRouter` component that encapsulates the entire application and controls the routing action. The `Link`, or `NavLink`, component captures user navigation events and modifies what is rendered by the `Routes` component by matching up the `to` and `path` attributes. The example contains two components. The **App** component with the router and a **Page** component that is routed to when a link is pressed.
 
@@ -55,7 +55,7 @@ root.render(<App />);
 
 ## Router example
 
-You can enhance the simple [Hello World React](../introduction/introduction.md#react-hello-world) app that you created in previous instruction to include a router by first installing the React Router Dom dependency.
+Let's go ahead and implement the router that is described above. We can start with the simple [Hello World React](../introduction/introduction.md#react-hello-world) app that you created in previous instruction. We then enhance it to include a router by installing the React Router Dom dependency.
 
 ```sh
 npm install react-router-dom
@@ -129,8 +129,6 @@ Now you are ready to start up the application by running `npm run dev` and openi
 
 Notice that as you click on the different navigation links the URL of the application changes to match the route. This is happens because the Routes component plugs into the browser's location API and modifies the displayed path so that it gives the appearance that a different resource is being displayed, when in reality the DOM is simply being manipulated to display a different React component.
 
-![Router coded example](routerCodedExample.gif)
-
 ## ☑ Assignment
 
 
@@ -144,52 +142,49 @@ Interactively create an HTML page from your prompt.
 
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/react-router-dom@5/umd/react-router-dom.min.js"></script>
+  <script src="https://esm.sh/react-router-dom"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-<script type="text/babel">
-  const { MemoryRouter, NavLink, Switch, Route } = ReactRouterDOM;
-
-  function Page({ color }) {
-    return (
-      <div className="page" style={{ backgroundColor: color }}>
-        <h1>{color}</h1>
-      </div>
-    );
-  }
-
-  function App() {
-    return (
-      <MemoryRouter>
-        <div className="app">
-          <nav>
-            <NavLink exact to="/">Red</NavLink>
-            <NavLink to="/green">Green</NavLink>
-            <NavLink to="/blue">Blue</NavLink>
-          </nav>
-          <main>
-            <Switch>
-              <Route exact path="/" render={() => <Page color="red" />} />
-              <Route path="/green" render={() => <Page color="green" />} />
-              <Route path="/blue" render={() => <Page color="blue" />} />
-            </Switch>
-          </main>
+  <script type="text/babel">
+    function Page({ color }) {
+      return (
+        <div className="page" style={{ backgroundColor: color }}>
+          <h1>{color}</h1>
         </div>
-      </MemoryRouter>
-    );
-  }
+      );
+    }
 
-  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-</script>
+    function App() {
+      return (
+        <BrowserRouter>
+          <div className="app">
+            <nav>
+              <NavLink to="/">Red</NavLink>
+              <NavLink to="/green">Green</NavLink>
+              <NavLink to="/blue">Blue</NavLink>
+            </nav>
+
+            <main>
+              <Routes>
+                <Route path="/" element={<Page color="red" />} exact />
+                <Route path="/green" element={<Page color="green" />} />
+                <Route path="/blue" element={<Page color="blue" />} />
+              </Routes>
+            </main>
+          </div>
+        </BrowserRouter>
+      );
+    }
+  </script>
 
   <style>
-    * { margin: 0; font-family: sans-serif; }
-    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; }
-    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1; }
-    a { margin: 0 10px; color: rgb(76, 146, 171); text-decoration: none; border: 1px solid rgb(76, 146, 171); padding: 10px; }
-    a:hover { background-color: rgb(76, 146, 171); color: #f1f1f1; }
-    main { height: 100%; width: 100%; }
-    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; }
+    * {  margin: 0;  font-family: sans-serif;}
+    .app { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;}
+    nav { display: flex; justify-content: center; align-items: center; width: 100%; height: 10vh; font-size: 1em; background-color: #f1f1f1;}
+    a {  margin: 0 10px;  color: rgb(76, 146, 171);  text-decoration: none;  border: 1px solid rgb(76, 146, 171);  padding: 10px;}
+    a:hover {  background-color: rgb(76, 146, 171);  color: #f1f1f1;}
+    main {  height: 100%;  width: 100%;}
+    .page { color: #eee; display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 10vw; background-color: #f9f9f9;}
   </style>
 </body>
 ~~~
