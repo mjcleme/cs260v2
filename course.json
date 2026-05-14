@@ -806,7 +806,9 @@
           "title": "Objects and classes",
           "path": "instruction/javascript/objectClasses/objectClasses.md",
           "id": "a6483266-226b-482a-8f35-1c1878ad544e",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "96bbbaa3c46b3a63851f4387199102f7e54b2fcc"
         },
         {
           "title": "Destructuring",
