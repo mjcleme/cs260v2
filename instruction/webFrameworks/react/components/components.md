@@ -296,7 +296,7 @@ Examine the source code and see how React state is used to specify the style of 
 
 ## Reactivity
 
-A component's properties and state are used by the React framework to determine the reactivity of the interface. Reactivity controls how a component reacts to actions taken by the user or events that happen within the application. Whenever a component's state or properties change, the `render` function for the component and all of its dependent component `render` functions are called.
+A component's properties and state are used by the React framework to determine the reactivity of the interface. Reactivity controls how a component responds to actions taken by the user or events that happen within the application. Whenever a component's state or properties change, the `render` function for the component and all of its dependent component `render` functions are called.
 
 ## ☑ Assignment
 
