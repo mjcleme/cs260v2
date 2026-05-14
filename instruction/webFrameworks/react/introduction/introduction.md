@@ -121,7 +121,60 @@ Next, we will show you how to make your code reactive to user actions such as pr
 
 ## State
 
-Put examples of a button click here.
+JSX gives us the ability to easily represents HTML that is manipulated by JavaScript. The next thing that React gives us is the ability to efficiently trigger with changes to the JavaScript's state variables should trigger a rerendering of the generated HTML.
+
+This happens when a user clicks on a button, inputs information, views different content, or simply moves the mouse. State changes can also be driven by external data sources such as the time of day, stock price, weather, or a chat message.
+
+A simple representation of React state is shown below.
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function App() {
+  const [bgColor, setBgColor] = React.useState('white');
+
+  const handleClick = () => {
+    setBgColor(bgColor === 'white' ? 'yellow' : 'white');
+  };
+
+  return (
+    <div onClick={handleClick} style={{ backgroundColor: bgColor, height: '100vh', font: 'bold 20vh Arial', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div> Hello React </div>
+    </div>
+  );
+}
+```
+
+
+```masteryls
+{"id":"b55d56f9-ade3-4b8a-8b54-18e448995a32", "title":"State driven rendering", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The words 'byu' and 'cougar'  must toogle as the react state changes.", "height":75 }
+~~~html
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function App() {
+      const [bgColor, setBgColor] = React.useState('white');
+
+      const handleClick = () => {
+        setBgColor(bgColor === 'white' ? 'yellow' : 'white');
+      };
+
+      return (
+        <div onClick={handleClick} style={{ backgroundColor: bgColor, height: '100vh', font: 'bold 20vh Arial', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div> Hello React </div>
+        </div>
+      );
+    }
+  </script>
+</body>
+~~~
+```
 
 ## React Hello World
 
