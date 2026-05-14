@@ -132,15 +132,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 function App() {
-  const [bgColor, setBgColor] = React.useState('white');
+  const [target, setTarget] = React.useState('BYU');
 
   const handleClick = () => {
-    setBgColor(bgColor === 'white' ? 'yellow' : 'white');
+    setTarget(target === 'BYU' ? 'Cougar' : 'BYU');
   };
 
   return (
-    <div onClick={handleClick} style={{ backgroundColor: bgColor, height: '100vh', font: 'bold 20vh Arial', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div> Hello React </div>
+    <div onClick={handleClick}>
+      <div> Hello {target} </div>
     </div>
   );
 }
