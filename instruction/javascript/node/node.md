@@ -168,6 +168,13 @@ This may seem like a lot of work but after you do it a few times it will begin t
 1. Use the code the package provides in your JavaScript
 1. Run your code with `node index.js`
 
+
+```masteryls
+{"id":"6ee76cff-5ee4-4681-87af-919fd6c43221", "title":"Node.js", "type":"essay" }
+What is the purpose of the `package.json` file?
+```
+
+
 ## Deno and Bun
 
 You should be aware that Ryan has created a successor to Node.js called [`Deno`](https://deno.land/). This version is more compliant with advances in ECMAScript and has significant performance enhancements. There are also competitor server JavaScript applications. One of the more interesting rising stars is called [`Bun`](https://bun.sh/). If you have the time you should learn about them.
