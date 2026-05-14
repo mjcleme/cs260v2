@@ -96,14 +96,36 @@ This results in the following.
 
 
 ```masteryls
-{"id":"c485b6d9-9f88-4546-a6bc-405256e84766", "title":"Style", "type":"web-page", "height":250}
-  <body style="margin:0;display:grid;place-items:center;min-height:100vh;background:radial-gradient(circle at 20% 20%,#22d3ee,#0f172a);color:#ecfeff;font-family:ui-monospace,monospace;">
-    <h1 style="font-size:clamp(1.4rem,4vw,2.4rem);letter-spacing:.06em;">Hello, curious learner.</h1>
-  </body>
+{"id":"484515fd-8066-4bae-988c-fb6cf13cfc21", "title":"Web page", "type":"web-page", "height":80}
+<body>
+  <div id="root">... loading</div>
+
+  <style>
+  div {font-family: sans-serif;}
+  .code {color: green;}
+  </style>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    function App() {
+      return (
+        <div>
+          <pre className='code'>console.log(1+1);</pre>
+          <p>Simple math</p>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
 ```
 
 
-![apply styles](applyStyles.png)
 
 ## Child components
 
