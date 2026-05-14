@@ -9,7 +9,7 @@ From the submitted applications we will pick the top 10. If your application is 
 ![Ghirardelli prize](ghirardelli.png)
 
 ```masteryls
-{"id":"ad1c7f8d-ce04-40de-9412-f092b40bcffa", "title":"Demo day submission", "type":"url-submission" }
+{"id":"ad1c7f8d-ce04-40de-9412-f092b40bcffa", "title":"Demo day submission", "validateUrl":true, "type":"url-submission", "gradingCriteria":"The content must contain the text `web programming 260`. The URL protocol must be HTTPS." }
 By providing your startup application URL, you are attesting that your application is deployed and ready to demo, and that you are able to present on Demo Day if your application is selected as a finalist.
 
 **Please do not submit if your application is not ready or you are not willing to demo.**
