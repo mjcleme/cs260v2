@@ -1006,12 +1006,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "☑ Tic-tac-toe tutorial",
-          "path": "instruction/webFrameworks/react/ticTacToe/ticTacToe.md",
-          "id": "c5dba7e9-c4ed-4f7a-be84-4b6f27478cbc",
-          "state": "published"
         }
       ]
     },
