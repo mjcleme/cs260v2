@@ -848,8 +848,10 @@
           "path": "instruction/webFrameworks/react/reactivity/reactivity.md",
           "id": "ca717d53-f9d9-46d0-836b-72403a07edf5",
           "state": "published",
-          "interactions": [],
-          "commit": "099df647e7f30be7b77e58dc7cbf380845e7b8ed"
+          "interactions": [
+            "b55d57fa-aee4-4b8a-8b54-18e448995a32"
+          ],
+          "commit": "3044ec08ef5dc9de7bf4000e3623cdc5653f553d"
         },
         {
           "title": "JSON",
