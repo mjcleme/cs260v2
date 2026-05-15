@@ -983,7 +983,11 @@
           "title": "Rest and spread",
           "path": "instruction/javascript/restSpread/restSpread.md",
           "id": "6fa62d75-519a-4081-9599-951e9e3a69e5",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "ad615866-c70c-4d0c-9cce-33c29c48f94d"
+          ],
+          "commit": "ad2a38f88c9caef7bfaa2b1c609cf6576c907f56"
         },
         {
           "title": "Exceptions",
