@@ -862,8 +862,10 @@
           "path": "instruction/javascript/json/json.md",
           "id": "d817fb60-bbe9-4e10-a7ed-1a8bdeb142b2",
           "state": "published",
-          "interactions": [],
-          "commit": "e183b1ac234c693e6bcac079e4cfe28a11696d9e"
+          "interactions": [
+            "aee3f849-7c00-4c27-bbd6-8727d2e4823c"
+          ],
+          "commit": "23b7881314b51ff3556f102ac28ccd5d62ac15c7"
         },
         {
           "title": "LocalStorage",
