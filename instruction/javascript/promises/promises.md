@@ -114,5 +114,5 @@ coinToss
 
 ```masteryls
 {"id":"0d1e6e3d-8473-41ae-83f9-c074b95dafaa", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The code must include a function that makes the pizza and is included in the promise chain", "height":500, "file":"pizzaPromise.html" }
-This code uses promises to order pizzas. Take some time to experiment with it. Modify the CodePen to include a new function that makes the pizza and include it in the promise chain. If you get stuck use the **Discuss** feature to make progress.
+This code uses promises to order pizzas. Take some time to experiment with it. Modify the code to include a new function that makes the pizza and include it in the promise chain. If you get stuck use the **Discuss** feature to make progress.
 ```
