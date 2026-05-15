@@ -825,13 +825,15 @@
           "commit": "3cb1f3ad814cede78bf8c9db53359404b76579b4"
         },
         {
-          "title": "Time and interval",
+          "title": "Timeout and interval",
+          "type": "instruction",
           "path": "instruction/javascript/timeoutAndInterval/timeoutAndInterval.md",
           "id": "01c5785d-ebe0-4346-869d-0fb5d46a0929",
           "state": "published",
           "interactions": [
             "b8866af7-c9c5-4250-bfb3-c58968294f8c"
           ],
+          "description": "",
           "commit": "1335187f4a8876add4c288da5d8894691af25213"
         },
         {
