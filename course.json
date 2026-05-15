@@ -889,6 +889,12 @@
           "commit": "e61e5568a62e27ca633228df47dbda001d27ea59"
         },
         {
+          "title": "Scope",
+          "path": "instruction/javascript/scope/scope.md",
+          "id": "8e2b708a-94df-42a7-86ab-11321d9fdacc",
+          "state": "published"
+        },
+        {
           "title": "☑ Document object model (DOM)",
           "path": "instruction/javascript/dom/dom.md",
           "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
@@ -998,12 +1004,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "Scope",
-          "path": "instruction/javascript/scope/scope.md",
-          "id": "8e2b708a-94df-42a7-86ab-11321d9fdacc",
-          "state": "published"
         },
         {
           "title": "☑ Tic-tac-toe tutorial",
