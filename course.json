@@ -918,8 +918,10 @@
           "path": "instruction/javascript/promises/promises.md",
           "id": "c1f64a19-98db-4202-ace7-0a4a08b44def",
           "state": "published",
-          "interactions": [],
-          "commit": "479a54b0db55b6cef607581bfa790390049d7d7e"
+          "interactions": [
+            "0d1e6e3d-8473-41ae-83f9-c074b95dafaa"
+          ],
+          "commit": "75d836c0e56dd3eb1f349616ab3587416412394f"
         },
         {
           "title": "☑ Async/await",
