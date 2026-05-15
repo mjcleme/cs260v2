@@ -761,6 +761,12 @@
           }
         },
         {
+          "title": "☑ Document object model (DOM)",
+          "path": "instruction/javascript/dom/dom.md",
+          "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
+          "state": "published"
+        },
+        {
           "title": "JavaScript Console",
           "path": "instruction/javascript/console/console.md",
           "id": "a200c81b-f154-4699-beb7-8f9142ad164a",
@@ -958,12 +964,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "☑ Document object model (DOM)",
-          "path": "instruction/javascript/dom/dom.md",
-          "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
-          "state": "published"
         },
         {
           "title": "Regular expressions",
