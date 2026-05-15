@@ -153,3 +153,17 @@ Character classes shortcuts allow you to create more readable and concise patter
 | `\s` | `[ \f\n\r\t\v...]` | Any whitespace (space, tab, line break) |
 | `\S` | `[^ \f\n\r\t\v...]` | Any non-whitespace |
 
+
+## Exercises
+
+
+```masteryls
+{"id":"31ec24f7-eb02-45bf-80b9-05dc7e942983", "title":"Matching US Zip Codes", "type":"multiple-choice"}
+Which of the following regular expressions correctly matches a standard US Zip Code, supporting both the 5-digit format (e.g., `12345`) and the 9-digit "Zip+4" format (e.g., `12345-6789`)?
+
+- [ ] `^\d{5}-\d{4}$`
+- [x] `^\d{5}(-\d{4})?$`
+- [ ] `^\d{5}|\d{4}$`
+- [ ] `^\d{5}(\d{4})?$`
+```
+
