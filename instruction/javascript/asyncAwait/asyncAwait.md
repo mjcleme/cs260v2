@@ -129,10 +129,3 @@ console.log('done');
 This code uses promises to order pizzas. Take some time to experiment with it. Currently it that uses promises and convert it to use `async`/`await`. If you get stuck use the **Discuss** feature to make progress.
 ```
 
-Fork this [CodePen](https://codepen.io/leesjensen/pen/RwJJKwj) that uses promises and convert it to use `async`/`await`.
-
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
-
-### 🧧 Possible solution
-
-If you get stuck here is a [possible solution](https://codepen.io/leesjensen/pen/KKeevVg)
