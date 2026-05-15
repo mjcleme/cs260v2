@@ -66,13 +66,10 @@ To create a monitor, access the AWS dashboard and navigate to `Billing and Cost 
 
 ## ☑ Assignment
 
+```masteryls
+{"id":"6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a", "title":"AWS Accunt setup", "type":"multiple-choice" }
 1. Create your AWS [account](https://signin.aws.amazon.com/signup).
 2. Create a browser bookmark for your AWS browser console page that contains your account ID. That way you will be able to access your account quickly.
-
-
-```masteryls
-{"id":"6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a", "title":"Multiple choice", "type":"multiple-choice" }
-Simple **multiple choice** question
 
 - [x] I have created my AWS account and set up billing alerts.
 - [ ] I am withdrawing from this course.
