@@ -118,6 +118,10 @@ symbolRegex.test("🚀"); // true
 
 
 ## Character Classes Shortcuts
+
+Character classes shortcuts allow you to create more readable and concise patterns. For example, to match a date format like `2023-10-25`, you can use the pattern `/\d{4}-\d{2}-\d{2}/`. To find a word followed by a space, you could use `/\w+\s/`. These shortcuts are generally preferred over their longer bracketed equivalents like `/[0-9]/` or `/[A-Za-z0-9_]/` because they are easier to scan.
+
+
 | Shortcut | Equivalent | Description |
 |-|-|-|
 | `\d` | `[0-9]` | Any digit |
@@ -126,3 +130,4 @@ symbolRegex.test("🚀"); // true
 | `\W` | `[^A-Za-z0-9_]` | Any non-word character |
 | `\s` | `[ \f\n\r\t\v...]` | Any whitespace (space, tab, line break) |
 | `\S` | `[^ \f\n\r\t\v...]` | Any non-whitespace |
+
