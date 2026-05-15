@@ -781,6 +781,19 @@
           "commit": "3645ae48451cc0427ff74e7cb6778ff6104afabc"
         },
         {
+          "title": "Arrays",
+          "type": "instruction",
+          "path": "instruction/javascript/array/array.md",
+          "id": "1f2e58f8-c29e-47f7-aee5-d7e86fff3745",
+          "state": "published",
+          "interactions": [
+            "js-array-performance",
+            "c0e860ee-dea3-4211-8b96-aa97828347b8"
+          ],
+          "description": "",
+          "commit": "958f6b9992459bbad36e650601afef71c6f589fa"
+        },
+        {
           "title": "Functions",
           "path": "instruction/javascript/functions/functions.md",
           "id": "183be696-976a-4df0-be54-166357455952",
@@ -800,19 +813,6 @@
             "155bb729-1239-4569-8199-1cb5cc13f842"
           ],
           "commit": "1e478f15b02ae7d91904b8988df954741d9cb2ec"
-        },
-        {
-          "title": "Arrays",
-          "type": "instruction",
-          "path": "instruction/javascript/array/array.md",
-          "id": "1f2e58f8-c29e-47f7-aee5-d7e86fff3745",
-          "state": "published",
-          "interactions": [
-            "js-array-performance",
-            "c0e860ee-dea3-4211-8b96-aa97828347b8"
-          ],
-          "description": "",
-          "commit": "958f6b9992459bbad36e650601afef71c6f589fa"
         },
         {
           "title": "Types, operators, conditionals, and loops",
