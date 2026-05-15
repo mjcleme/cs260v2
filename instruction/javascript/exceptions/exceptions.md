@@ -166,3 +166,10 @@ While JavaScript allows you to throw any value (`throw "Error!";` or `throw 404;
 | **Good** | `throw new Error("Message")` | Includes stack trace and name. |
 | **Bad** | `throw "Message"` | No stack trace; harder to debug. |
 
+## Exercises
+
+
+```masteryls
+{"id":"55009832-643e-4f31-949e-dde1cb3b6576", "title":"Teaching", "type":"teaching" }
+How do I use JavaScript exceptions correctly?
+```
