@@ -761,12 +761,6 @@
           }
         },
         {
-          "title": "☑ Document object model (DOM)",
-          "path": "instruction/javascript/dom/dom.md",
-          "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
-          "state": "published"
-        },
-        {
           "title": "JavaScript Console",
           "path": "instruction/javascript/console/console.md",
           "id": "a200c81b-f154-4699-beb7-8f9142ad164a",
@@ -863,6 +857,12 @@
           ],
           "description": "",
           "commit": "1335187f4a8876add4c288da5d8894691af25213"
+        },
+        {
+          "title": "☑ Document object model (DOM)",
+          "path": "instruction/javascript/dom/dom.md",
+          "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
+          "state": "published"
         },
         {
           "title": "Hooks",
