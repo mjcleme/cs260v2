@@ -659,8 +659,10 @@
           "path": "instruction/webFrameworks/introduction/introduction.md",
           "id": "f972436f-fd9c-45ca-a51a-156b1e6cbb03",
           "state": "published",
-          "interactions": [],
-          "commit": "38d4c4b47f54e58c4070c73f32d6fb0882598536"
+          "interactions": [
+            "9ad21eaa-cd4f-4e2f-8ede-ece0177ef6a5"
+          ],
+          "commit": "de00e5041f6de49ba7a346af188734bf704fd64d"
         },
         {
           "title": "Toolchains",
