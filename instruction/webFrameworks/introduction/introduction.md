@@ -15,6 +15,13 @@ There are lots of web frameworks to choose from and they evolve all the time. Yo
 
 Each framework has advantages and disadvantages. Some are very prescriptive (opinionated) about how to do things, some have major institutional backing, and others have a strong open source community. Other factors you want to consider include how easy it is to learn, how it impacts productivity, how performant it is, how long it takes to build, and how actively the framework is evolving.
 
+
+```masteryls
+{"id":"9ad21eaa-cd4f-4e2f-8ede-ece0177ef6a5", "title":"Favorite Web Framework", "type":"essay" }
+Which Web Framework sounds most interesting to you and why?
+```
+
+
 ## Hello world examples
 
 For our classwork we will use the web framework React. However, before we dig into React let's look at how the major frameworks would render a simple hello world application.
