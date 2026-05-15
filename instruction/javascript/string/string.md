@@ -111,3 +111,23 @@ To include special characters in a string that would otherwise be interpreted as
 - `\\`: Backslash
 - `\n`: Newline
 - `\t`: Tab
+
+
+````masteryls
+{"id":"afadc858-7b3b-4623-aabe-95b3ef2f242b", "title":"String Immutability and Method Behavior", "type":"multiple-choice"}
+Consider the following JavaScript code snippet:
+
+```js
+let school = "university";
+school[0] = "U";
+school.toUpperCase();
+let result = school.substring(0, 4);
+```
+
+What is the value of the variable `result` after this code executes?
+
+- [ ] "Univ"
+- [ ] "UNIV"
+- [x] "univ"
+- [ ] "Univer"
+````
