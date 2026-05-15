@@ -942,8 +942,10 @@
           "path": "instruction/javascript/string/string.md",
           "id": "4b424100-8093-495d-a7b8-507493a405e4",
           "state": "published",
-          "interactions": [],
-          "commit": "ff4e50b849d3e273cecf6a1720cef766100f4b04"
+          "interactions": [
+            "afadc858-7b3b-4623-aabe-95b3ef2f242b"
+          ],
+          "commit": "cbff13ce8cd01a7e9d342c2e4133481cb9b92d87"
         },
         {
           "title": "Types, operators, conditionals, and loops",
