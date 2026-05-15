@@ -993,7 +993,9 @@
           "title": "Exceptions",
           "path": "instruction/javascript/exceptions/exceptions.md",
           "id": "8195026d-9e28-459b-a913-73aa3175c928",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "78ec56ec128961598131d9b348c3ed4f19e0b277"
         },
         {
           "title": "Scope",
