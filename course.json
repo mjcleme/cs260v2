@@ -973,7 +973,9 @@
           "title": "Regular expressions",
           "path": "instruction/javascript/regularExpressions/regularExpressions.md",
           "id": "698ca713-98f6-4a0b-86c5-e5221d512ed3",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "39addfe1884b90cb7002d803c114552a29eed8c4"
         },
         {
           "title": "Rest and spread",
