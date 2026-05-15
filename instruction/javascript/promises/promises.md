@@ -183,7 +183,7 @@ function orderFailure(order) {
 
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; padding: 1em;
 }
 
 h1 {
@@ -220,8 +220,6 @@ button:active {
   color: rgb(255, 255, 255, 0.7);
 }
 </style>
-
-
 ~~~
 ```
 
