@@ -85,28 +85,11 @@ function ColorPicker({ color, updateColor }) {
 ```masteryls
 {"id":"b55d57fa-aee4-4b8a-8b54-18e448995a32", "title":"Reactivity", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The color can be changed by the value of a text input.", "height":200,"file":"colorPicker.html" }
 Examine and experiment with the color picker code. Add an input of type `text` that specifies the textual name of the color you would like to pick. For example, RebeccaPurple or #ffeede.
+
+If you get stuck, use the **Discuss** feature to get some guidance.
 ```
 
 Don't forget to update your GitHub startup repository `notes.md` with all of the things you learned and want to remember.
-
-### 🧧 Possible solution
-
-If you get stuck here is a possible solution.
-
-```jsx
-function ColorPicker({ color, updateColor }) {
-  function onChange(e) {
-    updateColor(e.target.value);
-  }
-
-  return (
-    <div>
-      <span>Pick a color: </span>
-      <input type='text' onChange={onChange} value={color} />
-    </div>
-  );
-}
-```
 
 ## Diving deep into React state
 
