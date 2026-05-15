@@ -125,7 +125,7 @@ While both share the same API methods, they differ in persistence:
 
 
 ```masteryls
-{"id":"0cc9e91e-e677-43a1-99e8-4e164e464b3b", "title":"Essay", "type":"essay" }
-Describe good and bad uses for `localStorage`.
+{"id":"0cc9e91e-e677-43a1-99e8-4e164e464b3b", "title":"Uses of localStorage", "type":"essay" }
+Describe good and bad uses for `localStorage` in application development.
 ```
 
