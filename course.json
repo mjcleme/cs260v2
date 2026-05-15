@@ -771,6 +771,16 @@
           "commit": "a028ddd3c07e5c5476990a09ac099140dbcab442"
         },
         {
+          "title": "String",
+          "path": "instruction/javascript/string/string.md",
+          "id": "4b424100-8093-495d-a7b8-507493a405e4",
+          "state": "published",
+          "interactions": [
+            "afadc858-7b3b-4623-aabe-95b3ef2f242b"
+          ],
+          "commit": "3645ae48451cc0427ff74e7cb6778ff6104afabc"
+        },
+        {
           "title": "Functions",
           "path": "instruction/javascript/functions/functions.md",
           "id": "183be696-976a-4df0-be54-166357455952",
@@ -936,16 +946,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "String",
-          "path": "instruction/javascript/string/string.md",
-          "id": "4b424100-8093-495d-a7b8-507493a405e4",
-          "state": "published",
-          "interactions": [
-            "afadc858-7b3b-4623-aabe-95b3ef2f242b"
-          ],
-          "commit": "3645ae48451cc0427ff74e7cb6778ff6104afabc"
         },
         {
           "title": "Types, operators, conditionals, and loops",
