@@ -861,7 +861,9 @@
           "title": "JSON",
           "path": "instruction/javascript/json/json.md",
           "id": "d817fb60-bbe9-4e10-a7ed-1a8bdeb142b2",
-          "state": "published"
+          "state": "published",
+          "interactions": [],
+          "commit": "e183b1ac234c693e6bcac079e4cfe28a11696d9e"
         },
         {
           "title": "LocalStorage",
