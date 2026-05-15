@@ -114,7 +114,7 @@ coinToss
 
 ```masteryls
 {"id":"0d1e6e3d-8473-41ae-83f9-c074b95dafaa", "title":"Web page development", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The code must include a function that makes the pizza and is included in the promise chain", "height":500 }
-Interactively create an HTML page from your prompt.
+This code uses promises to order pizzas. Take some time to experiment with it. Modify the CodePen to include a new function that makes the pizza and include it in the promise chain. If you get stuck use the **Discuss** feature to make progress.
 
 ~~~html
 <body>
@@ -222,12 +222,3 @@ button:active {
 </style>
 ~~~
 ```
-
-
-This [CodePen](https://codepen.io/leesjensen/pen/RwJJKwj) uses promises to order pizzas. Create a fork of the pen and take some time to experiment with it. Modify the CodePen to include a new function that makes the pizza and include it in the promise chain.
-
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
-
-### 🧧 Possible solution
-
-If you get stuck here is a [possible solution](https://codepen.io/leesjensen/pen/vYVgpyL).
