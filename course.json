@@ -974,10 +974,8 @@
           "path": "instruction/javascript/regularExpressions/regularExpressions.md",
           "id": "698ca713-98f6-4a0b-86c5-e5221d512ed3",
           "state": "published",
-          "interactions": [
-            "31ec24f7-eb02-45bf-80b9-05dc7e942983"
-          ],
-          "commit": "eff07d71607dd92e2d2293aa75029a7c19541a54"
+          "interactions": [],
+          "commit": "315e5385ff69a23c01dd61c01c060bd63b43f518"
         },
         {
           "title": "Rest and spread",
