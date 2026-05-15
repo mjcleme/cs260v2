@@ -32,6 +32,7 @@ petRegex.test(text);
 JavaScript regular expressions use flags to modify search behavior.
 
 | Flag | Name | Description |
+|-|-|-|
 | `g` | Global | Finds all matches rather than stopping after the first. |
 | `i` | Case-insensitive | Ignores case (e.g., `/[a-z]/i` matches "A"). |
 | `m` | Multiline | `^` and `$` match start/end of lines, not just start/end of string. |
