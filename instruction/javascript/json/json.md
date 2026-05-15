@@ -110,3 +110,15 @@ For production environments, it is essential to validate the structure of JSON d
 3.  **Return Objects, Not Arrays:** At the top level of an API response, return an object (e.g., `{"data": [...]}`) instead of a naked array. This allows for future metadata expansion (like pagination) without breaking the schema.
 4.  **Use Null for Empty Values:** Use `null` to explicitly indicate the absence of a value rather than omitting the key or using an empty string.
 
+
+```masteryls
+{"id":"aee3f849-7c00-4c27-bbd6-8727d2e4823c", "title":"Handling Non-JSON Data Types", "type":"multiple-choice"}
+When using `JSON.stringify()` to convert a JavaScript object into a JSON string, what happens if the object contains a property with a value of `undefined` or a function?
+
+- [ ] The conversion throws a `TypeError` because `undefined` and functions are not valid JSON data types.
+- [ ] The properties are preserved, but their values are converted to `null` to maintain the object's structure.
+- [x] The properties are omitted entirely from the resulting JSON string.
+- [ ] The values are converted into their string representations (e.g., `"undefined"` or the function's source code).
+```
+
+
