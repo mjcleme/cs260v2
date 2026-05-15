@@ -951,7 +951,11 @@
           "title": "Types, operators, conditionals, and loops",
           "path": "instruction/javascript/typeConstruct/typeConstruct.md",
           "id": "e6940572-2dc8-4d4f-a40b-3e16665a75b3",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "87c7299d-9eb3-4c1a-a14c-5686f805f141"
+          ],
+          "commit": "32df29701cda347bea4d96c45c30db032399d29b"
         },
         {
           "title": "☑ Document object model (DOM)",
