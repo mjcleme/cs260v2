@@ -211,3 +211,25 @@ while (true) {
 }
 // OUTPUT: 0 1
 ```
+
+
+````masteryls
+{"id":"87c7299d-9eb3-4c1a-a14c-5686f805f141", "title":"Short-circuit Evaluation in JavaScript", "type":"multiple-choice"}
+Consider the following JavaScript code snippet:
+
+```js
+let a = 10;
+let b = 5;
+
+if (a > 5 || ++b > 10) {
+  a += 2;
+}
+```
+
+What are the final values of `a` and `b` after this code block has finished executing?
+
+- [ ] `a = 12, b = 6`
+- [x] `a = 12, b = 5`
+- [ ] `a = 10, b = 5`
+- [ ] `a = 10, b = 6`
+````
