@@ -55,12 +55,10 @@ The class should have the energy of a startup. We are on the cutting edge of tec
 
 ## ☑ Assignment
 
+```masteryls
+{"id":"6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a", "title":"Canvas notifications", "type":"multiple-choice" }
 We often send out critical notifications for the course using the Canvas email announcements. Log into the Canvas course and check to make sure you have the correct email address and notification setting associated with your user.
 
-
-```masteryls
-{"id":"6fdc2fdb-e3de-49c9-ba25-f66b0da68d1a", "title":"Multiple choice", "type":"multiple-choice" }
-Simple **multiple choice** question
 
 - [x] My email address is associated with Canvas and that I frequently check for notifications.
 - [ ] I want to stay in the dark and miss important notifications.
