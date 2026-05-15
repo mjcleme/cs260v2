@@ -22,53 +22,7 @@ Whenever you change the color using the `ColorPicker` component, it causes the c
 
 
 ```masteryls
-{"id":"9ce45230-7cbd-40d2-9ab7-50b814eed0a6", "type":"web-page", "height":150}
-<body>
-  <div id="root">... loading</div>
-
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <script type="text/babel">
-    function App() {
-      const [color, updateColor] = React.useState('#737AB0');
-
-      return (
-        <div>
-          <h1>Pick a color</h1>
-          <ColorDisplay color={color} />
-          <ColorPicker color={color} updateColor={updateColor} />
-        </div>
-      );
-    }
-
-    function ColorDisplay({ color }) {
-      return (
-        <div>
-          Your color: <span style={{ color: color }}>{color}</span>
-        </div>
-      );
-    }
-
-    function ColorPicker({ color, updateColor }) {
-      function onChange(e) {
-        updateColor(e.target.value);
-      }
-
-      return (
-        <div>
-          <span>Pick a color: </span>
-          <input type='color' onChange={onChange} value={color} />
-        </div>
-      );
-    }
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
-</body>
-
+{"id":"9ce45230-7cbd-40d2-9ab7-50b814eed0a6", "type":"web-page", "height":150, "file":"colorPicker.html"}
 ```
 
 The `App` component creates a React state variable by calling the `React.useState` function. This creates an entry in React's state table that tracks the current and desired value of every state object.
@@ -85,7 +39,7 @@ The `updateColor` state function is also passed as a property to the `ColorPicke
 
 Be careful about your assumptions of when state is updated. Just because you called `updateState` does not mean that you can access the updated state on the next line of code. Updates happen asynchronously, and therefore you never really know when it is going to happen. You only know that it will eventually happen.
 
-The following is code for the color picker components. Take some time to understand every line of the code. If you want to debug the application you can experiment with the complete application found in the [example code](exampleCode/implementingReact/).
+The following is code for the color picker components. Take some time to understand every line of the code.
 
 ```jsx
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -127,11 +81,13 @@ function ColorPicker({ color, updateColor }) {
 
 ## ☑ Assignment
 
-Create a fork of this [CodePen](https://codepen.io/leesjensen/pen/NWzYzXE) and experiment. Try changing the input from using the color picker, to using an text input that reactively displays the text as you type.
+
+```masteryls
+{"id":"b55d57fa-aee4-4b8a-8b54-18e448995a32", "title":"Reactivity", "type":"ai-web-page", "allowAiPrompt":false, "gradingCriteria":"The color can be changed by the value of a text input.", "height":200,"file":"colorPicker.html" }
+Examine and experiment with the color picker code. Add an input of type `text` that specifies the textual name of the color you would like to pick. For example, RebeccaPurple or #ffeede.
+```
 
 Don't forget to update your GitHub startup repository `notes.md` with all of the things you learned and want to remember.
-
-_If your section of this course requires that you submit assignments for grading_: Submit your CodePen URL to the Canvas assignment.
 
 ### 🧧 Possible solution
 
@@ -152,7 +108,7 @@ function ColorPicker({ color, updateColor }) {
 }
 ```
 
-### Diving deep into React state
+## Diving deep into React state
 
 One good way to better understand a technology is to try to rewrite it. Let's replace the `React.useState` function with a simplistic global variable that manages the current state of `color`.
 
