@@ -815,6 +815,18 @@
           "commit": "958f6b9992459bbad36e650601afef71c6f589fa"
         },
         {
+          "title": "Types, operators, conditionals, and loops",
+          "path": "instruction/javascript/typeConstruct/typeConstruct.md",
+          "id": "e6940572-2dc8-4d4f-a40b-3e16665a75b3",
+          "state": "published",
+          "interactions": [
+            "87c7299d-9eb3-4c1a-a14c-5686f805f141",
+            "d0dfb8f6-7b0b-45ed-b6ed-27b041440f7f",
+            "45a11ede-ba2a-4c74-892f-0398d542214a"
+          ],
+          "commit": "e0cd8a5c95adffb3dfa77ecc9a7fbacb4e92ba85"
+        },
+        {
           "title": "Objects and classes",
           "path": "instruction/javascript/objectClasses/objectClasses.md",
           "id": "a6483266-226b-482a-8f35-1c1878ad544e",
@@ -946,18 +958,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "Types, operators, conditionals, and loops",
-          "path": "instruction/javascript/typeConstruct/typeConstruct.md",
-          "id": "e6940572-2dc8-4d4f-a40b-3e16665a75b3",
-          "state": "published",
-          "interactions": [
-            "87c7299d-9eb3-4c1a-a14c-5686f805f141",
-            "d0dfb8f6-7b0b-45ed-b6ed-27b041440f7f",
-            "45a11ede-ba2a-4c74-892f-0398d542214a"
-          ],
-          "commit": "e0cd8a5c95adffb3dfa77ecc9a7fbacb4e92ba85"
         },
         {
           "title": "☑ Document object model (DOM)",
