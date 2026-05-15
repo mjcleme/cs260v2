@@ -895,13 +895,15 @@
           "state": "published"
         },
         {
-          "title": "☑ Document object model (DOM)",
+          "title": "Document object model (DOM)",
+          "type": "instruction",
           "path": "instruction/javascript/dom/dom.md",
           "id": "0b1d61c7-0d9b-4423-b01b-ce8c475277a7",
           "state": "published",
           "interactions": [
             "444db27b-aeb1-454f-9e34-e9cca9691e9a"
           ],
+          "description": "",
           "commit": "70c4255d5fbde0892041a85dd1e6cf58bbb41a5c"
         },
         {
