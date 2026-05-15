@@ -883,7 +883,11 @@
           "title": "Simon React P2: Reactivity",
           "path": "instruction/simon/simonReact/simonReactP2.md",
           "id": "d75d2da4-b805-4cfd-ab91-8062f68cda00",
-          "state": "published"
+          "state": "published",
+          "interactions": [
+            "3aff8d87-8a17-4b86-b2b4-1dfed2f63f9a"
+          ],
+          "commit": "67a0ea487450ee7bfc054f8ac31d9611e5027a74"
         },
         {
           "title": "Simon React P2 video",
