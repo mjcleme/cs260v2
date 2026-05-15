@@ -874,8 +874,10 @@
           "path": "instruction/javascript/localStorage/localStorage.md",
           "id": "dc4cc9f4-09b4-44ea-b146-19e7e4b0bcf1",
           "state": "published",
-          "interactions": [],
-          "commit": "c9ff27a583d5a6ef9c18a95d4e89cc4d63f23d25"
+          "interactions": [
+            "0cc9e91e-e677-43a1-99e8-4e164e464b3b"
+          ],
+          "commit": "6132261d1da9ceee9795952cdf1d82373dade9b5"
         },
         {
           "title": "Simon React P2: Reactivity",
