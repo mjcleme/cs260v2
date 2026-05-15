@@ -857,6 +857,16 @@
           "commit": "3cb1f3ad814cede78bf8c9db53359404b76579b4"
         },
         {
+          "title": "Regular expressions",
+          "path": "instruction/javascript/regularExpressions/regularExpressions.md",
+          "id": "698ca713-98f6-4a0b-86c5-e5221d512ed3",
+          "state": "published",
+          "interactions": [
+            "31ec24f7-eb02-45bf-80b9-05dc7e942983"
+          ],
+          "commit": "a39702be08a801c6ec2b49ddc43d6b9cde373e24"
+        },
+        {
           "title": "Timeout and interval",
           "type": "instruction",
           "path": "instruction/javascript/timeoutAndInterval/timeoutAndInterval.md",
@@ -978,16 +988,6 @@
           ],
           "description": "",
           "commit": "bfa54d948ed94162068b1abe9371936379a4b63e"
-        },
-        {
-          "title": "Regular expressions",
-          "path": "instruction/javascript/regularExpressions/regularExpressions.md",
-          "id": "698ca713-98f6-4a0b-86c5-e5221d512ed3",
-          "state": "published",
-          "interactions": [
-            "31ec24f7-eb02-45bf-80b9-05dc7e942983"
-          ],
-          "commit": "a39702be08a801c6ec2b49ddc43d6b9cde373e24"
         },
         {
           "title": "Exceptions",
