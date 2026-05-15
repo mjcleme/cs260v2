@@ -844,13 +844,15 @@
           "commit": "94279ff5d23fcab8156e6c06b060b8031554fdc0"
         },
         {
-          "title": "☑ Reactivity",
+          "title": "Reactivity",
+          "type": "instruction",
           "path": "instruction/webFrameworks/react/reactivity/reactivity.md",
           "id": "ca717d53-f9d9-46d0-836b-72403a07edf5",
           "state": "published",
           "interactions": [
             "b55d57fa-aee4-4b8a-8b54-18e448995a32"
           ],
+          "description": "",
           "commit": "d0dddc18dd4e1681386a149401365087bed8d0d6"
         },
         {
