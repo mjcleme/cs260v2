@@ -27,6 +27,18 @@ petRegex.test(text);
 // RETURNS: true
 ```
 
+### RegExp Methods
+*   `regex.test(string)`: Returns `true` or `false`.
+*   `regex.exec(string)`: Returns an array of information or `null`. Essential for looping through global matches.
+
+### String Methods
+*   `str.match(regex)`: Returns an array of matches.
+*   `str.matchAll(regex)`: Returns an iterator of all matches, including capturing groups (requires `g` flag).
+*   `str.replace(regex, replacement)`: Replaces matches with a string or the result of a function.
+*   `str.search(regex)`: Returns the index of the first match, or `-1`.
+*   `str.split(regex)`: Breaks a string into an array using the regex as a delimiter.
+
+
 
 ## Advanced Flags
 JavaScript regular expressions use flags to modify search behavior.
@@ -40,9 +52,35 @@ JavaScript regular expressions use flags to modify search behavior.
 | `u` | Unicode | Enables full Unicode support and handles surrogate pairs. |
 | `y` | Sticky | Matches only from the index indicated by the `lastIndex` property. |
 
+Here are some examples of using the advanced flags.
 
+
+```javascript
+// Global (g) and Case-insensitive (i)
+"Apples are awesome".match(/a/gi); 
+// RETURNS: ['A', 'a', 'a']
+
+// Multiline (m)
+"Line 1\nLine 2".match(/^Line 2/m); 
+// RETURNS: ['Line 2']
+
+// DotAll (s)
+"foo\nbar".test(/foo.bar/s); 
+// RETURNS: true
+
+// Unicode (u)
+"🚀".match(/\p{Emoji}/u); 
+// RETURNS: ['🚀']
+
+// Sticky (y)
+const sticky = /bar/y;
+sticky.lastIndex = 3;
+"foobar".match(sticky); 
+// RETURNS: ['bar'] (Matches because 'bar' starts at index 3)
+```
 ## Assertions: Lookahead and Lookbehind
-Assertions match a position rather than a character, based on what follows or precedes it.
+
+Assertions (often called "lookarounds") are zero-width tests that match a position in the text rather than actual characters. They are necessary when you need to match a pattern based on its context—what comes before or after it—without including that context in the match result. This allows you to find data based on its surroundings without "consuming" those surrounding characters, which is useful for complex validations or extracting specific values from formatted text.
 
 *   **Positive Lookahead (`(?=...)`):** Matches a group after the main expression without including it in the result.
     *   `/\d+(?=%)/` matches "100" in "100%".
@@ -52,7 +90,6 @@ Assertions match a position rather than a character, based on what follows or pr
     *   `/(?<=\$)\d+/` matches "100" in "$100".
 *   **Negative Lookbehind (`(?<!...)`):** Matches only if the main expression is **not** preceded by the group.
     *   `/(?<!\$)\d+/` matches "100" in "€100".
-
 
 ## Capturing Groups and Backreferences
 Groups allow you to treat multiple characters as a single unit and extract sub-matches.
@@ -66,23 +103,8 @@ Groups allow you to treat multiple characters as a single unit and extract sub-m
     ```
 *   **Non-capturing Groups `(?:...)`:** Groups characters for quantification or alternation but does not "remember" the match, improving performance.
 *   **Backreferences (`\n`):** Refers back to a previously captured group within the same regex.
-    *   `/(['"])\w+\1/` matches `"hello"` or `'hello'`, ensuring the opening and closing quotes match.
 
-
-## String vs. RegExp Methods
-JavaScript provides methods on both the `String` prototype and the `RegExp` prototype.
-
-### RegExp Methods
-*   `regex.test(string)`: Returns `true` or `false`.
-*   `regex.exec(string)`: Returns an array of information or `null`. Essential for looping through global matches.
-
-### String Methods
-*   `str.match(regex)`: Returns an array of matches.
-*   `str.matchAll(regex)`: Returns an iterator of all matches, including capturing groups (requires `g` flag).
-*   `str.replace(regex, replacement)`: Replaces matches with a string or the result of a function.
-*   `str.search(regex)`: Returns the index of the first match, or `-1`.
-*   `str.split(regex)`: Breaks a string into an array using the regex as a delimiter.
-
+    `/(['"])\w+\1/` matches `"hello"` or `'hello'`, ensuring the opening and closing quotes match.
 
 ## The `lastIndex` Property
 When using the global (`g`) or sticky (`y`) flags with `exec()` or `test()`, the RegExp object maintains state in the `lastIndex` property.
