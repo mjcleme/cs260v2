@@ -122,3 +122,10 @@ function isLocalStorageAvailable() {
 While both share the same API methods, they differ in persistence:
 *   **LocalStorage**: Persists even after the browser is closed and reopened.
 *   **SessionStorage**: Cleared when the specific page session ends (when the tab is closed). Use `sessionStorage` for temporary data that should not persist across sessions.
+
+
+```masteryls
+{"id":"0cc9e91e-e677-43a1-99e8-4e164e464b3b", "title":"Essay", "type":"essay" }
+Describe good and bad uses for `localStorage`.
+```
+
